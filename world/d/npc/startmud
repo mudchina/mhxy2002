@@ -1,0 +1,15 @@
+#!/bin/sh
+ulimit -n 1024
+workdir=/home/maowei/mud/xyj
+
+touch $workdir/bin/xxzj.out
+nice $workdir/bin/addr_server 6665 >>$workdir/bin/xxzj.out &
+while true
+do
+  \mv -f $workdir/log/debug.log \
+         $workdir/log/debug`date +"%m%d%H%M%S"`
+  $workdir/bin/driver $workdir/bin/config.xxzj >>$workdir/bin/xxzj.out 
+  nice $workdir/bin/addr_server 6665 >>$workdir/bin/xxzj.out &
+  sleep 10 
+done
+

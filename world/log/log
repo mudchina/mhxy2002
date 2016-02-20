@@ -1,0 +1,1571 @@
+cmds/std/perform.c line 29: Wrong number of arguments to valid_kill
+    Expected: 3  Got: 2
+cmds/std/perform.c line 29: Wrong number of arguments to valid_kill
+    Expected: 3  Got: 2
+cmds/std/perform.c line 29: Wrong number of arguments to valid_kill
+    Expected: 3  Got: 2
+cmds/std/perform.c line 29: Wrong number of arguments to valid_kill
+    Expected: 3  Got: 2
+cmds/std/perform.c line 29: Wrong number of arguments to valid_kill
+    Expected: 3  Got: 2
+cmds/std/perform.c line 52: Undefined variable 'pmap'
+cmds/std/exercise.c line 39: Undefined variable 'force_name'
+cmds/std/exercise.c line 40: Undefined variable 'HBRED'
+cmds/std/exercise.c line 40: Undefined variable 'HIW'
+cmds/std/exercise.c line 40: parse error
+cmds/std/exercise.c line 44: Illegal LHS
+cmds/std/exercise.c line 58: Illegal LHS
+cmds/std/exercise.c line 40: Undefined variable 'force_name'
+adm/simul_efun/object.c line 78: Invalid simulated efunction override
+adm/daemons/httpd.c line 23: parse error
+adm/daemons/network/back/services/temp.c line 300: Warning: clean_up() inherited from both /feature/clean_up.c and /feature/clean_up.c (via /std/weapon/blade.c); using the definition in /feature/clean_up.c.
+adm/daemons/network/cmwhod.c line 52: parse error
+adm/daemons/network/inetd.c line 10: Cannot #include config.h
+adm/daemons/network/inetd.c line 306: Warning: A negative constant as the second element of arr[x..y] no longer means indexing from the end.  Use arr[x..<y]
+adm/daemons/network/inetd.c line 354: Undefined function member_group
+adm/daemons/network/mail_serv.c line 9: Cannot #include daemons.h
+adm/daemons/network/mail_serv.c line 10: Cannot #include uid.h
+adm/daemons/network/mail_serv.c line 11: Cannot #include post.h
+adm/daemons/network/mail_serv.c line 19: parse error
+adm/daemons/network/ms.c line 15: Cannot #include config.h
+adm/daemons/network/ms.c line 16: Cannot #include mailer.h
+adm/daemons/network/ms.c line 17: Cannot #include daemons.h
+adm/daemons/network/ms.c line 19: Cannot #include uid.h
+adm/daemons/network/ms.c line 28: parse error
+adm/daemons/network/netmail.c line 17: Cannot #include mailer.h
+adm/daemons/network/netmail.c line 33: Undefined function data_netmail_file
+adm/daemons/network/netmail.c line 33: Undefined variable 'SAVE_EXTENSION'
+adm/daemons/network/netmail.c line 33: Undefined function file_exists
+adm/daemons/network/netmail.c line 36: Bad argument 1 to efun restore_object()
+adm/daemons/network/netmail.c line 37: Invalid argument types to '+' ( string vs unknown )
+adm/daemons/network/pingd.c line 10: Cannot #include uid.h
+adm/daemons/network/pingd.c line 12: parse error
+adm/daemons/network/pingtcp.c line 11: Cannot #include uid.h
+adm/daemons/network/pingtcp.c line 13: parse error
+adm/daemons/network/services/temp.c line 300: Warning: clean_up() inherited from both /feature/clean_up.c and /feature/clean_up.c (via /std/weapon/blade.c); using the definition in /feature/clean_up.c.
+adm/daemons/network/telnetd.c line 13: Cannot #include uid.h
+adm/daemons/network/telnetd.c line 18: parse error
+adm/daemons/network/userid.c line 18: Cannot #include priv.h
+adm/daemons/network/userid.c line 19: Cannot #include config.h
+adm/daemons/network/userid.c line 27: parse error
+adm/simul_efun/object.c line 78: Invalid simulated efunction override
+adm/daemons/network/cmwhod.c line 52: parse error
+adm/daemons/network/cmwhod.c line 52: parse error
+adm/daemons/network/inetd.c line 10: Cannot #include config.h
+adm/daemons/network/inetd.c line 306: Warning: A negative constant as the second element of arr[x..y] no longer means indexing from the end.  Use arr[x..<y]
+adm/daemons/network/inetd.c line 354: Undefined function member_group
+adm/daemons/network/inetd.c line 306: Warning: A negative constant as the second element of arr[x..y] no longer means indexing from the end.  Use arr[x..<y]
+adm/daemons/network/inetd.c line 354: Undefined function member_group
+adm/daemons/network/ms.c line 15: Cannot #include config.h
+adm/daemons/network/ms.c line 16: Cannot #include mailer.h
+adm/daemons/network/ms.c line 17: Cannot #include daemons.h
+adm/daemons/network/ms.c line 19: Cannot #include uid.h
+adm/daemons/network/ms.c line 28: parse error
+adm/daemons/network/pingd.c line 10: Cannot #include uid.h
+adm/daemons/network/pingd.c line 12: parse error
+adm/daemons/network/netmail.c line 17: Cannot #include mailer.h
+adm/daemons/network/netmail.c line 33: Undefined function data_netmail_file
+adm/daemons/network/netmail.c line 33: Undefined variable 'SAVE_EXTENSION'
+adm/daemons/network/netmail.c line 33: Undefined function file_exists
+adm/daemons/network/netmail.c line 36: Bad argument 1 to efun restore_object()
+adm/daemons/network/netmail.c line 37: Invalid argument types to '+' ( string vs unknown )
+adm/daemons/logind.c line 966: parse error
+adm/daemons/logind.c line 1004: parse error
+adm/daemons/logind.c line 966: parse error
+adm/daemons/logind.c line 1004: parse error
+adm/daemons/logind.c line 966: parse error
+adm/daemons/logind.c line 1004: parse error
+adm/daemons/logind.c line 971: parse error
+adm/daemons/logind.c line 977: Illegal LHS
+adm/daemons/logind.c line 971: parse error
+adm/daemons/logind.c line 977: Illegal LHS
+adm/daemons/logind.c line 971: parse error
+adm/daemons/logind.c line 977: Illegal LHS
+adm/daemons/logind.c line 971: parse error
+adm/daemons/logind.c line 977: Illegal LHS
+adm/daemons/logind.c line 971: parse error
+adm/daemons/logind.c line 977: Illegal LHS
+daemon/class/shenjian/qingfeng-jian/jianqizongheng.c line 32: parse error
+daemon/class/lingjie/libieyu/piaofeng.c line 114: parse error
+daemon/class/lingjie/libieyu/piaofeng.c line 124: Warning: Value of conditional expression is unused
+daemon/class/lingjie/libieyu/piaofeng.c line 110: parse error
+daemon/class/lingjie/libieyu/piaofeng.c line 121: Warning: Value of conditional expression is unused
+daemon/class/lingjie/libieyu/piaofeng.c line 119: parse error
+story/xiaohua1.c line 86: parse error
+story/xiaohua1.c line 136: End of file in string
+cmds/usr/top.c line 36: Undefined variable 'RTIME_D'
+cmds/usr/quit.c line 80: parse error
+feature/damage.c line 244: Undefined variable 'me'
+feature/damage.c line 246: Undefined variable 'guai'
+feature/damage.c line 258: Undefined variable 'str'
+feature/damage.c line 236: Undefined variable 'me'
+feature/damage.c line 246: Undefined variable 'guai'
+feature/damage.c line 258: Undefined variable 'str'
+feature/damage.c line 259: Undefined variable 'str'
+adm/daemons/network/inetd.c line 306: Warning: A negative constant as the second element of arr[x..y] no longer means indexing from the end.  Use arr[x..<y]
+adm/daemons/network/inetd.c line 354: Undefined function member_group
+adm/daemons/network/mail_serv.c line 9: Cannot #include daemons.h
+adm/daemons/network/mail_serv.c line 10: Cannot #include uid.h
+adm/daemons/network/mail_serv.c line 11: Cannot #include post.h
+adm/daemons/network/mail_serv.c line 19: parse error
+adm/daemons/network/ms.c line 15: Cannot #include config.h
+adm/daemons/network/ms.c line 16: Cannot #include mailer.h
+adm/daemons/network/ms.c line 17: Cannot #include daemons.h
+adm/daemons/network/ms.c line 19: Cannot #include uid.h
+adm/daemons/network/ms.c line 28: parse error
+adm/daemons/network/netmail.c line 17: Cannot #include mailer.h
+adm/daemons/network/netmail.c line 33: Undefined function data_netmail_file
+adm/daemons/network/netmail.c line 33: Undefined variable 'SAVE_EXTENSION'
+adm/daemons/network/netmail.c line 33: Undefined function file_exists
+adm/daemons/network/netmail.c line 36: Bad argument 1 to efun restore_object()
+adm/daemons/network/netmail.c line 37: Invalid argument types to '+' ( string vs unknown )
+adm/daemons/network/pingd.c line 10: Cannot #include uid.h
+adm/daemons/network/pingd.c line 12: parse error
+adm/daemons/network/pingtcp.c line 11: Cannot #include uid.h
+adm/daemons/network/pingtcp.c line 13: parse error
+adm/daemons/network/services/temp.c line 300: Warning: clean_up() inherited from both /feature/clean_up.c and /feature/clean_up.c (via /std/weapon/blade.c); using the definition in /feature/clean_up.c.
+adm/daemons/network/telnetd.c line 13: Cannot #include uid.h
+adm/daemons/network/telnetd.c line 18: parse error
+adm/daemons/network/userid.c line 18: Cannot #include priv.h
+adm/daemons/network/userid.c line 19: Cannot #include config.h
+adm/daemons/network/userid.c line 27: parse error
+adm/simul_efun/object.c line 78: Invalid simulated efunction override
+adm/simul_efun/object.c line 78: Invalid simulated efunction override
+adm/simul_efun/object.c line 78: Invalid simulated efunction override
+adm/simul_efun/object.c line 78: Invalid simulated efunction override
+adm/simul_efun/object.c line 78: Invalid simulated efunction override
+adm/simul_efun/object.c line 78: Invalid simulated efunction override
+adm/simul_efun/object.c line 78: Invalid simulated efunction override
+adm/simul_efun/oo.c line 78: Invalid simulated efunction override
+adm/simul_efun/oo.c line 78: Invalid simulated efunction override
+adm/simul_efun/object.c line 78: Invalid simulated efunction override
+adm/simul_efun/object.c line 156: Invalid simulated efunction override
+adm/simul_efun/oo.c line 78: Invalid simulated efunction override
+adm/daemons/logind.c line 1005: Undefined variable 'NEWS_D'
+d/city/silao.c line 61: Warning: Value of conditional expression is unused
+d/city/silao.c line 62: Warning: Value of conditional expression is unused
+d/qujing/wuzhuang/npc/tieguaili.c line 81: parse error
+cmds/std/exercise.c line 45: Undefined variable 'HBRED'
+cmds/std/exercise.c line 45: Undefined variable 'HIW'
+cmds/std/exercise.c line 45: parse error
+cmds/std/exercise.c line 47: Illegal LHS
+cmds/std/exercise.c line 47: parse error
+cmds/std/exercise.c line 57: Illegal LHS
+cmds/usr/passwd.c line 15: parse error
+cmds/usr/passwd.c line 24: Illegal LHS
+cmds/usr/passwd.c line 24: parse error
+cmds/usr/passwd.c line 25: Undefined variable 'link_ob'
+cmds/usr/passwd.c line 25: Illegal LHS
+cmds/usr/passwd.c line 25: parse error
+d/obj/npc/emery.c line 121: Reserved type name unexpected.
+d/obj/npc/emery.c line 121: parse error
+d/obj/npc/emery.c line 121: Illegal LHS
+d/obj/npc/emery.c line 122: Undefined variable 'ob'
+d/obj/npc/emery.c line 127: parse error
+d/obj/npc/emery.c line 124: Undefined variable 'me'
+d/obj/npc/emery.c line 124: Reserved type name unexpected.
+d/obj/npc/emery.c line 124: parse error
+d/obj/npc/emery.c line 124: Reserved type name unexpected.
+d/obj/npc/emery.c line 124: parse error
+d/obj/npc/emery.c line 124: Reserved type name unexpected.
+d/obj/npc/emery.c line 124: parse error
+d/obj/npc/emery.c line 124: Undefined variable 'my_killer'
+daemon/class/xuanyuan/tianyi-zhen/cimu.c line 5: parse error
+daemon/class/xuanyuan/tianyi-zhen/cimu.c line 39: Undefined function message_combatd
+daemon/class/xuanyuan/tianyi-zhen/cimu.c line 48: Undefined function message_combatd
+daemon/class/xuanyuan/tianyi-zhen/cimu.c line 57: Undefined function message_combatd
+daemon/class/xuanyuan/tianyi-zhen/cimu.c line 40: Undefined variable 'p'
+daemon/class/xuanyuan/tianyi-zhen/cimu.c line 40: Undefined function eff_status_msg
+daemon/class/xuanyuan/tianyi-zhen/cimu.c line 40: Invalid argument types to '+' ( string vs unknown )
+daemon/class/xuanyuan/tianyi-zhen/cimu.c line 40: Undefined variable 'p'
+daemon/class/xuanyuan/tianyi-zhen/cimu.c line 40: Undefined function eff_status_msg
+daemon/class/xuanyuan/tianyi-zhen/cimu.c line 40: Invalid argument types to '+' ( string vs unknown )
+clone/gift/qianbao.c line 29: parse error
+daemon/class/dragon/dragonfight/shenglong.c line 34: Undefined variable 'msg'
+daemon/class/dragon/dragonfight/shenglong.c line 37: Undefined variable 'damage'
+daemon/class/dragon/dragonfight/shenglong.c line 39: Undefined variable 'def'
+daemon/class/dragon/dragonfight/shenglong.c line 39: Undefined variable 'def'
+daemon/class/dragon/dragonfight/shenglong.c line 48: Undefined variable 'str'
+daemon/class/dragon/dragonfight/shenglong.c line 55: Undefined variable 'delay'
+daemon/class/dragon/dragonfight/shenglong.c line 61: parse error
+daemon/class/dragon/dragonfight/shenglong.c line 55: Undefined variable 'delay'
+daemon/class/dragon/dragonfight/shenglong.c line 61: parse error
+daemon/class/dragon/dragonfight/shenglong.c line 59: parse error
+daemon/class/dragon/dragonfight/shenglong.c line 33: Undefined variable 'mycor'
+daemon/class/dragon/dragonfight/shenglong.c line 34: Undefined variable 'youcps'
+daemon/class/dragon/dragonfight/shenglong.c line 35: Undefined variable 'ap'
+daemon/class/dragon/dragonfight/shenglong.c line 35: Undefined variable 'SKILL_USAGE_ATTACK'
+daemon/class/dragon/dragonfight/shenglong.c line 36: Undefined variable 'dp'
+daemon/class/dragon/dragonfight/shenglong.c line 36: Undefined variable 'SKILL_USAGE_DEFENSE'
+daemon/class/dragon/dragonfight/shenglong.c line 33: Undefined variable 'mycor'
+daemon/class/dragon/dragonfight/shenglong.c line 34: Undefined variable 'youcps'
+daemon/class/dragon/dragonfight/shenglong.c line 35: Undefined variable 'ap'
+daemon/class/dragon/dragonfight/shenglong.c line 36: Undefined variable 'dp'
+daemon/class/dragon/dragonfight/shenglong.c line 38: Undefined variable 'pp'
+daemon/class/dragon/dragonfight/shenglong.c line 40: Undefined variable 'ob'
+daemon/class/dragon/dragonfight/shenglong.c line 42: Undefined variable 'ob'
+daemon/class/dragon/dragonfight/shenglong.c line 45: Undefined variable 'damage_bonus'
+daemon/class/dragon/dragonfight/shenglong.c line 69: Undefined variable 'delay'
+daemon/class/dragon/dragonfight/shenglong.c line 77: parse error
+daemon/class/dragon/dragonfight/shenglong.c line 70: Undefined variable 'delay'
+daemon/class/dragon/dragonfight/shenglong.c line 78: parse error
+daemon/class/dragon/dragonfight/shenglong.c line 79: parse error
+daemon/class/dragon/dragonfight/shenglong.c line 32: Undefined variable 'mydf'
+daemon/class/dragon/dragonfight/shenglong.c line 83: parse error
+daemon/class/dragon/dragonfight/shenglong.c line 83: parse error
+daemon/class/dragon/dragonfight/shenglong.c line 84: parse error
+daemon/class/dragon/dragonfight/shenglong.c line 84: parse error
+daemon/class/dragon/dragonfight/shenglong.c line 60: Undefined variable 'def'
+daemon/class/zhenyuan/baguazhen/huashen.c line 44: Warning: clean_up() inherited from both /feature/clean_up.c and /feature/clean_up.c (via /std/sserver.c); using the definition in /feature/clean_up.c.
+cmds/usr/xiaohua.c line 21: parse error
+cmds/usr/xiaohua.c line 27: Illegal LHS
+cmds/usr/xiaohua.c line 27: parse error
+cmds/usr/score2.c line 55: parse error
+cmds/usr/score2.c line 97: Illegal LHS
+cmds/usr/score2.c line 97: parse error
+cmds/usr/score2.c line 98: Illegal LHS
+cmds/usr/score2.c line 98: parse error
+cmds/usr/score2.c line 99: Undefined variable 'size'
+adm/daemons/combatd.c line 1602: Undefined variable 'killer'
+d/mojiao/npc/yun.c line 63: Undefined variable 'ask_miexian'
+d/mojiao/npc/yun.c line 63: parse error
+d/mojiao/npc/yun.c line 89: Illegal LHS
+d/mojiao/npc/yun.c line 89: parse error
+d/mojiao/npc/yun.c line 109: Illegal LHS
+d/mojiao/npc/yun.c line 109: parse error
+daemon/class/yaomo/xueshan/bainiao-jian/jiutian.c line 9: Illegal to redeclare local name 'weapon'
+daemon/class/puti/qianjun-bang/wu.c line 91: parse error
+daemon/class/puti/qianjun-bang/wu.c line 91: parse error
+daemon/class/puti/qianjun-bang/wu.c line 91: parse error
+d/qujing/yunzhan/npc/lady.c line 41: Warning: Non-void functions must return a value.
+d/obj/drug/huanyang.c line 47: Undefined variable 'who'
+u/valen/workroom.c line 7: parse error
+u/valen/workroom.c line 7: parse error
+d/city/misc/leitai.c line 191: Undefined variable 'me'
+d/city/misc/leitai.c line 191: Undefined variable 'ob'
+d/city/misc/leitai.c line 191: parse error
+d/city/misc/leitai.c line 234: End of file in string
+d/nanhai/npc/rulai-fo.c line 78: Undefined variable 'me'
+d/nanhai/npc/rulai-fo.c line 78: Undefined variable 'size1'
+d/nanhai/npc/rulai-fo.c line 80: Type of returned value doesn't match function return type ( int vs void )
+d/nanhai/npc/rulai-fo.c line 78: Undefined variable 'size1'
+d/nanhai/npc/rulai-fo.c line 79: Undefined variable 'me'
+d/nanhai/npc/rulai-fo.c line 80: Type of returned value doesn't match function return type ( int vs void )
+d/nanhai/npc/rulai-fo.c line 68: Undefined variable 'obstacles'
+d/nanhai/npc/rulai-fo.c line 81: Type of returned value doesn't match function return type ( int vs void )
+d/nanhai/npc/rulai-fo.c line 68: Undefined variable 'obstacles'
+d/nanhai/npc/rulai-fo.c line 79: Undefined variable 'i'
+d/nanhai/npc/rulai-fo.c line 68: Undefined variable 'obstacles'
+d/wiz/npc/judge.c line 318: parse error
+d/wiz/npc/judge.c line 331: Undefined variable 'num'
+d/wiz/npc/judge.c line 331: Illegal LHS
+d/wiz/npc/judge.c line 333: Illegal LHS
+d/wiz/npc/judge.c line 333: parse error
+d/wiz/npc/judge.c line 334: Illegal LHS
+daemon/skill/duo-sword.c line 102: Invalid argument types to '+' ( string vs mapping * )
+daemon/skill/duo-sword.c line 159: Invalid argument types to '+' ( string vs mapping * )
+daemon/skill/duo-sword.c line 103: Invalid argument types to '+' ( string vs mapping * )
+cmds/std/ji.c line 29: Undefined function valid_kill
+cmds/std/ji.c line 37: Undefined variable 'perf'
+cmds/std/ji.c line 38: Undefined variable 'perf'
+cmds/std/ji.c line 21: Undefined variable 'Check'
+cmds/std/ji.c line 21: parse error
+cmds/std/ji.c line 30: Illegal LHS
+cmds/std/ji.c line 49: Undefined variable 'arg'
+cmds/std/ji.c line 49: Undefined variable 'me'
+cmds/std/ji.c line 49: Missing type for global variable declaration
+cmds/std/ji.c line 20: Undefined variable 'Check'
+cmds/std/ji.c line 20: parse error
+cmds/std/ji.c line 29: Illegal LHS
+cmds/std/ji.c line 48: Undefined variable 'arg'
+cmds/std/ji.c line 48: Undefined variable 'me'
+cmds/std/ji.c line 48: Missing type for global variable declaration
+d/city/misc/kantai.c line 84: parse error
+d/city/misc/kantai.c line 98: End of file in string
+d/city/misc/kantai.c line 82: parse error
+d/city/misc/kantai.c line 82: parse error
+d/city/misc/kantai.c line 82: parse error
+d/city/misc/kantai.c line 82: parse error
+d/city/misc/kantai.c line 82: parse error
+d/city/misc/kantai.c line 82: parse error
+d/city/misc/kantai.c line 82: parse error
+d/city/misc/kantai.c line 82: parse error
+d/city/misc/kantai.c line 84: parse error
+d/city/misc/kantai.c line 98: End of file in string
+d/city/misc/kantai.c line 82: parse error
+d/city/misc/kantai.c line 82: parse error
+d/city/misc/kantai.c line 82: parse error
+adm/simul_efun/object.c line 97: Invalid simulated efunction override
+adm/simul_efun/object.c line 97: Invalid simulated efunction override
+adm/simul_efun/object.c line 78: Invalid simulated efunction override
+adm/simul_efun/object.c line 78: Invalid simulated efunction override
+d/city/silao.c line 61: Warning: Value of conditional expression is unused
+d/city/silao.c line 62: Warning: Value of conditional expression is unused
+cmds/adm/cpu.c line 11: Undefined function rusage
+cmds/adm/cpu.c line 11: Bad assignment ( mapping vs unknown ).
+d/12gong/baiyang.c line 51: parse error
+d/12gong/baiyang.c line 65: Illegal LHS
+d/12gong/baiyang.c line 65: parse error
+u/tianlin/m.c line 24: parse error
+u/tianlin/m.c line 47: parse error
+daemon/class/ghost/ghost-steps/huanmo.c line 18: parse error
+daemon/class/ghost/ghost-steps/huanmo.c line 18: $var illegal outside of function pointer.
+daemon/class/ghost/ghost-steps/huanmo.c line 22: $var illegal outside of function pointer.
+daemon/class/ghost/ghost-steps/huanmo.c line 35: End of file in string
+daemon/class/ghost/ghost-steps/huanmo.c line 18: parse error
+daemon/class/ghost/ghost-steps/huanmo.c line 18: $var illegal outside of function pointer.
+daemon/class/ghost/ghost-steps/huanmo.c line 22: $var illegal outside of function pointer.
+daemon/class/ghost/ghost-steps/huanmo.c line 35: End of file in string
+d/wudang1/npc/yan.c line 99: Undefined variable 'ob'
+d/wudang1/npc/yan.c line 99: Undefined variable 'ob'
+d/wudang1/npc/yan.c line 99: Undefined variable 'ob'
+d/wudang1/npc/yan.c line 99: Undefined variable 'ob'
+d/wudang1/npc/yan.c line 100: Undefined variable 'ob'
+d/wudang1/npc/yan.c line 104: parse error
+d/wudang1/npc/yan.c line 99: Undefined variable 'ob'
+d/wudang1/npc/yan.c line 99: Undefined variable 'ob'
+d/wudang1/npc/yan.c line 99: Undefined variable 'ob'
+u/pkyou/workroom.c line 14: parse error
+u/pkyou/workroom.c line 14: parse error
+d/wudang1/npc/yan.c line 99: Undefined variable 'ob'
+d/wudang1/npc/yan.c line 99: Undefined variable 'ob'
+d/wudang1/npc/yan.c line 99: Undefined variable 'ob'
+d/wudang1/npc/yan.c line 99: Undefined variable 'ob'
+d/wudang1/npc/yan.c line 99: Undefined variable 'ob'
+d/wudang1/npc/yan.c line 99: Undefined variable 'ob'
+d/wudang1/npc/yan.c line 99: Undefined variable 'ob'
+d/wudang1/npc/yan.c line 99: Undefined variable 'ob'
+daemon/class/ghost/ghost-steps/huanmo.c line 18: parse error
+daemon/class/ghost/ghost-steps/huanmo.c line 18: $var illegal outside of function pointer.
+daemon/class/ghost/ghost-steps/huanmo.c line 22: $var illegal outside of function pointer.
+daemon/class/ghost/ghost-steps/huanmo.c line 35: End of file in string
+daemon/class/ghost/ghost-steps/huanmo.c line 18: parse error
+daemon/class/ghost/ghost-steps/huanmo.c line 18: $var illegal outside of function pointer.
+daemon/class/ghost/ghost-steps/huanmo.c line 22: $var illegal outside of function pointer.
+daemon/class/ghost/ghost-steps/huanmo.c line 35: End of file in string
+d/obj/misc/dan.c line 18: parse error
+u/valen/workroom.c line 46: End of file in text block
+u/valen/workroom.c line 46: parse error
+u/valen/workroom.c line 46: End of file in text block
+u/valen/workroom.c line 46: parse error
+u/valen/workroom.c line 46: End of file in text block
+u/valen/workroom.c line 46: parse error
+u/valen/workroom.c line 46: End of file in text block
+u/valen/workroom.c line 46: parse error
+u/valen/workroom.c line 46: End of file in text block
+u/valen/workroom.c line 46: parse error
+u/valen/workroom.c line 46: End of file in text block
+u/valen/workroom.c line 46: parse error
+u/valen/workroom.c line 46: End of file in text block
+u/valen/workroom.c line 46: parse error
+u/valen/workroom.c line 45: End of file in text block
+u/valen/workroom.c line 45: parse error
+u/valen/workroom.c line 46: End of file in text block
+u/valen/workroom.c line 46: parse error
+u/valen/workroom.c line 46: End of file in text block
+u/valen/workroom.c line 46: parse error
+u/valen/workroom.c line 47: End of file in text block
+u/valen/workroom.c line 47: parse error
+u/valen/workroom.c line 5: Undefined variable 'HIC'
+u/valen/workroom.c line 5: parse error
+d/city/silao.c line 61: Warning: Value of conditional expression is unused
+d/city/silao.c line 62: Warning: Value of conditional expression is unused
+d/city/silao.c line 61: Warning: Value of conditional expression is unused
+d/city/silao.c line 62: Warning: Value of conditional expression is unused
+u/pkyou/workroom.c line 11: parse error
+d/city/silao.c line 61: Warning: Value of conditional expression is unused
+d/city/silao.c line 62: Warning: Value of conditional expression is unused
+d/tiankongjie/npc/lijia.c line 74: parse error
+d/tiankongjie/npc/lijia.c line 74: parse error
+d/tiankongjie/npc/lijia.c line 74: parse error
+d/tiankongjie/npc/lijia.c line 74: parse error
+u/gua/workroom.c line 24: parse error
+u/gua/workroom.c line 24: parse error
+u/gua/workroom.c line 22: parse error
+u/gua/workroom.c line 31: parse error
+d/city/silao.c line 61: Warning: Value of conditional expression is unused
+d/city/silao.c line 62: Warning: Value of conditional expression is unused
+d/city/silao.c line 61: Warning: Value of conditional expression is unused
+d/city/silao.c line 62: Warning: Value of conditional expression is unused
+d/qujing/yunzhan/npc/lady.c line 41: Warning: Non-void functions must return a value.
+d/city/silao.c line 61: Warning: Value of conditional expression is unused
+d/city/silao.c line 62: Warning: Value of conditional expression is unused
+d/city/silao.c line 61: Warning: Value of conditional expression is unused
+d/city/silao.c line 62: Warning: Value of conditional expression is unused
+u/linger/workroom.c line 19: parse error
+u/linger/workroom.c line 19: parse error
+u/linger/workroom.c line 19: parse error
+u/linger/workroom.c line 7: Undefined variable 'RED'
+u/linger/workroom.c line 7: parse error
+d/qujing/yunzhan/npc/lady.c line 41: Warning: Non-void functions must return a value.
+d/qujing/yunzhan/npc/lady.c line 41: Warning: Non-void functions must return a value.
+d/city/silao.c line 61: Warning: Value of conditional expression is unused
+d/city/silao.c line 62: Warning: Value of conditional expression is unused
+d/city/silao.c line 61: Warning: Value of conditional expression is unused
+d/city/silao.c line 62: Warning: Value of conditional expression is unused
+u/gua/bed.c line 9: parse error
+u/gua/bed.c line 35: Illegal LHS
+u/gua/bed.c line 35: parse error
+u/gua/bed.c line 9: parse error
+u/gua/bed.c line 35: Illegal LHS
+u/gua/bed.c line 35: parse error
+u/gua/bed.c line 9: parse error
+u/gua/bed.c line 35: Illegal LHS
+u/gua/bed.c line 35: parse error
+u/gua/bed.c line 9: parse error
+u/gua/bed.c line 35: Illegal LHS
+u/gua/bed.c line 35: parse error
+u/gua/bed.c line 9: parse error
+u/gua/bed.c line 35: Illegal LHS
+u/gua/bed.c line 35: parse error
+cmds/wiz/ls1.c line 127: parse error
+daemon/class/yaomo/kusong/wuyue-spear/fengchan.c line 208: Undefined variable 'str'
+u/gua/workroom.c line 20: parse error
+u/gua/workroom.c line 35: End of file in string
+u/gua/workroom.c line 20: parse error
+u/gua/workroom.c line 35: End of file in string
+u/linger/workroom.c line 21: End of file in text block
+u/linger/workroom.c line 21: parse error
+u/linger/workroom.c line 21: End of file in text block
+u/linger/workroom.c line 21: parse error
+u/linger/workroom.c line 21: End of file in text block
+u/linger/workroom.c line 21: parse error
+u/linger/workroom.c line 21: End of file in text block
+u/linger/workroom.c line 21: parse error
+u/linger/workroom.c line 21: End of file in text block
+u/linger/workroom.c line 21: parse error
+u/linger/workroom.c line 21: End of file in text block
+u/linger/workroom.c line 21: parse error
+u/linger/workroom.c line 21: End of file in text block
+u/linger/workroom.c line 21: parse error
+u/linger/workroom.c line 21: End of file in text block
+u/linger/workroom.c line 21: parse error
+u/linger/workroom.c line 21: End of file in text block
+u/linger/workroom.c line 21: parse error
+u/linger/workroom.c line 21: End of file in text block
+u/linger/workroom.c line 21: parse error
+u/linger/workroom.c line 21: End of file in text block
+u/linger/workroom.c line 21: parse error
+u/icejia/jianqi.c line 34: parse error
+u/linger/workroom.c line 21: End of file in text block
+u/linger/workroom.c line 21: parse error
+u/linger/workroom.c line 21: End of file in text block
+u/linger/workroom.c line 21: parse error
+u/linger/workroom.c line 21: End of file in text block
+u/linger/workroom.c line 21: parse error
+u/linger/workroom.c line 21: End of file in text block
+u/linger/workroom.c line 21: parse error
+daemon/class/yaomo/kusong/wuyue-spear/fengchan.c line 208: Undefined variable 'str'
+daemon/class/yaomo/kusong/wuyue-spear/fengchan.c line 211: Type of returned value doesn't match function return type ( int vs void )
+daemon/class/yaomo/kusong/wuyue-spear/fengchan.c line 207: Undefined variable 'str'
+daemon/class/yaomo/kusong/wuyue-spear/fengchan.c line 210: Type of returned value doesn't match function return type ( int vs void )
+daemon/class/yaomo/kusong/wuyue-spear/fengchan.c line 213: parse error
+daemon/class/yaomo/kusong/wuyue-spear/fengchan.c line 207: Undefined variable 'str'
+daemon/class/yaomo/kusong/wuyue-spear/fengchan.c line 213: parse error
+d/qujing/yunzhan/npc/lady.c line 41: Warning: Non-void functions must return a value.
+d/qujing/yunzhan/npc/lady.c line 41: Warning: Non-void functions must return a value.
+d/city/silao.c line 61: Warning: Value of conditional expression is unused
+d/city/silao.c line 62: Warning: Value of conditional expression is unused
+u/linger/workroom.c line 8: parse error
+u/linger/workroom.c line 8: parse error
+u/linger/workroom.c line 29: parse error
+u/love/workroom.c line 157: Text block exceeded maximum length
+u/love/workroom.c line 157: parse error
+u/love/workroom.c line 157: Text block exceeded maximum length
+u/love/workroom.c line 157: parse error
+u/love/workroom.c line 158: Text block exceeded maximum length
+u/love/workroom.c line 158: Undefined variable 'M'
+u/love/workroom.c line 158: parse error
+u/love/workroom.c line 158: Text block exceeded maximum length
+u/love/workroom.c line 158: Undefined variable 'M'
+u/love/workroom.c line 158: parse error
+u/love/workroom.c line 158: Text block exceeded maximum length
+u/love/workroom.c line 158: Undefined variable 'MM'
+u/love/workroom.c line 158: parse error
+u/love/workroom.c line 158: Text block exceeded maximum length
+u/love/workroom.c line 158: Undefined variable 'MM'
+u/love/workroom.c line 158: parse error
+u/love/workroom.c line 158: Text block exceeded maximum length
+u/love/workroom.c line 158: parse error
+feature/more.c line 240: Undefined function file_lines
+feature/more.c line 240: Bad type for argument 4 of more_file ( int vs unknown )
+daemon/class/wudang/taiji-quan/taijiquan.c line 36: parse error
+daemon/class/wudang/taiji-quan/taijiquan.c line 36: parse error
+cmds/adm/promote.c line 15: parse error
+cmds/adm/promote.c line 22: Illegal LHS
+cmds/adm/promote.c line 22: parse error
+cmds/adm/promote.c line 29: Illegal LHS
+cmds/adm/promote.c line 31: Warning: Value of conditional expression is unused
+cmds/adm/promote.c line 15: parse error
+cmds/adm/promote.c line 22: Illegal LHS
+cmds/adm/promote.c line 22: parse error
+cmds/adm/promote.c line 29: Illegal LHS
+d/shushan/yongdao.c line 26: parse error
+d/shushan/yongdao.c line 26: parse error
+d/shushan/yongdao.c line 26: parse error
+d/shushan/yongdao.c line 26: parse error
+d/shushan/yongdao.c line 26: parse error
+d/shushan/yongdao.c line 26: parse error
+d/shushan/yongdao.c line 26: parse error
+d/shushan/yongdao.c line 26: parse error
+d/shushan/yongdao.c line 26: parse error
+d/shushan/yongdao.c line 26: parse error
+d/shushan/yongdao.c line 26: parse error
+d/shushan/yongdao.c line 26: parse error
+d/shushan/yongdao.c line 26: parse error
+d/shushan/yongdao.c line 26: parse error
+d/shushan/yongdao.c line 26: parse error
+d/shushan/yongdao.c line 26: parse error
+d/shushan/yongdao.c line 26: parse error
+d/shushan/yongdao.c line 26: parse error
+cmds/adm/promote.c line 16: parse error
+cmds/adm/promote.c line 23: Illegal LHS
+cmds/adm/promote.c line 23: parse error
+cmds/adm/promote.c line 30: Illegal LHS
+cmds/adm/promote.c line 32: Warning: Value of conditional expression is unused
+cmds/adm/promote.c line 16: parse error
+cmds/adm/promote.c line 23: Illegal LHS
+cmds/adm/promote.c line 23: parse error
+cmds/adm/promote.c line 30: Illegal LHS
+cmds/adm/promote.c line 32: Warning: Value of conditional expression is unused
+d/city/silao.c line 61: Warning: Value of conditional expression is unused
+d/city/silao.c line 62: Warning: Value of conditional expression is unused
+cmds/wiz/giveall.c line 30: parse error
+cmds/wiz/giveall.c line 33: Illegal LHS
+cmds/wiz/giveall.c line 38: Reserved type name unexpected.
+cmds/wiz/giveall.c line 38: parse error
+d/city/silao.c line 61: Warning: Value of conditional expression is unused
+d/city/silao.c line 62: Warning: Value of conditional expression is unused
+d/liwu/obj/cabinet.c line 62: parse error
+d/liwu/obj/cabinet.c line 67: Illegal LHS
+d/liwu/obj/cabinet.c line 67: parse error
+d/liwu/obj/cabinet.c line 69: Illegal LHS
+d/liwu/obj/cabinet.c line 69: parse error
+d/liwu/obj/cabinet.c line 70: Illegal LHS
+d/liwu/obj/cabinet.c line 62: parse error
+d/liwu/obj/cabinet.c line 67: Illegal LHS
+d/liwu/obj/cabinet.c line 67: parse error
+d/liwu/obj/cabinet.c line 69: Illegal LHS
+d/liwu/obj/cabinet.c line 69: parse error
+d/liwu/obj/cabinet.c line 70: Illegal LHS
+d/liwu/obj/cabinet.c line 62: parse error
+d/liwu/obj/cabinet.c line 67: Illegal LHS
+d/liwu/obj/cabinet.c line 67: parse error
+d/liwu/obj/cabinet.c line 69: Illegal LHS
+d/liwu/obj/cabinet.c line 69: parse error
+d/liwu/obj/cabinet.c line 70: Illegal LHS
+d/liwu/obj/cabinet.c line 62: parse error
+d/liwu/obj/cabinet.c line 67: Illegal LHS
+d/liwu/obj/cabinet.c line 67: parse error
+d/liwu/obj/cabinet.c line 69: Illegal LHS
+d/liwu/obj/cabinet.c line 69: parse error
+d/liwu/obj/cabinet.c line 70: Illegal LHS
+d/liwu/obj/cabinet.c line 62: parse error
+d/liwu/obj/cabinet.c line 67: Illegal LHS
+d/liwu/obj/cabinet.c line 67: parse error
+d/liwu/obj/cabinet.c line 69: Illegal LHS
+d/liwu/obj/cabinet.c line 69: parse error
+d/liwu/obj/cabinet.c line 70: Illegal LHS
+d/liwu/obj/cabinet.c line 62: parse error
+d/liwu/obj/cabinet.c line 67: Illegal LHS
+d/liwu/obj/cabinet.c line 67: parse error
+d/liwu/obj/cabinet.c line 69: Illegal LHS
+d/liwu/obj/cabinet.c line 69: parse error
+d/liwu/obj/cabinet.c line 70: Illegal LHS
+d/liwu/obj/cabinet.c line 62: parse error
+d/liwu/obj/cabinet.c line 67: Illegal LHS
+d/liwu/obj/cabinet.c line 67: parse error
+d/liwu/obj/cabinet.c line 69: Illegal LHS
+d/liwu/obj/cabinet.c line 69: parse error
+d/liwu/obj/cabinet.c line 70: Illegal LHS
+d/liwu/obj/cabinet.c line 62: parse error
+d/liwu/obj/cabinet.c line 67: Illegal LHS
+d/liwu/obj/cabinet.c line 67: parse error
+d/liwu/obj/cabinet.c line 69: Illegal LHS
+d/liwu/obj/cabinet.c line 69: parse error
+d/liwu/obj/cabinet.c line 70: Illegal LHS
+d/liwu/obj/cabinet.c line 62: parse error
+d/liwu/obj/cabinet.c line 67: Illegal LHS
+d/liwu/obj/cabinet.c line 67: parse error
+d/liwu/obj/cabinet.c line 69: Illegal LHS
+d/liwu/obj/cabinet.c line 69: parse error
+d/liwu/obj/cabinet.c line 70: Illegal LHS
+d/liwu/obj/cabinet.c line 62: parse error
+d/liwu/obj/cabinet.c line 67: Illegal LHS
+d/liwu/obj/cabinet.c line 67: parse error
+d/liwu/obj/cabinet.c line 69: Illegal LHS
+d/liwu/obj/cabinet.c line 69: parse error
+d/liwu/obj/cabinet.c line 70: Illegal LHS
+d/liwu/obj/cabinet.c line 62: parse error
+d/liwu/obj/cabinet.c line 67: Illegal LHS
+d/liwu/obj/cabinet.c line 67: parse error
+d/liwu/obj/cabinet.c line 69: Illegal LHS
+d/liwu/obj/cabinet.c line 69: parse error
+d/liwu/obj/cabinet.c line 70: Illegal LHS
+d/liwu/obj/cabinet.c line 62: parse error
+d/liwu/obj/cabinet.c line 67: Illegal LHS
+d/liwu/obj/cabinet.c line 67: parse error
+d/liwu/obj/cabinet.c line 69: Illegal LHS
+d/liwu/obj/cabinet.c line 69: parse error
+d/liwu/obj/cabinet.c line 70: Illegal LHS
+d/liwu/obj/cabinet.c line 62: parse error
+d/liwu/obj/cabinet.c line 67: Illegal LHS
+d/liwu/obj/cabinet.c line 67: parse error
+d/liwu/obj/cabinet.c line 69: Illegal LHS
+d/liwu/obj/cabinet.c line 69: parse error
+d/liwu/obj/cabinet.c line 70: Illegal LHS
+d/liwu/obj/cabinet.c line 62: parse error
+d/liwu/obj/cabinet.c line 67: Illegal LHS
+d/liwu/obj/cabinet.c line 67: parse error
+d/liwu/obj/cabinet.c line 69: Illegal LHS
+d/liwu/obj/cabinet.c line 69: parse error
+d/liwu/obj/cabinet.c line 70: Illegal LHS
+d/liwu/obj/cabinet.c line 62: parse error
+d/liwu/obj/cabinet.c line 67: Illegal LHS
+d/liwu/obj/cabinet.c line 67: parse error
+d/liwu/obj/cabinet.c line 69: Illegal LHS
+d/liwu/obj/cabinet.c line 69: parse error
+d/liwu/obj/cabinet.c line 70: Illegal LHS
+d/liwu/obj/cabinet.c line 62: parse error
+d/liwu/obj/cabinet.c line 67: Illegal LHS
+d/liwu/obj/cabinet.c line 67: parse error
+d/liwu/obj/cabinet.c line 69: Illegal LHS
+d/liwu/obj/cabinet.c line 69: parse error
+d/liwu/obj/cabinet.c line 70: Illegal LHS
+d/liwu/obj/cabinet.c line 62: parse error
+d/liwu/obj/cabinet.c line 67: Illegal LHS
+d/liwu/obj/cabinet.c line 67: parse error
+d/liwu/obj/cabinet.c line 69: Illegal LHS
+d/liwu/obj/cabinet.c line 69: parse error
+d/liwu/obj/cabinet.c line 70: Illegal LHS
+d/liwu/obj/cabinet.c line 62: parse error
+d/liwu/obj/cabinet.c line 67: Illegal LHS
+d/liwu/obj/cabinet.c line 67: parse error
+d/liwu/obj/cabinet.c line 69: Illegal LHS
+d/liwu/obj/cabinet.c line 69: parse error
+d/liwu/obj/cabinet.c line 70: Illegal LHS
+d/liwu/obj/cabinet.c line 62: parse error
+d/liwu/obj/cabinet.c line 67: Illegal LHS
+d/liwu/obj/cabinet.c line 67: parse error
+d/liwu/obj/cabinet.c line 69: Illegal LHS
+d/liwu/obj/cabinet.c line 69: parse error
+d/liwu/obj/cabinet.c line 70: Illegal LHS
+d/liwu/obj/cabinet.c line 62: parse error
+d/liwu/obj/cabinet.c line 67: Illegal LHS
+d/liwu/obj/cabinet.c line 67: parse error
+d/liwu/obj/cabinet.c line 69: Illegal LHS
+d/liwu/obj/cabinet.c line 69: parse error
+d/liwu/obj/cabinet.c line 70: Illegal LHS
+d/liwu/obj/cabinet.c line 62: parse error
+d/liwu/obj/cabinet.c line 67: Illegal LHS
+d/liwu/obj/cabinet.c line 67: parse error
+d/liwu/obj/cabinet.c line 69: Illegal LHS
+d/liwu/obj/cabinet.c line 69: parse error
+d/liwu/obj/cabinet.c line 70: Illegal LHS
+d/liwu/obj/cabinet.c line 62: parse error
+d/liwu/obj/cabinet.c line 67: Illegal LHS
+d/liwu/obj/cabinet.c line 67: parse error
+d/liwu/obj/cabinet.c line 69: Illegal LHS
+d/liwu/obj/cabinet.c line 69: parse error
+d/liwu/obj/cabinet.c line 70: Illegal LHS
+d/liwu/obj/cabinet.c line 62: parse error
+d/liwu/obj/cabinet.c line 67: Illegal LHS
+d/liwu/obj/cabinet.c line 67: parse error
+d/liwu/obj/cabinet.c line 69: Illegal LHS
+d/liwu/obj/cabinet.c line 69: parse error
+d/liwu/obj/cabinet.c line 70: Illegal LHS
+d/liwu/obj/cabinet.c line 62: parse error
+d/liwu/obj/cabinet.c line 67: Illegal LHS
+d/liwu/obj/cabinet.c line 67: parse error
+d/liwu/obj/cabinet.c line 69: Illegal LHS
+d/liwu/obj/cabinet.c line 69: parse error
+d/liwu/obj/cabinet.c line 70: Illegal LHS
+adm/daemons/ftpd.c line 39: parse error
+adm/daemons/ftpd.c line 39: parse error
+adm/daemons/ftpd.c line 39: parse error
+adm/daemons/ftpd.c line 51: parse error
+adm/daemons/ftpd.c line 419: Undefined variable 'TRANSFER_MODE'
+adm/daemons/ftpd.c line 502: Undefined variable 'TRANSFER_MODE'
+include/net/ftpdconf.h line 94: Warning: redefinition of #define VALID_READ
+
+include/net/ftpdconf.h line 109: Warning: redefinition of #define VALID_WRITE
+
+d/city/silao.c line 61: Warning: Value of conditional expression is unused
+d/city/silao.c line 62: Warning: Value of conditional expression is unused
+d/city/silao.c line 61: Warning: Value of conditional expression is unused
+d/city/silao.c line 62: Warning: Value of conditional expression is unused
+d/qujing/yunzhan/npc/lady.c line 41: Warning: Non-void functions must return a value.
+d/qujing/yunzhan/npc/lady.c line 41: Warning: Non-void functions must return a value.
+d/city/silao.c line 61: Warning: Value of conditional expression is unused
+d/city/silao.c line 62: Warning: Value of conditional expression is unused
+d/city/silao.c line 61: Warning: Value of conditional expression is unused
+d/city/silao.c line 62: Warning: Value of conditional expression is unused
+d/qujing/yunzhan/npc/lady.c line 41: Warning: Non-void functions must return a value.
+u/love/workroom.c line 158: Text block exceeded maximum length
+u/love/workroom.c line 158: parse error
+cmds/std/apprentice.c line 50: parse error
+d/qujing/yunzhan/npc/lady.c line 41: Warning: Non-void functions must return a value.
+d/lingjie/npc/wenyan.c line 43: Undefined variable 'yumao'
+d/qujing/yunzhan/npc/lady.c line 41: Warning: Non-void functions must return a value.
+d/qujing/yunzhan/npc/lady.c line 41: Warning: Non-void functions must return a value.
+d/city/silao.c line 61: Warning: Value of conditional expression is unused
+d/city/silao.c line 62: Warning: Value of conditional expression is unused
+d/qujing/yunzhan/npc/lady.c line 41: Warning: Non-void functions must return a value.
+d/qujing/yunzhan/npc/lady.c line 41: Warning: Non-void functions must return a value.
+d/qujing/yunzhan/npc/lady.c line 41: Warning: Non-void functions must return a value.
+d/qujing/yunzhan/npc/lady.c line 41: Warning: Non-void functions must return a value.
+d/qujing/yunzhan/npc/lady.c line 41: Warning: Non-void functions must return a value.
+d/qujing/yunzhan/npc/lady.c line 41: Warning: Non-void functions must return a value.
+d/qujing/yunzhan/npc/lady.c line 41: Warning: Non-void functions must return a value.
+daemon/class/xuanyuan/xuanhu-dao/xian.c line 4: parse error
+daemon/class/xuanyuan/xuanhu-dao/xian.c line 4: parse error
+daemon/class/xuanyuan/xuanhu-dao/xian.c line 4: parse error
+daemon/class/xuanyuan/xuanhu-dao/xian.c line 4: parse error
+daemon/class/xuanyuan/xuanhu-dao/xian.c line 4: parse error
+daemon/class/xuanyuan/xuanhu-dao/xian.c line 4: parse error
+daemon/class/xuanyuan/xuanhu-dao/xian.c line 4: parse error
+daemon/class/xuanyuan/xuanhu-dao/xian.c line 4: parse error
+daemon/class/xuanyuan/xuanhu-dao/xian.c line 4: parse error
+daemon/class/xuanyuan/xuanhu-dao/xian.c line 4: parse error
+d/city/silao.c line 61: Warning: Value of conditional expression is unused
+d/city/silao.c line 62: Warning: Value of conditional expression is unused
+daemon/class/xuanyuan/xuanhu-dao/xian.c line 4: parse error
+daemon/class/xuanyuan/xuanhu-dao/xian.c line 4: parse error
+u/gua/damen.c line 44: parse error
+u/gua/damen.c line 44: parse error
+u/gua/damen.c line 44: parse error
+u/gua/damen.c line 44: parse error
+u/gua/damen.c line 44: parse error
+u/gua/damen.c line 44: parse error
+u/gua/damen.c line 44: parse error
+u/gua/damen.c line 44: parse error
+u/gua/damen.c line 44: parse error
+d/qujing/yunzhan/npc/lady.c line 41: Warning: Non-void functions must return a value.
+d/city/silao.c line 61: Warning: Value of conditional expression is unused
+d/city/silao.c line 62: Warning: Value of conditional expression is unused
+d/city/silao.c line 61: Warning: Value of conditional expression is unused
+d/city/silao.c line 62: Warning: Value of conditional expression is unused
+d/qujing/yunzhan/npc/lady.c line 41: Warning: Non-void functions must return a value.
+d/qujing/yunzhan/npc/lady.c line 41: Warning: Non-void functions must return a value.
+d/qujing/yunzhan/npc/lady.c line 41: Warning: Non-void functions must return a value.
+d/qujing/yunzhan/npc/lady.c line 41: Warning: Non-void functions must return a value.
+d/city/silao.c line 61: Warning: Value of conditional expression is unused
+d/city/silao.c line 62: Warning: Value of conditional expression is unused
+d/city/silao.c line 61: Warning: Value of conditional expression is unused
+d/city/silao.c line 62: Warning: Value of conditional expression is unused
+d/city/silao.c line 61: Warning: Value of conditional expression is unused
+d/city/silao.c line 62: Warning: Value of conditional expression is unused
+d/city/silao.c line 61: Warning: Value of conditional expression is unused
+d/city/silao.c line 62: Warning: Value of conditional expression is unused
+d/qujing/yunzhan/npc/lady.c line 41: Warning: Non-void functions must return a value.
+d/city/silao.c line 61: Warning: Value of conditional expression is unused
+d/city/silao.c line 62: Warning: Value of conditional expression is unused
+d/city/silao.c line 61: Warning: Value of conditional expression is unused
+d/city/silao.c line 62: Warning: Value of conditional expression is unused
+d/city/silao.c line 61: Warning: Value of conditional expression is unused
+d/city/silao.c line 62: Warning: Value of conditional expression is unused
+d/qujing/yunzhan/npc/lady.c line 41: Warning: Non-void functions must return a value.
+d/city/silao.c line 61: Warning: Value of conditional expression is unused
+d/city/silao.c line 62: Warning: Value of conditional expression is unused
+u/xiuxiu/finger.c line 16: parse error
+u/xiuxiu/finger.c line 16: Illegal LHS
+u/xiuxiu/finger.c line 16: parse error
+u/xiuxiu/finger.c line 16: Illegal LHS
+u/xiuxiu/finger.c line 55: End of file in string
+u/xiuxiu/finger.c line 16: parse error
+u/xiuxiu/finger.c line 16: Undefined variable 'xiuxiu'
+u/xiuxiu/finger.c line 16: Illegal LHS
+u/xiuxiu/finger.c line 16: Undefined variable 'xiuxiu'
+d/city/silao.c line 61: Warning: Value of conditional expression is unused
+d/city/silao.c line 62: Warning: Value of conditional expression is unused
+u/love/workroom.c line 158: Text block exceeded maximum length
+u/love/workroom.c line 158: parse error
+d/city/silao.c line 61: Warning: Value of conditional expression is unused
+d/city/silao.c line 62: Warning: Value of conditional expression is unused
+d/city/silao.c line 61: Warning: Value of conditional expression is unused
+d/city/silao.c line 62: Warning: Value of conditional expression is unused
+d/qujing/yunzhan/npc/lady.c line 41: Warning: Non-void functions must return a value.
+d/gao/npc/jiading.c line 23: parse error
+d/city/silao.c line 61: Warning: Value of conditional expression is unused
+d/city/silao.c line 62: Warning: Value of conditional expression is unused
+clone/misc/vcd3.c line 265: parse error
+u/redrain/g.c line 22: Missing leading " or < in #include
+u/redrain/g.c line 23: Illegal to redefine 'nomask' function "query_weight"
+u/redrain/g.c line 23: Illegal to redefine 'nomask' function "_query"
+u/redrain/g.c line 23: Illegal to redefine 'nomask' function "_delete"
+u/redrain/g.c line 23: Illegal to redefine 'nomask' function "_set"
+u/redrain/g.c line 23: Illegal to redefine 'nomask' function "set_max_items"
+u/redrain/g.c line 3: Missing leading " or < in #include
+u/redrain/g.c line 4: Missing leading " or < in #include
+u/redrain/g.c line 8: Undefined variable 'CYN'
+u/redrain/g.c line 8: parse error
+u/redrain/g.c line 31: Illegal LHS
+u/redrain/g.c line 31: parse error
+u/redrain/g.c line 4: Cannot #include medicine.h
+u/redrain/g.c line 8: Undefined function set_name
+u/redrain/g.c line 10: Undefined function set_default_object
+u/redrain/g.c line 12: Undefined function set
+u/redrain/g.c line 19: parse error
+u/redrain/g.c line 31: Illegal LHS
+u/redrain/g.c line 7: Undefined function set_name
+u/redrain/g.c line 9: Undefined function set_default_object
+u/redrain/g.c line 11: Undefined function set
+u/redrain/g.c line 18: parse error
+u/redrain/g.c line 30: Illegal LHS
+u/redrain/g.c line 30: parse error
+d/qujing/yunzhan/npc/lady.c line 41: Warning: Non-void functions must return a value.
+d/city/silao.c line 61: Warning: Value of conditional expression is unused
+d/city/silao.c line 62: Warning: Value of conditional expression is unused
+d/qujing/yunzhan/npc/lady.c line 41: Warning: Non-void functions must return a value.
+d/city/silao.c line 61: Warning: Value of conditional expression is unused
+d/city/silao.c line 62: Warning: Value of conditional expression is unused
+d/qujing/yunzhan/npc/lady.c line 41: Warning: Non-void functions must return a value.
+d/city/silao.c line 61: Warning: Value of conditional expression is unused
+d/city/silao.c line 62: Warning: Value of conditional expression is unused
+d/city/silao.c line 61: Warning: Value of conditional expression is unused
+d/city/silao.c line 62: Warning: Value of conditional expression is unused
+d/city/silao.c line 61: Warning: Value of conditional expression is unused
+d/city/silao.c line 62: Warning: Value of conditional expression is unused
+d/qujing/yunzhan/npc/lady.c line 41: Warning: Non-void functions must return a value.
+d/qujing/yunzhan/npc/lady.c line 41: Warning: Non-void functions must return a value.
+d/city/silao.c line 61: Warning: Value of conditional expression is unused
+d/city/silao.c line 62: Warning: Value of conditional expression is unused
+d/city/silao.c line 61: Warning: Value of conditional expression is unused
+d/city/silao.c line 62: Warning: Value of conditional expression is unused
+d/qujing/yunzhan/npc/lady.c line 41: Warning: Non-void functions must return a value.
+d/qujing/xuanyuan/npc/meifu.c line 57: parse error
+d/qujing/yunzhan/npc/lady.c line 41: Warning: Non-void functions must return a value.
+d/city/silao.c line 61: Warning: Value of conditional expression is unused
+d/city/silao.c line 62: Warning: Value of conditional expression is unused
+d/qujing/yunzhan/npc/lady.c line 41: Warning: Non-void functions must return a value.
+u/redrain/workroom.c line 18: parse error
+u/redrain/workroom.c line 18: parse error
+u/redrain/workroom.c line 25: parse error
+u/redrain/workroom.c line 31: parse error
+u/redrain/workroom.c line 31: parse error
+u/redrain/workroom.c line 31: parse error
+u/redrain/workroom.c line 31: parse error
+u/redrain/workroom.c line 18: parse error
+d/qujing/yunzhan/npc/lady.c line 41: Warning: Non-void functions must return a value.
+u/redrain/baoyi.c line 120: Undefined variable 's'
+u/redrain/baoyi.c line 120: Undefined variable 's'
+d/qujing/yunzhan/npc/lady.c line 41: Warning: Non-void functions must return a value.
+d/city/silao.c line 61: Warning: Value of conditional expression is unused
+d/city/silao.c line 62: Warning: Value of conditional expression is unused
+d/city/silao.c line 61: Warning: Value of conditional expression is unused
+d/city/silao.c line 62: Warning: Value of conditional expression is unused
+cmds/adm/promote.c line 50: Undefined variable 'obj'
+cmds/adm/promote.c line 50: Undefined variable 'env'
+d/city/silao.c line 61: Warning: Value of conditional expression is unused
+d/city/silao.c line 62: Warning: Value of conditional expression is unused
+d/qujing/yunzhan/npc/lady.c line 41: Warning: Non-void functions must return a value.
+d/qujing/yunzhan/npc/lady.c line 41: Warning: Non-void functions must return a value.
+d/qujing/yunzhan/npc/lady.c line 41: Warning: Non-void functions must return a value.
+d/city/silao.c line 61: Warning: Value of conditional expression is unused
+d/city/silao.c line 62: Warning: Value of conditional expression is unused
+cmds/adm/updatei.c line 69: Undefined function playerp
+cmds/adm/updatei.c line 71: Undefined variable 'TEMP_OB'
+cmds/adm/updatei.c line 79: Undefined function message_system
+cmds/adm/updatei.c line 69: Undefined function playerp
+cmds/adm/updatei.c line 71: Undefined variable 'TEMP_OB'
+cmds/adm/updatei.c line 79: Undefined function message_system
+d/city/silao.c line 61: Warning: Value of conditional expression is unused
+d/city/silao.c line 62: Warning: Value of conditional expression is unused
+u/landis/workroom.c line 24: parse error
+u/landis/workroom.c line 40: Illegal LHS
+u/landis/workroom.c line 40: parse error
+u/landis/workroom.c line 24: parse error
+u/landis/workroom.c line 40: Illegal LHS
+u/landis/workroom.c line 40: parse error
+u/redrain/bainiao-jian.c line 98: $var illegal outside of function pointer.
+u/redrain/bainiao-jian.c line 98: parse error
+u/redrain/bainiao-jian.c line 98: $var illegal outside of function pointer.
+u/redrain/bainiao-jian.c line 130: Undefined variable 'me'
+u/redrain/bainiao-jian.c line 130: Illegal LHS
+u/redrain/bainiao-jian.c line 130: parse error
+d/city/silao.c line 61: Warning: Value of conditional expression is unused
+d/city/silao.c line 62: Warning: Value of conditional expression is unused
+d/qujing/xihai/npc/aoshun.c line 171: parse error
+d/qujing/xihai/npc/aoshun.c line 177: Illegal LHS
+d/qujing/xihai/npc/aoshun.c line 178: Warning: Value of conditional expression is unused
+d/qujing/xihai/npc/aoshun.c line 171: parse error
+d/qujing/xihai/npc/aoshun.c line 177: Illegal LHS
+d/qujing/xihai/npc/aoshun.c line 178: Warning: Value of conditional expression is unused
+d/qujing/xihai/npc/aoshun.c line 171: parse error
+d/qujing/xihai/npc/aoshun.c line 177: Illegal LHS
+d/qujing/xihai/npc/aoshun.c line 178: Warning: Value of conditional expression is unused
+d/qujing/xihai/npc/aoshun.c line 171: parse error
+d/qujing/xihai/npc/aoshun.c line 177: Illegal LHS
+d/qujing/xihai/npc/aoshun.c line 178: Warning: Value of conditional expression is unused
+d/qujing/xihai/npc/aoshun.c line 171: parse error
+d/qujing/xihai/npc/aoshun.c line 177: Illegal LHS
+d/qujing/xihai/npc/aoshun.c line 178: Warning: Value of conditional expression is unused
+d/qujing/xihai/npc/aoshun.c line 171: parse error
+d/qujing/xihai/npc/aoshun.c line 177: Illegal LHS
+d/qujing/xihai/npc/aoshun.c line 178: Warning: Value of conditional expression is unused
+d/qujing/xihai/npc/aoshun.c line 171: parse error
+d/qujing/xihai/npc/aoshun.c line 177: Illegal LHS
+d/qujing/xihai/npc/aoshun.c line 178: Warning: Value of conditional expression is unused
+d/qujing/xihai/npc/aoshun.c line 171: parse error
+d/qujing/xihai/npc/aoshun.c line 177: Illegal LHS
+d/qujing/xihai/npc/aoshun.c line 178: Warning: Value of conditional expression is unused
+d/qujing/xihai/npc/aoshun.c line 171: parse error
+d/qujing/xihai/npc/aoshun.c line 177: Illegal LHS
+d/qujing/xihai/npc/aoshun.c line 178: Warning: Value of conditional expression is unused
+d/qujing/xihai/npc/aoshun.c line 171: parse error
+d/qujing/xihai/npc/aoshun.c line 177: Illegal LHS
+d/qujing/xihai/npc/aoshun.c line 178: Warning: Value of conditional expression is unused
+d/qujing/xihai/npc/aoshun.c line 171: parse error
+d/qujing/xihai/npc/aoshun.c line 177: Illegal LHS
+d/qujing/xihai/npc/aoshun.c line 178: Warning: Value of conditional expression is unused
+d/qujing/xihai/npc/aoshun.c line 171: parse error
+d/qujing/xihai/npc/aoshun.c line 177: Illegal LHS
+d/qujing/xihai/npc/aoshun.c line 178: Warning: Value of conditional expression is unused
+d/qujing/xihai/npc/aoshun.c line 171: parse error
+d/qujing/xihai/npc/aoshun.c line 177: Illegal LHS
+d/qujing/xihai/npc/aoshun.c line 178: Warning: Value of conditional expression is unused
+d/qujing/xihai/npc/aoshun.c line 171: parse error
+d/qujing/xihai/npc/aoshun.c line 177: Illegal LHS
+d/qujing/xihai/npc/aoshun.c line 178: Warning: Value of conditional expression is unused
+d/qujing/xihai/npc/aoshun.c line 171: parse error
+d/qujing/xihai/npc/aoshun.c line 177: Illegal LHS
+d/qujing/xihai/npc/aoshun.c line 178: Warning: Value of conditional expression is unused
+d/qujing/xihai/npc/aoshun.c line 171: parse error
+d/qujing/xihai/npc/aoshun.c line 177: Illegal LHS
+d/qujing/xihai/npc/aoshun.c line 178: Warning: Value of conditional expression is unused
+d/qujing/xihai/npc/aoshun.c line 171: parse error
+d/qujing/xihai/npc/aoshun.c line 177: Illegal LHS
+d/qujing/xihai/npc/aoshun.c line 178: Warning: Value of conditional expression is unused
+d/qujing/xihai/npc/aoshun.c line 171: parse error
+d/qujing/xihai/npc/aoshun.c line 177: Illegal LHS
+d/qujing/xihai/npc/aoshun.c line 178: Warning: Value of conditional expression is unused
+d/qujing/xihai/npc/aoshun.c line 171: parse error
+d/qujing/xihai/npc/aoshun.c line 177: Illegal LHS
+d/qujing/xihai/npc/aoshun.c line 178: Warning: Value of conditional expression is unused
+d/qujing/xihai/npc/aoshun.c line 171: parse error
+d/qujing/xihai/npc/aoshun.c line 177: Illegal LHS
+d/qujing/xihai/npc/aoshun.c line 178: Warning: Value of conditional expression is unused
+d/qujing/xihai/npc/aoshun.c line 171: parse error
+d/qujing/xihai/npc/aoshun.c line 177: Illegal LHS
+d/qujing/xihai/npc/aoshun.c line 178: Warning: Value of conditional expression is unused
+d/qujing/xihai/npc/aoshun.c line 171: parse error
+d/qujing/xihai/npc/aoshun.c line 177: Illegal LHS
+d/qujing/xihai/npc/aoshun.c line 178: Warning: Value of conditional expression is unused
+d/qujing/xihai/npc/aoshun.c line 171: parse error
+d/qujing/xihai/npc/aoshun.c line 177: Illegal LHS
+d/qujing/xihai/npc/aoshun.c line 178: Warning: Value of conditional expression is unused
+d/qujing/xihai/npc/aoshun.c line 171: parse error
+d/qujing/xihai/npc/aoshun.c line 177: Illegal LHS
+d/qujing/xihai/npc/aoshun.c line 178: Warning: Value of conditional expression is unused
+d/qujing/xihai/npc/aoshun.c line 171: parse error
+d/qujing/xihai/npc/aoshun.c line 177: Illegal LHS
+d/qujing/xihai/npc/aoshun.c line 178: Warning: Value of conditional expression is unused
+d/qujing/yunzhan/npc/lady.c line 41: Warning: Non-void functions must return a value.
+d/qujing/xihai/npc/aoshun.c line 171: parse error
+d/qujing/xihai/npc/aoshun.c line 177: Illegal LHS
+d/qujing/xihai/npc/aoshun.c line 178: Warning: Value of conditional expression is unused
+d/qujing/xihai/npc/aoshun.c line 171: parse error
+d/qujing/xihai/npc/aoshun.c line 177: Illegal LHS
+d/qujing/xihai/npc/aoshun.c line 178: Warning: Value of conditional expression is unused
+d/qujing/xihai/npc/aoshun.c line 171: parse error
+d/qujing/xihai/npc/aoshun.c line 177: Illegal LHS
+d/qujing/xihai/npc/aoshun.c line 178: Warning: Value of conditional expression is unused
+d/qujing/xihai/npc/aoshun.c line 171: parse error
+d/qujing/xihai/npc/aoshun.c line 177: Illegal LHS
+d/qujing/xihai/npc/aoshun.c line 178: Warning: Value of conditional expression is unused
+d/qujing/xihai/npc/aoshun.c line 171: parse error
+d/qujing/xihai/npc/aoshun.c line 177: Illegal LHS
+d/qujing/xihai/npc/aoshun.c line 178: Warning: Value of conditional expression is unused
+d/qujing/xihai/npc/aoshun.c line 171: parse error
+d/qujing/xihai/npc/aoshun.c line 177: Illegal LHS
+d/qujing/xihai/npc/aoshun.c line 178: Warning: Value of conditional expression is unused
+d/qujing/xihai/npc/aoshun.c line 171: parse error
+d/qujing/xihai/npc/aoshun.c line 177: Illegal LHS
+d/qujing/xihai/npc/aoshun.c line 178: Warning: Value of conditional expression is unused
+d/qujing/xihai/npc/aoshun.c line 171: parse error
+d/qujing/xihai/npc/aoshun.c line 177: Illegal LHS
+d/qujing/xihai/npc/aoshun.c line 178: Warning: Value of conditional expression is unused
+d/qujing/xihai/npc/aoshun.c line 171: parse error
+d/qujing/xihai/npc/aoshun.c line 177: Illegal LHS
+d/qujing/xihai/npc/aoshun.c line 178: Warning: Value of conditional expression is unused
+d/qujing/xihai/npc/aoshun.c line 171: parse error
+d/qujing/xihai/npc/aoshun.c line 177: Illegal LHS
+d/qujing/xihai/npc/aoshun.c line 178: Warning: Value of conditional expression is unused
+d/qujing/xihai/npc/aoshun.c line 171: parse error
+d/qujing/xihai/npc/aoshun.c line 177: Illegal LHS
+d/qujing/xihai/npc/aoshun.c line 178: Warning: Value of conditional expression is unused
+d/qujing/xihai/npc/aoshun.c line 171: parse error
+d/qujing/xihai/npc/aoshun.c line 177: Illegal LHS
+d/qujing/xihai/npc/aoshun.c line 178: Warning: Value of conditional expression is unused
+d/qujing/xihai/npc/aoshun.c line 171: parse error
+d/qujing/xihai/npc/aoshun.c line 177: Illegal LHS
+d/qujing/xihai/npc/aoshun.c line 178: Warning: Value of conditional expression is unused
+d/qujing/xihai/npc/aoshun.c line 171: parse error
+d/qujing/xihai/npc/aoshun.c line 177: Illegal LHS
+d/qujing/xihai/npc/aoshun.c line 178: Warning: Value of conditional expression is unused
+d/qujing/xihai/npc/aoshun.c line 171: parse error
+d/qujing/xihai/npc/aoshun.c line 177: Illegal LHS
+d/qujing/xihai/npc/aoshun.c line 178: Warning: Value of conditional expression is unused
+d/qujing/xihai/npc/aoshun.c line 171: parse error
+d/qujing/xihai/npc/aoshun.c line 177: Illegal LHS
+d/qujing/xihai/npc/aoshun.c line 178: Warning: Value of conditional expression is unused
+d/qujing/xihai/npc/aoshun.c line 171: parse error
+d/qujing/xihai/npc/aoshun.c line 177: Illegal LHS
+d/qujing/xihai/npc/aoshun.c line 178: Warning: Value of conditional expression is unused
+d/qujing/xihai/npc/aoshun.c line 171: parse error
+d/qujing/xihai/npc/aoshun.c line 177: Illegal LHS
+d/qujing/xihai/npc/aoshun.c line 178: Warning: Value of conditional expression is unused
+d/qujing/xihai/npc/aoshun.c line 171: parse error
+d/qujing/xihai/npc/aoshun.c line 177: Illegal LHS
+d/qujing/xihai/npc/aoshun.c line 178: Warning: Value of conditional expression is unused
+d/qujing/xihai/npc/aoshun.c line 171: parse error
+d/qujing/xihai/npc/aoshun.c line 177: Illegal LHS
+d/qujing/xihai/npc/aoshun.c line 178: Warning: Value of conditional expression is unused
+d/qujing/xihai/npc/aoshun.c line 171: parse error
+d/qujing/xihai/npc/aoshun.c line 177: Illegal LHS
+d/qujing/xihai/npc/aoshun.c line 178: Warning: Value of conditional expression is unused
+d/qujing/xihai/npc/aoshun.c line 171: parse error
+d/qujing/xihai/npc/aoshun.c line 177: Illegal LHS
+d/qujing/xihai/npc/aoshun.c line 178: Warning: Value of conditional expression is unused
+d/qujing/xihai/npc/aoshun.c line 171: parse error
+d/qujing/xihai/npc/aoshun.c line 177: Illegal LHS
+d/qujing/xihai/npc/aoshun.c line 178: Warning: Value of conditional expression is unused
+d/qujing/xihai/npc/aoshun.c line 171: parse error
+d/qujing/xihai/npc/aoshun.c line 177: Illegal LHS
+d/qujing/xihai/npc/aoshun.c line 178: Warning: Value of conditional expression is unused
+d/qujing/xihai/npc/aoshun.c line 171: parse error
+d/qujing/xihai/npc/aoshun.c line 177: Illegal LHS
+d/qujing/xihai/npc/aoshun.c line 178: Warning: Value of conditional expression is unused
+d/qujing/xihai/npc/aoshun.c line 171: parse error
+d/qujing/xihai/npc/aoshun.c line 177: Illegal LHS
+d/qujing/xihai/npc/aoshun.c line 178: Warning: Value of conditional expression is unused
+d/qujing/xihai/npc/aoshun.c line 171: parse error
+d/qujing/xihai/npc/aoshun.c line 177: Illegal LHS
+d/qujing/xihai/npc/aoshun.c line 178: Warning: Value of conditional expression is unused
+d/qujing/xihai/npc/aoshun.c line 171: parse error
+d/qujing/xihai/npc/aoshun.c line 177: Illegal LHS
+d/qujing/xihai/npc/aoshun.c line 178: Warning: Value of conditional expression is unused
+d/qujing/xihai/npc/aoshun.c line 171: parse error
+d/qujing/xihai/npc/aoshun.c line 177: Illegal LHS
+d/qujing/xihai/npc/aoshun.c line 178: Warning: Value of conditional expression is unused
+d/qujing/xihai/npc/aoshun.c line 171: parse error
+d/qujing/xihai/npc/aoshun.c line 177: Illegal LHS
+d/qujing/xihai/npc/aoshun.c line 178: Warning: Value of conditional expression is unused
+d/qujing/xihai/npc/aoshun.c line 171: parse error
+d/qujing/xihai/npc/aoshun.c line 177: Illegal LHS
+d/qujing/xihai/npc/aoshun.c line 178: Warning: Value of conditional expression is unused
+d/qujing/xihai/npc/aoshun.c line 171: parse error
+d/qujing/xihai/npc/aoshun.c line 177: Illegal LHS
+d/qujing/xihai/npc/aoshun.c line 178: Warning: Value of conditional expression is unused
+d/qujing/xihai/npc/aoshun.c line 171: parse error
+d/qujing/xihai/npc/aoshun.c line 177: Illegal LHS
+d/qujing/xihai/npc/aoshun.c line 178: Warning: Value of conditional expression is unused
+d/qujing/xihai/npc/aoshun.c line 171: parse error
+d/qujing/xihai/npc/aoshun.c line 177: Illegal LHS
+d/qujing/xihai/npc/aoshun.c line 178: Warning: Value of conditional expression is unused
+d/nanhai/npc/guanyin.c line 233: Redeclaration of function announce_success.
+d/nanhai/npc/guanyin.c line 233: Redeclaration of function announce_success.
+d/nanhai/npc/guanyin.c line 233: Redeclaration of function announce_success.
+d/qujing/xihai/npc/aoshun.c line 171: parse error
+d/qujing/xihai/npc/aoshun.c line 177: Illegal LHS
+d/qujing/xihai/npc/aoshun.c line 178: Warning: Value of conditional expression is unused
+u/redrain/guanyinpusa.c line 64: parse error
+u/redrain/guanyinpusa.c line 109: Illegal LHS
+u/redrain/guanyinpusa.c line 109: parse error
+u/redrain/guanyinpusa.c line 114: Illegal LHS
+u/redrain/guanyinpusa.c line 114: parse error
+u/redrain/guanyinpusa.c line 161: Illegal LHS
+d/qujing/xihai/npc/aoshun.c line 171: parse error
+d/qujing/xihai/npc/aoshun.c line 177: Illegal LHS
+d/qujing/xihai/npc/aoshun.c line 178: Warning: Value of conditional expression is unused
+d/qujing/xihai/npc/aoshun.c line 171: parse error
+d/qujing/xihai/npc/aoshun.c line 177: Illegal LHS
+d/qujing/xihai/npc/aoshun.c line 178: Warning: Value of conditional expression is unused
+d/qujing/xihai/npc/aoshun.c line 171: parse error
+d/qujing/xihai/npc/aoshun.c line 177: Illegal LHS
+d/qujing/xihai/npc/aoshun.c line 178: Warning: Value of conditional expression is unused
+adm/daemons/network/telnetd.c line 13: Cannot #include uid.h
+adm/daemons/network/telnetd.c line 18: parse error
+daemon/class/yaomo/xueshan/bainiao-jian/fenghuang.c line 23: parse error
+daemon/class/yaomo/xueshan/bainiao-jian/fenghuang.c line 24: Illegal LHS
+daemon/class/yaomo/xueshan/bainiao-jian/fenghuang.c line 25: Warning: Value of conditional expression is unused
+daemon/class/yaomo/xueshan/bainiao-jian/fenghuang.c line 23: parse error
+daemon/class/yaomo/xueshan/bainiao-jian/fenghuang.c line 24: Illegal LHS
+daemon/class/yaomo/xueshan/bainiao-jian/fenghuang.c line 25: Warning: Value of conditional expression is unused
+daemon/class/yaomo/xueshan/bainiao-jian/fenghuang.c line 23: parse error
+daemon/class/yaomo/xueshan/bainiao-jian/fenghuang.c line 24: Illegal LHS
+daemon/class/yaomo/xueshan/bainiao-jian/fenghuang.c line 25: Warning: Value of conditional expression is unused
+daemon/class/yaomo/xueshan/bainiao-jian/fenghuang.c line 23: parse error
+daemon/class/yaomo/xueshan/bainiao-jian/fenghuang.c line 24: Illegal LHS
+daemon/class/yaomo/xueshan/bainiao-jian/fenghuang.c line 25: Warning: Value of conditional expression is unused
+daemon/class/yaomo/xueshan/bainiao-jian/fenghuang.c line 23: parse error
+daemon/class/yaomo/xueshan/bainiao-jian/fenghuang.c line 24: Illegal LHS
+daemon/class/yaomo/xueshan/bainiao-jian/fenghuang.c line 25: Warning: Value of conditional expression is unused
+d/city/silao.c line 61: Warning: Value of conditional expression is unused
+d/city/silao.c line 62: Warning: Value of conditional expression is unused
+d/qujing/yunzhan/npc/lady.c line 41: Warning: Non-void functions must return a value.
+d/city/chatroom.c line 38: parse error
+d/city/chatroom.c line 38: parse error
+d/city/chatroom.c line 38: parse error
+d/city/chatroom.c line 38: parse error
+d/city/chatroom.c line 38: parse error
+d/city/chatroom.c line 38: parse error
+d/city/silao.c line 61: Warning: Value of conditional expression is unused
+d/city/silao.c line 62: Warning: Value of conditional expression is unused
+d/qujing/yunzhan/npc/lady.c line 41: Warning: Non-void functions must return a value.
+d/shenjian/hudi.c line 9: End of file in text block
+d/shenjian/hudi.c line 9: parse error
+d/shenjian/npc/master.c line 76: Undefined variable 'baishi'
+d/shenjian/npc/master.c line 76: Undefined variable 'xie'
+d/pansi/tongmen.c line 17: Undefined variable 'DOOR_CLOSED'
+d/pansi/tongmen.c line 17: Undefined variable 'DOOR_CLOSED'
+d/pansi/tongmen.c line 17: Undefined variable 'DOOR_CLOSED'
+d/pansi/tongmen.c line 17: Undefined variable 'DOOR_CLOSED'
+d/pansi/tongmen.c line 17: Undefined variable 'DOOR_CLOSED'
+d/pansi/tongmen.c line 17: Undefined variable 'DOOR_CLOSED'
+d/pansi/tongmen.c line 17: Undefined variable 'DOOR_CLOSED'
+d/pansi/tongmen.c line 17: Undefined variable 'DOOR_CLOSED'
+d/pansi/tongmen.c line 17: Undefined variable 'DOOR_CLOSED'
+d/pansi/tongmen.c line 17: Undefined variable 'DOOR_CLOSED'
+d/pansi/tongmen.c line 17: Undefined variable 'DOOR_CLOSED'
+d/pansi/tongmen.c line 17: Undefined variable 'DOOR_CLOSED'
+d/pansi/tongmen.c line 17: Undefined variable 'DOOR_CLOSED'
+d/pansi/tongmen.c line 17: Undefined variable 'DOOR_CLOSED'
+d/pansi/tongmen.c line 17: Undefined variable 'DOOR_CLOSED'
+d/pansi/tongmen.c line 17: Undefined variable 'DOOR_CLOSED'
+d/pansi/tongmen.c line 17: Undefined variable 'DOOR_CLOSED'
+d/pansi/tongmen.c line 17: Undefined variable 'DOOR_CLOSED'
+d/pansi/tongmen.c line 17: Undefined variable 'DOOR_CLOSED'
+d/pansi/tongmen.c line 17: Undefined variable 'DOOR_CLOSED'
+d/pansi/tongmen.c line 17: Undefined variable 'DOOR_CLOSED'
+d/pansi/tongmen.c line 17: Undefined variable 'DOOR_CLOSED'
+d/qujing/kusong/npc/sctz.c line 4: parse error
+u/tianlin/m.c line 24: parse error
+u/tianlin/m.c line 47: parse error
+cmds/usr/who.c line 119: parse error
+cmds/usr/who.c line 119: Illegal LHS
+cmds/std/exercise.c line 47: Undefined variable 'HBRED'
+cmds/std/exercise.c line 47: Undefined variable 'HIW'
+cmds/std/exercise.c line 47: parse error
+cmds/std/exercise.c line 49: Illegal LHS
+cmds/std/exercise.c line 49: parse error
+cmds/std/exercise.c line 59: Illegal LHS
+cmds/std/exercise.c line 47: Undefined variable 'HBRED'
+cmds/std/exercise.c line 47: Undefined variable 'HIW'
+cmds/std/exercise.c line 47: parse error
+cmds/std/exercise.c line 49: Illegal LHS
+cmds/std/exercise.c line 49: parse error
+cmds/std/exercise.c line 59: Illegal LHS
+cmds/std/exercise.c line 47: Undefined variable 'HBRED'
+cmds/std/exercise.c line 47: Undefined variable 'HIW'
+cmds/std/exercise.c line 47: parse error
+cmds/std/exercise.c line 49: Illegal LHS
+cmds/std/exercise.c line 49: parse error
+cmds/std/exercise.c line 59: Illegal LHS
+cmds/std/exercise.c line 47: Undefined variable 'HBRED'
+cmds/std/exercise.c line 47: Undefined variable 'HIW'
+cmds/std/exercise.c line 47: parse error
+cmds/std/exercise.c line 49: Illegal LHS
+cmds/std/exercise.c line 49: parse error
+cmds/std/exercise.c line 59: Illegal LHS
+cmds/std/exercise.c line 47: Undefined variable 'HBRED'
+cmds/std/exercise.c line 47: Undefined variable 'HIW'
+cmds/std/exercise.c line 47: parse error
+cmds/std/exercise.c line 49: Illegal LHS
+cmds/std/exercise.c line 49: parse error
+cmds/std/exercise.c line 59: Illegal LHS
+cmds/std/exercise.c line 47: Undefined variable 'HBRED'
+cmds/std/exercise.c line 47: Undefined variable 'HIW'
+cmds/std/exercise.c line 47: parse error
+cmds/std/exercise.c line 49: Illegal LHS
+cmds/std/exercise.c line 49: parse error
+cmds/std/exercise.c line 59: Illegal LHS
+cmds/std/exercise.c line 47: Undefined variable 'HBRED'
+cmds/std/exercise.c line 47: Undefined variable 'HIW'
+cmds/std/exercise.c line 47: parse error
+cmds/std/exercise.c line 49: Illegal LHS
+cmds/std/exercise.c line 49: parse error
+cmds/std/exercise.c line 59: Illegal LHS
+cmds/std/exercise.c line 47: Undefined variable 'HBRED'
+cmds/std/exercise.c line 47: Undefined variable 'HIW'
+cmds/std/exercise.c line 47: parse error
+cmds/std/exercise.c line 49: Illegal LHS
+cmds/std/exercise.c line 49: parse error
+cmds/std/exercise.c line 59: Illegal LHS
+cmds/std/exercise.c line 47: Undefined variable 'HBRED'
+cmds/std/exercise.c line 47: Undefined variable 'HIW'
+cmds/std/exercise.c line 47: parse error
+cmds/std/exercise.c line 49: Illegal LHS
+cmds/std/exercise.c line 49: parse error
+cmds/std/exercise.c line 59: Illegal LHS
+d/pansi/npc/kao.c line 74: parse error
+d/pansi/npc/kao.c line 79: parse error
+d/pansi/npc/kao.c line 81: Warning: Value of conditional expression is unused
+d/pansi/npc/kao.c line 91: parse error
+d/pansi/npc/kao.c line 100: parse error
+d/pansi/npc/kao.c line 34: parse error
+d/pansi/npc/kao.c line 74: parse error
+d/pansi/npc/kao.c line 79: parse error
+d/pansi/npc/kao.c line 81: Warning: Value of conditional expression is unused
+d/pansi/npc/kao.c line 91: parse error
+d/pansi/npc/kao.c line 100: parse error
+u/redrain/laobao.c line 30: parse error
+u/redrain/laobao.c line 50: Illegal LHS
+u/redrain/laobao.c line 50: parse error
+u/redrain/laobao.c line 30: parse error
+u/redrain/laobao.c line 50: Illegal LHS
+u/redrain/laobao.c line 50: parse error
+u/redrain/guinu.c line 34: parse error
+u/redrain/guinu.c line 52: Illegal LHS
+u/redrain/guinu.c line 52: parse error
+u/redrain/guinu.c line 56: parse error
+d/city/silao.c line 61: Warning: Value of conditional expression is unused
+d/city/silao.c line 62: Warning: Value of conditional expression is unused
+u/linger/workroom.c line 7: Undefined variable 'HIW'
+u/linger/workroom.c line 7: parse error
+u/valen/guestroom.c line 22: parse error
+u/valen/guestroom.c line 22: parse error
+u/valen/guestroom.c line 22: parse error
+u/valen/guestroom.c line 22: parse error
+u/valen/guestroom.c line 22: parse error
+d/qujing/yunzhan/npc/lady.c line 41: Warning: Non-void functions must return a value.
+d/xueshan/npc/kongque-mingwang.c line 2: parse error
+cmds/adm/cpu.c line 4: parse error
+d/jjf/npc/chengyaojin.c line 2: parse error
+d/jjf/npc/chengyaojin.c line 2: parse error
+d/jjf/npc/chengyaojin.c line 2: parse error
+d/jjf/npc/chengyaojin.c line 2: parse error
+d/jjf/npc/chengyaojin2.c line 53: parse error
+d/jjf/npc/chengyaojin2.c line 92: Illegal LHS
+d/jjf/npc/chengyaojin2.c line 92: Undefined variable 'npc'
+d/jjf/npc/chengyaojin2.c line 92: Undefined variable 'ob'
+d/jjf/npc/chengyaojin2.c line 92: parse error
+d/jjf/npc/chengyaojin2.c line 93: Undefined variable 'me'
+d/jjf/npc/chengyaojin2.c line 183: parse error
+d/jjf/npc/chengyaojin2.c line 185: Illegal to redefine 'nomask' function "query_weight"
+d/jjf/npc/chengyaojin2.c line 185: Illegal to redefine 'nomask' function "query_busy"
+d/jjf/npc/chengyaojin2.c line 185: Illegal to redefine 'nomask' function "is_busy"
+d/jjf/npc/chengyaojin2.c line 185: Illegal to redefine 'nomask' function "command_hook"
+d/jjf/npc/chengyaojin2.c line 185: Illegal to redefine 'nomask' function "set_path"
+d/jjf/npc/chengyaojin2.c line 185: Illegal to redefine 'nomask' function "enable_player"
+d/jjf/npc/chengyaojin.c line 2: parse error
+d/qujing/lingshan/houdian.c line 61: parse error
+d/qujing/lingshan/houdian.c line 61: parse error
+adm/daemons/logind.c line 864: parse error
+adm/daemons/logind.c line 900: Illegal LHS
+adm/daemons/logind.c line 909: Illegal LHS
+adm/daemons/logind.c line 947: Illegal LHS
+adm/daemons/logind.c line 952: Illegal LHS
+adm/daemons/logind.c line 953: Illegal LHS
+adm/daemons/logind.c line 864: parse error
+adm/daemons/logind.c line 900: Illegal LHS
+adm/daemons/logind.c line 909: Illegal LHS
+adm/daemons/logind.c line 947: Illegal LHS
+adm/daemons/logind.c line 952: Illegal LHS
+adm/daemons/logind.c line 953: Illegal LHS
+adm/daemons/logind.c line 864: parse error
+adm/daemons/logind.c line 900: Illegal LHS
+adm/daemons/logind.c line 909: Illegal LHS
+adm/daemons/logind.c line 947: Illegal LHS
+adm/daemons/logind.c line 952: Illegal LHS
+adm/daemons/logind.c line 953: Illegal LHS
+adm/daemons/logind.c line 864: parse error
+adm/daemons/logind.c line 900: Illegal LHS
+adm/daemons/logind.c line 909: Illegal LHS
+adm/daemons/logind.c line 947: Illegal LHS
+adm/daemons/logind.c line 952: Illegal LHS
+adm/daemons/logind.c line 953: Illegal LHS
+d/city/silao.c line 61: Warning: Value of conditional expression is unused
+d/city/silao.c line 62: Warning: Value of conditional expression is unused
+d/qujing/yunzhan/npc/lady.c line 41: Warning: Non-void functions must return a value.
+daemon/class/pansi/chixin-jian/yuxiao.c line 54: parse error
+cmds/std/fly.c line 140: parse error
+cmds/std/fly.c line 140: parse error
+cmds/std/fly.c line 140: parse error
+cmds/std/fly.c line 140: parse error
+cmds/std/fly.c line 140: parse error
+cmds/std/fly.c line 140: parse error
+cmds/std/fly.c line 140: parse error
+cmds/std/fly.c line 140: parse error
+cmds/std/fly.c line 140: parse error
+cmds/std/fly.c line 140: parse error
+cmds/std/fly.c line 140: parse error
+cmds/std/fly.c line 140: parse error
+cmds/std/fly.c line 140: parse error
+cmds/std/fly.c line 140: parse error
+cmds/std/fly.c line 140: parse error
+cmds/std/fly.c line 140: parse error
+cmds/std/fly.c line 140: parse error
+cmds/std/fly.c line 140: parse error
+cmds/std/fly.c line 140: parse error
+cmds/std/fly.c line 140: parse error
+cmds/std/fly.c line 425: parse error
+cmds/std/fly.c line 448: String too long
+cmds/std/fly.c line 425: parse error
+cmds/std/fly.c line 448: String too long
+cmds/std/fly.c line 425: parse error
+cmds/std/fly.c line 448: String too long
+cmds/std/fly.c line 425: parse error
+cmds/std/fly.c line 448: String too long
+cmds/std/fly.c line 425: parse error
+cmds/std/fly.c line 448: String too long
+cmds/std/fly.c line 425: parse error
+cmds/std/fly.c line 448: String too long
+cmds/std/fly.c line 425: parse error
+cmds/std/fly.c line 448: String too long
+cmds/std/fly.c line 425: parse error
+cmds/std/fly.c line 448: String too long
+cmds/std/fly.c line 425: parse error
+cmds/std/fly.c line 448: String too long
+cmds/std/fly.c line 425: parse error
+cmds/std/fly.c line 448: String too long
+cmds/std/fly.c line 425: parse error
+cmds/std/fly.c line 448: String too long
+cmds/std/fly.c line 425: parse error
+cmds/std/fly.c line 448: String too long
+cmds/std/fly.c line 425: parse error
+cmds/std/fly.c line 448: String too long
+cmds/std/fly.c line 425: parse error
+cmds/std/fly.c line 448: String too long
+cmds/std/fly.c line 425: parse error
+cmds/std/fly.c line 448: String too long
+cmds/std/fly.c line 425: parse error
+cmds/std/fly.c line 448: String too long
+cmds/std/fly.c line 425: parse error
+cmds/std/fly.c line 448: String too long
+cmds/std/fly.c line 375: End of file in string
+cmds/std/fly.c line 375: parse error
+d/city/silao.c line 61: Warning: Value of conditional expression is unused
+d/city/silao.c line 62: Warning: Value of conditional expression is unused
+d/qujing/yunzhan/npc/lady.c line 41: Warning: Non-void functions must return a value.
+u/tianlin/m.c line 24: parse error
+u/tianlin/m.c line 47: parse error
+u/tianlin/m.c line 24: parse error
+u/tianlin/m.c line 47: parse error
+d/city/silao.c line 61: Warning: Value of conditional expression is unused
+d/city/silao.c line 62: Warning: Value of conditional expression is unused
+d/qujing/yunzhan/npc/lady.c line 41: Warning: Non-void functions must return a value.
+d/death/npc/dizhang.c line 183: Undefined variable 'CYN'
+d/death/npc/dizhang.c line 183: parse error
+d/pansi/npc/kao.c line 34: parse error
+d/pansi/npc/kao.c line 74: parse error
+d/pansi/npc/kao.c line 79: parse error
+d/pansi/npc/kao.c line 81: Warning: Value of conditional expression is unused
+d/pansi/npc/kao.c line 91: parse error
+d/pansi/npc/kao.c line 100: parse error
+d/pansi/npc/kao.c line 34: parse error
+d/pansi/npc/kao.c line 74: parse error
+d/pansi/npc/kao.c line 79: parse error
+d/pansi/npc/kao.c line 81: Warning: Value of conditional expression is unused
+d/pansi/npc/kao.c line 91: parse error
+d/pansi/npc/kao.c line 100: parse error
+u/valen/guestroom.c line 22: parse error
+u/suannai/channeld.c line 171: Undefined variable 'get_month'
+u/suannai/channeld.c line 177: Undefined variable 'natured'
+u/suannai/channeld.c line 171: Undefined variable 'get_month'
+u/suannai/channeld.c line 177: Undefined variable 'natured'
+u/suannai/mudlist.c line 117: parse error
+u/suannai/mudlist.c line 134: parse error
+u/suannai/mudlist.c line 133: parse error
+u/suannai/mudlist1.c line 70: parse error
+u/suannai/mudlist1.c line 96: Illegal LHS
+u/suannai/mudlist1.c line 96: parse error
+u/suannai/mudlist1.c line 98: Illegal LHS
+u/suannai/mudlist1.c line 100: Illegal LHS
+u/suannai/mudlist1.c line 100: parse error
+d/city/silao.c line 61: Warning: Value of conditional expression is unused
+d/city/silao.c line 62: Warning: Value of conditional expression is unused
+adm/daemons/network/inetd.c line 15: Cannot #include config.h
+adm/daemons/network/inetd.c line 327: Warning: A negative constant as the second element of arr[x..y] no longer means indexing from the end.  Use arr[x..<y]
+adm/daemons/network/inetd.c line 378: Undefined function member_group
+adm/daemons/network/mail_serv.c line 14: Cannot #include daemons.h
+adm/daemons/network/mail_serv.c line 15: Cannot #include uid.h
+adm/daemons/network/mail_serv.c line 16: Cannot #include post.h
+adm/daemons/network/mail_serv.c line 56: Undefined variable 'DIR_POSTAL'
+adm/daemons/network/mail_serv.c line 57: Undefined variable 'POSTAL_D'
+adm/daemons/network/mail_serv.c line 69: Undefined function mud_name
+adm/daemons/network/mail_serv.c line 86: Warning: Value of conditional expression is unused
+adm/daemons/network/mail_serv.c line 87: Warning: Value of conditional expression is unused
+adm/daemons/network/ms.c line 19: Cannot #include config.h
+adm/daemons/network/ms.c line 20: Cannot #include mailer.h
+adm/daemons/network/ms.c line 21: Cannot #include daemons.h
+adm/daemons/network/ms.c line 23: Cannot #include uid.h
+adm/daemons/network/ms.c line 50: Undefined variable 'MAILDIR'
+adm/daemons/network/ms.c line 52: Undefined variable 'THIS_MUD'
+adm/daemons/network/netmail.c line 17: Cannot #include mailer.h
+adm/daemons/network/netmail.c line 33: Undefined function data_netmail_file
+adm/daemons/network/netmail.c line 33: Undefined variable 'SAVE_EXTENSION'
+adm/daemons/network/netmail.c line 33: Undefined function file_exists
+adm/daemons/network/netmail.c line 36: Bad argument 1 to efun restore_object()
+adm/daemons/network/netmail.c line 37: Invalid argument types to '+' ( string vs unknown )
+adm/daemons/network/pingd.c line 10: Cannot #include uid.h
+adm/daemons/network/pingd.c line 12: parse error
+adm/daemons/network/pingtcp.c line 11: Cannot #include uid.h
+adm/daemons/network/pingtcp.c line 13: parse error
+adm/daemons/network/services/temp.c line 300: Warning: clean_up() inherited from both /feature/clean_up.c and /feature/clean_up.c (via /std/weapon/blade.c); using the definition in /feature/clean_up.c.
+adm/daemons/network/telnetd.c line 13: Cannot #include uid.h
+adm/daemons/network/telnetd.c line 18: parse error
+adm/daemons/network/userid.c line 18: Cannot #include priv.h
+adm/daemons/network/userid.c line 19: Cannot #include config.h
+adm/daemons/network/userid.c line 27: parse error
+adm/obj/toy/xoxroom.c line 32: parse error
+adm/simul_efun/object.c line 97: Invalid simulated efunction override
+adm/simul_efun/oo.c line 78: Invalid simulated efunction override
+adm/daemons/network/inetd.c line 15: Cannot #include config.h
+adm/daemons/network/inetd.c line 327: Warning: A negative constant as the second element of arr[x..y] no longer means indexing from the end.  Use arr[x..<y]
+adm/daemons/network/inetd.c line 378: Undefined function member_group
+adm/daemons/network/mail_serv.c line 14: Cannot #include daemons.h
+adm/daemons/network/mail_serv.c line 15: Cannot #include uid.h
+adm/daemons/network/mail_serv.c line 16: Cannot #include post.h
+adm/daemons/network/mail_serv.c line 56: Undefined variable 'DIR_POSTAL'
+adm/daemons/network/mail_serv.c line 57: Undefined variable 'POSTAL_D'
+adm/daemons/network/mail_serv.c line 69: Undefined function mud_name
+adm/daemons/network/mail_serv.c line 86: Warning: Value of conditional expression is unused
+adm/daemons/network/mail_serv.c line 87: Warning: Value of conditional expression is unused
+adm/daemons/network/ms.c line 19: Cannot #include config.h
+adm/daemons/network/ms.c line 20: Cannot #include mailer.h
+adm/daemons/network/ms.c line 21: Cannot #include daemons.h
+adm/daemons/network/ms.c line 23: Cannot #include uid.h
+adm/daemons/network/ms.c line 50: Undefined variable 'MAILDIR'
+adm/daemons/network/ms.c line 52: Undefined variable 'THIS_MUD'
+adm/daemons/network/netmail.c line 17: Cannot #include mailer.h
+adm/daemons/network/netmail.c line 33: Undefined function data_netmail_file
+adm/daemons/network/netmail.c line 33: Undefined variable 'SAVE_EXTENSION'
+adm/daemons/network/netmail.c line 33: Undefined function file_exists
+adm/daemons/network/netmail.c line 36: Bad argument 1 to efun restore_object()
+adm/daemons/network/netmail.c line 37: Invalid argument types to '+' ( string vs unknown )
+adm/daemons/network/pingd.c line 10: Cannot #include uid.h
+adm/daemons/network/pingd.c line 12: parse error
+adm/daemons/network/pingtcp.c line 11: Cannot #include uid.h
+adm/daemons/network/pingtcp.c line 13: parse error
+adm/daemons/network/telnetd.c line 13: Cannot #include uid.h
+adm/daemons/network/telnetd.c line 18: parse error
+adm/daemons/network/userid.c line 18: Cannot #include priv.h
+adm/daemons/network/userid.c line 19: Cannot #include config.h
+adm/daemons/network/userid.c line 27: parse error
+d/city/silao.c line 61: Warning: Value of conditional expression is unused
+d/city/silao.c line 62: Warning: Value of conditional expression is unused
+d/city/silao.c line 61: Warning: Value of conditional expression is unused
+d/city/silao.c line 62: Warning: Value of conditional expression is unused
+d/qujing/yunzhan/npc/lady.c line 41: Warning: Non-void functions must return a value.
+u/kenter/renmo.c line 18: parse error
+u/kenter/huiming.c line 30: parse error
+u/kenter/huiming.c line 30: parse error
+u/kenter/huiming.c line 30: parse error
+d/city/silao.c line 61: Warning: Value of conditional expression is unused
+d/city/silao.c line 62: Warning: Value of conditional expression is unused
+d/qujing/yunzhan/npc/lady.c line 41: Warning: Non-void functions must return a value.
+d/city/silao.c line 61: Warning: Value of conditional expression is unused
+d/city/silao.c line 62: Warning: Value of conditional expression is unused
+d/qujing/yunzhan/npc/lady.c line 41: Warning: Non-void functions must return a value.
+d/city/silao.c line 61: Warning: Value of conditional expression is unused
+d/city/silao.c line 62: Warning: Value of conditional expression is unused
+d/qujing/yunzhan/npc/lady.c line 41: Warning: Non-void functions must return a value.
+d/youxia/npc/ximen.c line 50: parse error
+d/youxia/obj/tianjicloth.c line 44: Illegal to declare local variable of type void.
+d/youxia/obj/tianjicloth.c line 44: parse error
+d/youxia/npc/xiaofeng.c line 73: Undefined function catty_object
+d/youxia/npc/xiaofeng.c line 178: End of file in a comment
+std/bboard.c line 98: Undefined variable 'BJTIME_CMD'
+std/bboard.c line 144: Undefined variable 'BJTIME_CMD'
+std/bboard.c line 284: Undefined variable 'BJTIME_CMD'
+std/bboard.c line 338: Undefined variable 'BJTIME_CMD'
+std/bboard.c line 431: Undefined variable 'BJTIME_CMD'
+adm/simul_efun/object.c line 97: Invalid simulated efunction override
+d/city/silao.c line 61: Warning: Value of conditional expression is unused
+d/city/silao.c line 62: Warning: Value of conditional expression is unused
+d/qujing/biqiu/liu3.c line 3: parse error
+d/guzhanchang/npc/tianzun.c line 43: parse error
+d/guzhanchang/npc/tianzun.c line 43: parse error
+d/city/silao.c line 61: Warning: Value of conditional expression is unused
+d/city/silao.c line 62: Warning: Value of conditional expression is unused
+d/city/silao.c line 61: Warning: Value of conditional expression is unused
+d/city/silao.c line 62: Warning: Value of conditional expression is unused
+adm/daemons/combatd.c line 1524: Undefined function compare
+adm/daemons/combatd.c line 1524: Undefined function compare
+adm/daemons/combatd.c line 1524: Undefined function compare
+adm/daemons/combatd.c line 1524: Undefined function compare
+adm/daemons/locationd.c line 4: Warning: redefinition of #define MAPS_D
+
+adm/daemons/locationd.c line 16: Undefined variable 'MAPS_DIR'
+adm/daemons/locationd.c line 4: Warning: redefinition of #define MAPS_D
+
+adm/daemons/locationd.c line 16: Undefined variable 'MAPS_DIR'
+adm/daemons/locationd.c line 4: Warning: redefinition of #define MAPS_D
+
+adm/daemons/locationd.c line 16: Undefined variable 'MAPS_DIR'
+d/newjob/baoshi/npc/jiaozhong.c line 87: parse error
+d/newjob/baoshi/npc/jiaozhong.c line 87: parse error
+d/newjob/tiandijie/disasterd.c line 186: Undefined variable 'DISASTER_D'
+d/newjob/tiandijie/npc/yaoguai.c line 297: Undefined variable 'DISASTER_D'
+d/newjob/tiandijie/npc/yaoguai.c line 297: Undefined variable 'DISASTER_D'
+d/newjob/tiandijie/npc/yaoguai.c line 297: Undefined variable 'DISASTER_D'
+d/newjob/tiandijie/npc/yaoguai.c line 297: Undefined variable 'DISASTER_D'
+d/newjob/tiandijie/npc/yaoguai.c line 297: Undefined variable 'DISASTER_D'
+d/newjob/tiandijie/npc/yaoguai.c line 297: Undefined variable 'DISASTER_D'
+d/newjob/tiandijie/npc/yaoguai.c line 297: Undefined variable 'DISASTER_D'
+d/newjob/tiandijie/npc/yaoguai.c line 297: Undefined variable 'DISASTER_D'
+d/newjob/tiandijie/npc/yaoguai.c line 297: Undefined variable 'DISASTER_D'
+d/newjob/tiandijie/npc/yaoguai.c line 297: Undefined variable 'DISASTER_D'
+d/newjob/tiandijie/npc/yaoguai.c line 297: Undefined variable 'DISASTER_D'
+d/newjob/tiandijie/npc/yaoguai.c line 297: Undefined variable 'DISASTER_D'
+d/newjob/tiandijie/npc/yaoguai.c line 297: Undefined variable 'DISASTER_D'
+d/newjob/tiandijie/npc/yaoguai.c line 297: Undefined variable 'DISASTER_D'
+d/newjob/tiandijie/npc/yaoguai.c line 297: Undefined variable 'DISASTER_D'
+d/newjob/tiandijie/npc/yaoguai.c line 297: Undefined variable 'DISASTER_D'
+d/newjob/tiandijie/npc/yaoguai.c line 297: Undefined variable 'DISASTER_D'
+d/newjob/tiandijie/npc/yaoguai.c line 297: Undefined variable 'DISASTER_D'
+d/city/silao.c line 61: Warning: Value of conditional expression is unused
+d/city/silao.c line 62: Warning: Value of conditional expression is unused
+daemon/class/bibotan/bihai-spells/shuidun.c line 52: Undefined variable 'd'
+daemon/class/bibotan/bihai-spells/shuidun.c line 52: Bad argument 1 to '/': "string "
+daemon/class/bibotan/bihai-spells/shuidun.c line 52: Undefined variable 'qujing'
+daemon/class/bibotan/bihai-spells/shuidun.c line 52: Undefined variable 'bibotan'
+daemon/class/bibotan/bihai-spells/shuidun.c line 52: Undefined variable 'yujie'
+daemon/class/bibotan/bihai-spells/shuidun.c line 52: parse error
+daemon/class/bibotan/bihai-spells/shuidun.c line 52: Undefined variable 'd'
+daemon/class/bibotan/bihai-spells/shuidun.c line 52: Bad argument 1 to '/': "string "
+daemon/class/bibotan/bihai-spells/shuidun.c line 52: Undefined variable 'qujing'
+daemon/class/bibotan/bihai-spells/shuidun.c line 52: Undefined variable 'bibotan'
+daemon/class/bibotan/bihai-spells/shuidun.c line 52: Undefined variable 'yujie'
+daemon/class/bibotan/bihai-spells/shuidun.c line 52: parse error
+daemon/class/bibotan/bihai-spells/shuidun.c line 52: Undefined variable 'd'
+daemon/class/bibotan/bihai-spells/shuidun.c line 52: Bad argument 1 to '/': "string "
+daemon/class/bibotan/bihai-spells/shuidun.c line 52: Undefined variable 'qujing'
+daemon/class/bibotan/bihai-spells/shuidun.c line 52: Undefined variable 'bibotan'
+daemon/class/bibotan/bihai-spells/shuidun.c line 52: Undefined variable 'yujie'
+daemon/class/bibotan/bihai-spells/shuidun.c line 52: parse error
+daemon/class/bibotan/bihai-spells/shuidun.c line 53: parse error
+daemon/class/bibotan/bihai-spells/shuidun.c line 52: parse error
+daemon/class/bibotan/bihai-spells/shuidun.c line 56: parse error
+d/city/silao.c line 61: Warning: Value of conditional expression is unused
+d/city/silao.c line 62: Warning: Value of conditional expression is unused
+d/qujing/yunzhan/npc/lady.c line 41: Warning: Non-void functions must return a value.
+d/city/silao.c line 61: Warning: Value of conditional expression is unused
+d/city/silao.c line 62: Warning: Value of conditional expression is unused
+d/city/silao.c line 61: Warning: Value of conditional expression is unused
+d/city/silao.c line 62: Warning: Value of conditional expression is unused
+daemon/class/tiankongjie/feiyu/lingshi.c line 32: Reserved type name unexpected.
+daemon/class/tiankongjie/feiyu/lingshi.c line 32: parse error
+adm/daemons/locationd.c line 4: Warning: redefinition of #define MAPS_D
+
+adm/daemons/locationd.c line 16: Undefined variable 'MAPS_DIR'
+d/kaifeng/npc/quest.c line 51: No such inherited function ::setup
+d/kaifeng/npc/quest.c line 53: Undefined function query
+d/kaifeng/npc/quest.c line 53: Bad assignment ( string vs unknown ).
+d/kaifeng/npc/quest.c line 242: Type mismatch ( string vs unknown ) when initializing id
+d/city/silao.c line 61: Warning: Value of conditional expression is unused
+d/city/silao.c line 62: Warning: Value of conditional expression is unused
+d/city/silao.c line 61: Warning: Value of conditional expression is unused
+d/city/silao.c line 62: Warning: Value of conditional expression is unused
+d/kaifeng/npc/quest.c line 51: No such inherited function ::setup
+d/kaifeng/npc/quest.c line 53: Undefined function query
+d/kaifeng/npc/quest.c line 53: Bad assignment ( string vs unknown ).
+d/kaifeng/npc/quest.c line 242: Type mismatch ( string vs unknown ) when initializing id
+u/valen/guestroom.c line 22: parse error
+u/valen/guestroom.c line 22: parse error
+u/valen/guestroom.c line 22: parse error
+d/city/silao.c line 61: Warning: Value of conditional expression is unused
+d/city/silao.c line 62: Warning: Value of conditional expression is unused
+u/valen/guestroom.c line 21: parse error
+u/valen/guestroom.c line 21: parse error

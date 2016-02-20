@@ -1,0 +1,3 @@
+#/obj/home.c
+dbase (["id":"h_hutu","exits":(["out":"/d/changan/ph",]),"long":"一朵朵雪白的白云 盈盈的围绕着这座建在断情崖上的石屋紧闭的红色大门上贴着绝情谷谷主自己写的一副对联      居独屋，守空谷，隐名埋姓      绝七情，断六欲，返朴归真","no_magic":1,"no_get":1,"short":"绝情山庄","no_fight":1,"name":"绝情山庄","bed_short":"断情床","file_name":"h_hutu","env":(["invisibility":1,]),"home_host":({"hutu","xlan",}),"bed_long":"这是一张装饰豪华的紫檀木大床 窗头上刻着 绝情床 三个字传说在这睡过一觉的人 都会变的绝情 冷漠.........",])
+out "/d/changan/ph"

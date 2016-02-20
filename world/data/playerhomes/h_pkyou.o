@@ -1,0 +1,3 @@
+#/obj/home.c
+dbase (["home_host":({"pkyou","xlan",}),"name":"月牙儿皇宫","long":"宁静的天空中，微风袭袭，一朵朵巨大的云彩围绕着月牙儿皇宫金碧辉煌的宫殿是皇宫的主人麦克小狼劳累了一天最想去的地方宫殿里的小桥，厅阁，花园.....处处留下了宫殿主人相爱的身影.......","bed_long":"高雅舒适的月亮船上，一对雪白.蓬松的羽绒枕头，金色的缎子被柔和的月光洒在四周明亮的镜子上，让人浮想联翩.......","exits":(["out":"/d/changan/ph",]),"id":"h_pkyou","short":"月牙儿皇宫","file_name":"h_pkyou","no_magic":1,"no_get":1,"env":(["invisibility":1,]),"bed_short":"月亮船","no_fight":1,])
+out "/d/changan/ph"

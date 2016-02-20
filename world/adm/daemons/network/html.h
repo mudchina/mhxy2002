@@ -1,0 +1,1 @@
+string head="<html><head>\n</head>\n<body bgcolor=#9DC9F4>\n"; string tail="<br><br><br><center><font face=宋体 color=0000ff>世纪西游巫师工作组</font></center></body>\n</html>"; 

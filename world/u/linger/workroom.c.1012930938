@@ -1,0 +1,12 @@
+// This is a room made by roommaker.
+
+inherit ROOM;
+
+#include <ansi.h>
+void create()
+{
+        set("short", RED"浴缸"NOR);
+set("long", MAG"你站在一个欧式豪华冲浪按摩温泉大浴缸里面。\n");
+	setup();
+	replace_program(ROOM);
+}

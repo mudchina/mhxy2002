@@ -1,0 +1,127 @@
+Commonwealth Network 
+
+zMUD中的函数和变量
+变量 函数 地图函数 
+
+zMUD中的变量
+   变量与别名非常相似。不同之处在于别名只能在一条命令的开始被扩展，而变量可以在任何地方被扩展。扩展变量时你需要在变量名之前加上@字符，你可以使用#VARIABLE命令来定义一个变量，例如：
+#VAR container waterskin
+这条命令将字符串waterskin赋值给变量container。这样，fill @container命令将被扩展成fill waterskin。另外，你也可以使用=来给变量赋值。
+   如果在General Preferences设置中的Expand Vars可用，变量也可以直接在命令行上被扩展。如果设置中的Expand Vars不可用，想在命令行上扩展变量就需要将变量用<>包起来，象下面这样：
+fill <@container>
+这条命令将被强制解释成fill waterskin。
+系统变量
+zMUD提供了一些预先定义的系统变量，与自定义变量不同的是，这些系统变量以字符%开头。下面是系统变量的简单介绍：
+%action 最后一次触发所执行的命令。 
+%char 你在这个MUD中的ID。 
+%cr 换行。 
+%ctime 以秒为单位表示的你的连线时间。 
+%def 当前使用的特殊字符。 
+%host 当前连线的MUD的域名或IP地址。 
+%i 与%repeatnum相同。 
+%lastcom 最后被执行的命令。 
+%lastcom2 倒数第二个被执行的命令。 
+%lastcom3 倒数第三个被执行的命令。 
+%lastinput 我没试出来，谁能告诉我？:-( 
+%line 从MUD中得到的最后一行文本。 
+%line2 从MUD中得到的倒数第二行文本。 
+%line3 从MUD中得到的倒数第三行文本。 
+%param1 从最后一次触发中获得的第一个参数。也可写成%1。 
+%param2..%param99 从最后一次触发获得的其他参数。 
+%port 当前连线的端口号。 
+%random 产生一个0至99之间的随机数。 
+%repeatnum 当前循环命令的索引。可写成%i。（参见loop命令） 
+%selected 当前选中的文本或命令。 
+%selline 当前选中的行。 
+%selword 当前选中的单词。 
+%title 当前MUD的标题。 
+%trigger 引起最近一次触发的行。 
+%window 当前窗口的标题。 
+
+zMUD中的函数
+下面是zMUD中定义的函数
+%abs(i) 返回i的绝对值 
+%additem(s,list) 增加字符串s到字符串列表list中 
+%alias(s) 显示别名s的内容 
+%ansi(fore,back) 返回给定颜色的ANSI代码 
+%begins(s1,s2) 如果字符串s1在字符串s2的开头，返回true 
+%btncol(button,back,fore) 改变按钮的颜色 
+%btnimage(button,filename) 改变按钮的图案 
+%case(i,s1,s2,s3...) 如果i=1，返回s1，...，最多不超过8个 
+%char(i) 返回ASCII码所代表的字符，可用于显示系统定义的特殊字符 
+%color(fore,back) 返回颜色的属性 
+%concat(s1,s2,s3..) 字符串相加，最多不超过9个 
+%copy(s,i,n) 返回字符串s的一部分，从第i个字符开始，共n个字符 
+%ddeopen(serv,topic) 打开一个DDE连接 
+%ddeclose 关闭一个DDE连接 
+%dde(serv,topic,item) 使用DDE读取数据 
+%ddemacro(serv,topic,s) 使用DDE执行命令 
+%ddepoke(serv,topic,item,value) 使用DDE写数据（参见#DDE命令） 
+%delete(s,i,n) 删除字符串s中从第i字符开始的n个字符 
+%delitem(s,list) 从字符串列表list中删除字符串s 
+%ends(s1,s2) 如果s1在s2的尾部，返回true 
+%exec(s1,s2,...) 执行s1,s2,... 
+%expand(s) 扩展字符串s中的变量和函数 
+%eval(p) 返回表达式p的结果 
+%format(f,a,b,c,d...) 格式化值a,b,c,...，f的形式为%w.dx，其中w表示长度，d表示小数位，x表示数据类型：s是字串，n是数字，f是浮点数，m是货币表示 
+%getglobal(name) 返回全局变量name的值，全局变量保存在.ini文件中 
+%grep(i,s) 搜索文件号i并返回与字串s匹配的行号 
+%if(expression, true-value,false-value) 如果表达式为true，返回true-value，否则返回false-value 
+%insert(p,s,i) 在字串s的第i个字符处插入字串p 
+%ismember(s,list) 如果字串s在字串列表list中，返回true 
+%isnumber(s) 如果字串s是数字，返回true 
+%left(s,n) 从字串s中截取最左边的n个字符 
+%leftback(s,n) 从倒数第n个字符开始，截取字串s最左边的部分 
+%len(s) 返回字串s的长度 
+%lower(s) 将字串s转成小写 
+%max(a,b,c,d...) 取最大值 
+%min(a,b,c,d...) 取最小值 
+%mod(a,b) 取模 
+%null(s) 如果字串s为空，返回true 
+%numwords(s,d) 返回字串s中的单词数，d为单词分隔符，默认值是空格 
+%number(s) 把字串s转换成数字 
+%pick(s1,s2,s3,...) 显示picklist，并让用户选择一个或一个以上的字串，如果选择的字串超过一个，返回的值以|分隔。参见#pick命令 
+%pos(p,s) 返回字串p在字串s中的位置，如果p不在s中，返回0/false 
+%proper(s) 将单词中除第一个字母外的其他所以字母转成小写 
+%prompt(v,p) 提示用户给变量v赋值，p表示口令模式，输入将不会回显 
+%random(i,j) 返回一个>=i并<=j的随机数，如果省略j，则返回0～i间的随机数 
+%read(i,rec) 从文件i中读取记录rec 
+%remove(p,s) 在字串s中删除子串p 
+%repeat(s,n) 重复返回字串s共n次 
+%replace(s,p,r) 在字串s中搜索字串p并替换成字串r 
+%right(s,n) 从字串s中截取最右边的n个字符 
+%rightback(s,n) 从倒数第n个字符开始，截取字串s最右边的部分 
+%setglobal(name,value) 给全局变量name赋值 
+%time(format) 返回当前的日期时间，如果format省略，将返回详细的日期时间信息，可以在format串中使用dd, mm, mmm, yy, hh, mm, ss,等返回所需要的信息 
+%trigger(class) 如果指定的trigger class 可用，返回true 
+%trim(s) 消除字串两端的空格 
+%trimleft(s) 消除字串左端的空格 
+%trimright(s) 消除字串右端的空格 
+%upper(s) 转换成大写 
+%word(s,i,d) 返回字串s中的第i个单词，d指出字串的分隔符，如果省略，默认是空格 
+%write(i,s,rec) 写字串s到文件i的第rec个记录。如果rec为0，字串写入文件尾部。对于文本文件，rec将被忽略，s将追加的文件中。 
+%yesno(s) 显示问题s和按钮yes/no，根据按下的按钮返回true/false。参见#yesno命令。如果显示的按钮超过两个，返回的将是按钮号，可与#case连用。如果只显示两个按钮，可与#if命令连用以充分发挥其用途 。
+
+地图函数
+地图函数用来存取地图数据。[]中是可选项。如果省略房间（room）或区域（zone）参数，将存取当前房间或区域的值。房间号可以用代号（short name）代替。
+
+%roomname( room, [s]) 返回房间名或用字串s命名房间 
+%roomdesc( room, [s]) 返回房间描述或用字串s描述房间 
+%roomnum( room) 返回一个房间的编号 
+%roomid( room, [s]) 返回房间的代号，或用字串s增加或修改房间代号（short name） 
+%roomcom( room, [s]) 返回或设置进入房间后的执行的命令 
+%roomnote( room, [s]) 返回或设置房间备注 
+%roomexit( room, [s]) 返回或设置房间出口字串。出口字串用|分隔。 
+%roomobj( room, [i]) 返回或设置房间中对象的数量 
+%roommob( room, [i]) 返回或设置房间中npc的数量 
+%roomcost( room, [i]) 返回或设置进入房间所需的代价 
+%roomkind( room, [i]) 返回或设置房间类型。0＝普通，1＝水，2＝飞，3＝陷井。加128用于设置禁止入内标志 
+%roomflag( room, [i]) 返回或设置禁止入内标志，0＝flase，1＝true 
+%roomlink( room, dir, [i]) 返回或设置周围房间的编号。i=-1用于删除与某方向房间的连接。i=-2表示未知的连接 
+%roomportal( room, s, [i], [z]) 返回或设置一个非标准的出口（portal）。i表示将到达的房间号，z表示将到达的区域，s是判断是否通过非标出口的字串。参见地图详解 
+%numrooms() 返回当前区域的房间数目 
+%numzones() 返回当前地图中的区域数目 
+%parsemode(I) 返回或设置当前地图的分析模式。I=0表示详细分析，i=1表示简要分析，I=2分析look命令 
+%walk( i) 返回走到房间i的speedwalk字串 
+%zonename( zone, [s]) 返回或设置区域名 
+%zonenum( zone) 返回区域编号 

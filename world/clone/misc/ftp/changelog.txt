@@ -1,0 +1,413 @@
+Support ICQ UIN    24094953
+Support E-mail     support@flashfxp.com
+Web Site           http://www.flashfxp.com
+Order FlashFXP     http://www.flashfxp.com/order.html
+Mailing List       http://www.onelist.com/subscribe.cgi/flashfxp
+Beta Mailing List  http://www.onelist.com/subscribe.cgi/flashfxp_beta
+--------------------------------------------------------------------------
+This file contains detailed changes made to the latest beta releases
+
+Build 640
+- Minor bug fixes
+
+Build 639
+- Minor bug fixes
+
+Build 638
+- Fixed menu placement glitch which effected people with multiple
+  monitors. Special thanks to manik_d for helping me resolve this issue.
+- After lots and lots of debugging we've eliminated a strange bug
+  a few users have experienced. When queuing a folder for ftp download
+  FlashFXP failed to display the active folder in the local view.
+  Special thanks to Linkster for debugging and constantly bugging me 
+  about this issue until it was fixed.
+- FlashFXP will no longer retry files rejected by upload verification
+  scripts provided the transfer failed reply contains the word 
+  "rejected" (i.e warftpd) or "quota exceeded" (*nix shells)
+- Added SITE <host> <port> to the proxy list, in doing so the order of
+  proxy list has changed. Please verify your proxy settings.
+
+Build 637
+- Fixed, If the user enabled the schedule then disable it, then
+  changed the start time to the current time FlashFXP would start the
+  scheduled queue even though it was disabled.
+- Added a on transfer complete selection to the schedule dialog.
+- When selecting the desktop in the local view, the file sizes and
+  dates now appear where previously they were blank.
+- Added support for file listing with non-english timestamps, while
+  FlashFXP is unable to display the correct date it is now able to
+  display those items in the file list.
+
+Build 636
+- On Transfer complete: Turn off computer, should now work correctly
+  under windows 2000.
+- Reverted the local view dropdown path box to an older version as
+  some users encountered an incorrect display of paths with the newer.
+
+Build 635
+- What would I do without Wild-Rose, today she comes to me and says
+  she found a bug, I didn't want to believe it. Sure enough she found
+  a bug. After adding/deleting/renaming a site in the site manager
+  FlashFXP neglected to refresh the drop-down connect menu. With
+  change there is always room for error, I rewrote some code to
+  improved the performance of the site list caching with this new
+  design a variable was used to determine if the list was modified.
+  This variable was neglected to be reset under the above conditions.
+
+Build 634
+- No changes.
+
+Build 630-633
+- Resolved a rare problem where the local view would jump around after
+  a ftp download. Sometimes even accessing cd-rom and zipdrives.
+  Special thanks to BaHAmuT for helping me resolve this issue.
+
+Build 629
+- The local & remote view dropdown box and the local & remote treeview
+  now make use the font styles defined by the file listing font.
+  i.e. If the user selected bold the text wasn't displayed in bold.
+
+Build 627-628
+- No changes.
+
+Build 626
+- Fixed a bug where if the site manager only contains one site and
+  the user deletes it, attempting to add a site would cause an access
+  violation.
+
+Build 625
+- Improved handling for ftp urls with % sequences.
+- Fixed a bug where FlashFXP would sometimes prevent the user from
+  moving an item to the top of the queue, it would only allow the
+  second position.
+
+Build 624
+- Minor improvements to the local view and improved error handling.
+
+Build 623
+- Fixed a strange problem were FlashFXP would sometimes hang at 99%
+  on ftp uploads.
+- Fixed another strange problem which caused FlashFXP to AV on exit.
+- Fixed a bug where having a list sort direction of descending
+  caused a "List index out of bounds (0)" on start up.
+
+Build 621-622
+- No changes.
+
+Build 620
+- The user can now define the default column sort for the local
+  view via the Preferences | Display tab.
+
+Build 619
+- Fixed a list parsing error with Windows NT FTPD which caused
+  file names with excess spaces to be truncated.
+- Sorry everyone, It seems when I tweaked the status window
+  I overlooked the user defined background color, which causes
+  the text to have a default window background on top of your
+  custom background color. ewwwww very unattractive.
+
+Build 618
+- It seems sometime during the last couple builds I accidently
+  striped the line feeds from the copy selection of the status
+  window, this has been corrected.
+- I've improved many aspects of the status display, reducing
+  some overhead and memory usage, and gained a bit of speed.
+- FlashFXP should now correctly shutdown Windows 2000.
+
+Build 617
+- Under some circumstances when doing a site to site transfer and
+  both sites error, FlashFXP would end up in a loop of switching
+  between normal and alternative FXP.
+- Resolved several issues with the internal editor under win2k.
+- The layout for the file view/edit extension dialog has been
+  modified for ease of use.
+
+Build 616
+- FlashFXP should now display folders/files which end in a space
+  correctly.
+
+Build 615
+- No changes.
+
+Build 614
+- Under some circumstances the associated file icon for an item in
+  the queue was not being displayed.
+- I've made some changes to how FlashFXP cleans up on exit, hopefully
+  this resolves the random errors on exit that a few people have
+  reported.
+
+Build 613
+- The FTP Directory Tree has been reverted back to the old style
+  where a single click changes the current directory, however I've
+  also added "Double click changes FTP Directory Tree" to the
+  Options Tab.
+
+Build 612
+- Once again we're using UPX v1.01, the last several builds utilized
+  PE Compact and some users reported a conflict with AVP causing
+  FlashFXP to take an extra long time to load up.
+  AVP is looking into it.
+
+Build 611
+- No changes.
+
+Build 610
+- It was brought to my attention that you couldn't drag drop from the
+  remote treeview to the local listview, Support has been added to
+  allow this.
+
+Build 609
+- Resolved several display issues when using windows large fonts.
+
+Builds 604-608
+- No changes.
+
+Build 603
+- When entering a url from the quick connect that contains a hex
+  escape syntax (i.e %20), FlashFXP first attempts to change into
+  the directory, but if it fails, it then converts the hex escape
+  syntax into the true characters and attempts to change into that.
+
+Build 602
+- Fixed a problem with Calculate disk space not changing back to the
+  original path once completed.
+- The FTP transfer progress bar is now made up of two colors. when
+  resuming a file the percentage already transferred is displayed in a
+  dark yellow, while the new progress will be displayed in yellow,
+  this will give the user a better idea of how much has transferred
+  since the file was resumed.
+
+Build 600-601
+- Tweaked the popup menu, It shouldn't disappear anymore.
+
+Build 598-599
+- No changes.
+
+Build 597
+- Pressing Abort a second time in the Calculate Space Used dialog
+  forces an abort.
+
+Build 596
+- Resolved several minor problems related to the pop up menus.
+  Thanks Wild-Rose for helping me.
+- On the On Transfer Complete menu Disconnect Site(s) and Quit
+  FlashFXP were reversed. Thanks again Wild-Rose =)
+- Changed CHMOD, you can now manually enter the file mode.
+
+Build 595
+- It seems also double-clicking the status window cleared the
+  clipboard.
+
+Build 594
+- The List Queue now utilizes system icons for the files/folders
+  icons.
+- Pressing Cancel on the Copy Url dialog no longer reports invalid
+  password.
+
+Build 593
+- If the user compares folders during a transfer it messed up the
+  transfer progress bar because they both use the same progress bar.
+  The compare folder progress bar is now suppressed during transfers.
+
+Build 591
+- When double-clicking the status window sometimes it would copy the
+  text below the cursor to the clipboard, this was not the intended
+  effect and has been resolved.
+- Under some circumstances the file transfer mode was not set
+  correctly, I am very positive that it has been completed fixed.
+
+Builds 589-590
+- No significant changes
+
+Build 588
+- Added Confirmation to save changed to an edited site in the site
+  manager. By default this will be enabled, you can disable it via
+  the Preferences on the Options tab.
+
+Build 587
+- Several improvements made to the internal editor.
+
+Build 586
+- No significant changes
+
+Build 585
+- When renaming a site in the Site Manager it now supports simple case
+  manipulation, previously this reported an error saying the site
+  already existed. Reported by Raccoon.
+- After adding a site in the Site Manager, Attempting to delete it
+  before pressing Apply would result in the site not being deleted.
+  This has been resolved. Reported by Raccoon.
+
+Builds 580-584
+- No significant changes
+
+Build 579
+- Fixed remote view sort, it wasn't sorting by the value set in the
+  Preferences on start up.
+- Cleaned up the sorting routine code.
+
+Build 578
+- No changes
+
+Build 577
+- Fixed left side bookmark popup. I was tinkering around with my
+  code and forgot to revert things back to the working method.
+
+Build 576
+- Fixed Access violation when starting flashfxp or closing the
+  preferences, this was caused when the local view was set to
+  a directory which was empty.
+
+Build 575
+- Under some conditions right clicking the status window cleared the
+  clipboard. Reported by Whoppie.
+- Back in build 561 I found out that I had to set the transfer mode
+  before getting the current file size when uploading, This caused
+  a hidden problem where sometimes FlashFXP was not setting the
+  correct transfer mode. Reported by Usurper.
+
+Build 574
+- Added support to handle "MACOS Peter's Server" PASV replies which
+  are non-standard.
+- Well it seems that change made back in build 561 "Recursive queuing
+  is now handled differently" caused another problem with GLFTPD,
+  where spaces are replaced with a "_". This has been corrected.
+  Reported by Usurper.
+
+Build 573
+- If FlashFXP fails to make a directory it no longer tries to remove
+  it if 'clean up empty directories' is enabled.
+
+Build 572
+- No changes
+
+Build 571
+- No changes
+
+Build 570
+- When 'Close unused ftp connections during transfer' was unchecked
+  and the user is connected to two sites doing a local download on the
+  left side, if the right ftp is disconnected the status bar is wiped
+  out. Thanks Raccoon for pointing this out
+  .
+- Corrected the proxy types as some of the descriptions were reversed.
+
+- To resolve a problem with using %[] in custom commands, %[] is only
+  treated as a variable if the line contains a %d. Since %[] can only
+  be used in conjunction with %d dialogs.
+
+- That change made back in build 561 "Recursive queuing is now handled
+  differently" was case sensitive and caused some problems on GLFTPD
+  since it forces the first letter of the folder name as uppercase.
+  Reported by Usurper.
+
+Build 569
+- No changes
+
+Build 568
+- Major memory leak found and resolved. The option 'Flash window on
+  transfer complete' also flashes the tray icon when FlashFXP is
+  minimized to the system tray. The icon used for the flash effect was
+  not correctly handled causing a leak every time it flashed.
+
+Build 567
+- Drives that return -1 as the free space (usually network drives)
+  now bypass the 'Check free space on download' option.
+  Thanks Wild-Rose for pointing this out.
+
+Build 566
+- It appears the default ASCII file extension list did not initialize
+  until after the user opened the ASCII file extension dialog and
+  clicked OK. Thanks Peter for pointing this out.
+
+Build 565
+- Minor code improvements here and there.
+
+Build 564
+- There must be a conspiracy against me! 3 different people asked me
+  to allow them to change the 'On Ask wait 30 seconds then overwrite'
+  on the file exist options dialog in the past 24hrs.. Ok.. Ok.. its
+  now user defined.
+
+Build 563
+- Improved abort handling to calculate space used
+
+- When entering a directory in local view it now selects the first
+  item unless your backing out of a previous directory in that case
+  the previous directory is selected.
+
+Build 562
+- Added close button to the check space used dialog.
+
+- Toggling visible list view columns is now done by right clicking on
+  the column header and selecting customize. (Local view can be
+  customized too!)
+
+Build 561
+- Recursive queuing is now handled differently, as pointed out to me
+  by Usurper the existing method was crap.
+
+  Here is an example of how the existing way works using fxp, you
+  queue a folder on site 1, it enters the folder and queues the files,
+  it then makes/enters the folder on site 2 but if it fails it keeps
+  trying to change into the folder for the remaining files.
+
+  The new method, If you queue a folder on site 1 and its unable to
+  make/enter that folder on site 2 all files queued under that folder
+  are skipped.
+
+  No point trying to change into a folder that you failed to create
+  and doesn't exist.
+
+- jaybee reported a problem with ftp uploading on linux servers.
+  After extensive testing it appears there was a small bug with ftp
+  upload resuming on selective linux ftp servers. FlashFXP issues the
+  size command to determine the correct file size without having to
+  refresh the listing. some linux servers return the size based on the
+  transfer mode. To resolve this bug FlashFXP now sets the transfer
+  mode prior to checking the file size.
+
+- Rewrote parts of the local view (explorer) code, file listing should
+  be noticeably faster.
+
+- Rearranged the layout of the Restore Queue dialog so the options are
+  on top, this should help prevent accidently toggling of the options.
+
+- When local downloading and the file exist option was set to ask,
+  selecting resume caused the file to be overwrote. thanks
+  cyber_wizard for pointing this out.
+
+Build 560
+- Fixed another glitch in the unregister option.
+- Fixed serious problem with renaming sites within groups. Thanks
+  Raccoon for pointing this out.
+- ok so I broke anti-idle, its fixed again.
+
+Build 559
+- Fixed bug in remote Edit, FlashFXP was sending NOOP during the FTP
+  upload which may cause the transfer to hang.
+- Updated Live Update server list, removed flashfxp.castlegardens.com
+  as the 3rd server since it's history. For a trial period
+  www.flashfxp.com will act as the 1st server. (faster?)
+
+Build 558
+- Numerous improvements to the local view (shell explorer)
+- Fixed glitch in the expiration system. (first time users were given
+  a dialog which said ffxp had expired) Thanks Noah for pointing this
+  out.
+
+Build 557
+- Fixed minor glitch in the anti-idle.
+- Added extra debugging for linkster who noticed a strange problem
+  with the local view. problem not resolved.
+
+
+Build 555
+- Fixed a bug that prevented the user from unregistering FlashFXP.
+- Minor changes to the site manager.
+- Changed Internal Editor, The user can now use a different font for
+  the Welcome Message/Other text.
+- Added CheckPoint Firewall 1 support.
+----------------------------------------------------------------------
+--------
+Copyright 1998-2000 Charles DeWeese

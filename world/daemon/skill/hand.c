@@ -1,0 +1,4 @@
+// hand.c
+
+inherit SKILL;
+

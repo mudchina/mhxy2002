@@ -1,0 +1,21 @@
+//EDIT BY LUCAS
+inherit ROOM;
+
+void create ()
+{
+  set ("short", "河底");
+  set ("long", @LONG 
+这里是黑水河之底。从上面看此河水色漆黑，但从下往上看，
+水色确是清亮透彻，水中空空荡荡，连一条小鱼也没有。只
+有岸上的残枝枯草，在水中飘来荡去。
+LONG);
+
+  set("water", 1);
+  set("exits", ([ /* sizeof() == 2 */
+  "southwest" : __DIR__"hedi1",
+  "north" : __DIR__"hedi3",
+]));
+        setup();
+}
+
+

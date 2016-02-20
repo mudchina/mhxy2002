@@ -1,0 +1,141 @@
+###############################################################################
+#                      MudOS 0.9.20¶¨ÖÆÔËĞĞÉèÖÃÎÄ¼ş     ÓÉjjgodºº»¯           #
+###############################################################################
+# ×¢Òâ: ËùÓĞµÄÂŞÁĞÔÚÕâÀïµÄÂ·¾¶¶¼ÊÇºÍÕâ¸ömudlibÄ¿Â¼ÓĞ¹ØµÄ£¬³ıÁË                #
+#       mudlibÄ¿Â¼, ºÍbinariesÄ¿Â¼¡£                                          #
+# ÓÉ#¿ªÍ·µÄĞĞÊÇ±»ºöÂÔµÄ¡£                                                     #
+###############################################################################
+ 
+#Õâ¸öMUDµÄÃû×Ö
+name : ÃÎ»ÃÎ÷ÓÎ
+ 
+# ÔÊĞíÓÃ»§µÇÂ½µÄ¶Ë¿ÚºÅ
+port number : 6666 
+ 
+# µØÖ··şÎñÆ÷ÊÇÒ»¸öÈÃMUD±àÒëµÄÍâ²¿³ÌĞò¡£
+# InternetÓòÃûºÍ¶Ë¿Ú¡£ÇëÑ¡ÔñÒ»¸öÎ´ÓÃ¹ıµÄ¶Ë¿Ú¡£
+address server ip : localhost
+address server port : 8888
+ 
+# mudlibµÄ¾ø¶ÔÂ·¾¶
+mudlib directory : d:/gwbnroot/game/mhxy/world
+ 
+# ConfigÎÄ¼şºÍDriverµÄ¾ø¶ÔÂ·¾¶
+binary directory : d:/gwbnroot/game/mhxy
+ 
+# debug.log ºÍ×÷Õß/ÇøÓò¼ÍÂ¼´æ·ÅÎ»ÖÃ
+log directory : /log
+
+# ÓÃÀ´²éÑ¯#include <...>µÄÂ·¾¶£¨ÎÄ¼ş°üº¬µÄÍ·ÎÄ¼şÄ¿Â¼£©
+# Èç¹ûÓĞ¶à¸öÄ¿Â¼£¬ËüÃÇÖ®¼äÓÃ':'À´·Ö¸ô
+include directories : /include
+ 
+# ´æ´¢binariesµÄÄ¿Â¼.  (Èç¹ûBINARIESÒÑ¾­±»¶¨ÒåÁË¡£)
+save binaries directory : /binaries
+ 
+# ¶¨ÒåÁËMasterÎï¼şµÄÎÄ¼ş¡£
+master file : /adm/obj/master
+
+# ±»×Ô¶¯°üº¬µÄÈ«¾Ö¶¨ÒåÎÄ¼ş¡£ 
+global include file : <globals.h>
+
+# ¶¨ÒåËùÓĞµÄÈ«¾ÖÍâ²¿·ÂÕæº¯ÊıµÄÎÄ¼ş¡£
+simulated efun file : /adm/obj/simul_efun
+ 
+# Çå³öÎï¼şµÄÎÄ¼ş; Èç¹û½»»»Ê±¼äÎª0Ôò²»ÆôÓÃ
+swap file : /adm/tmp/swapfile
+ 
+# ½»ÌæµÄ debug.log ÎÄ¼şÃû (¼Ù¶¨±»Ö¸¶¨ÔÚ'log Ä¿Â¼')
+debug log file : debug.log
+
+# Èç¹ûÒ»¸öÎï¼ş±»left aloneÁËÒ»¶ÎÈ·¶¨µÄÊ±¼ä, ÄÇÃ´clean_upº¯Êı½«±»ºô½Ğ.
+# Õâ¸öº¯Êı¿ÉÒÔ×öÈÎºÎÊÂ¡£±ÈÈçËµ´İ»ÙÄÇ¸öÎï¼ş¡£Èç¹ûÕâ¸öº¯ÊıÃ»ÓĞ±»ÄÇ¸öÎï¼ş¶¨Òå£¬
+# ÄÇÃ´£¬Ê²Ã´ÊÂ¶¼²»»á·¢Éú¡£
+# Õâ¸öÊ±¼ä±ØĞëÔ¶´óÓÚswapping time.
+time to clean up : 600
+ 
+# Ò»¸öÎ´ÓÃµ½µÄÎï¼ş½«ÔÚ¶à³¤Ê±¼äºóÇå³öÄÚ´æ¡£
+# Íæ¼Ò¶à¶øÄÚ´æĞ¡µÄ·şÎñÆ÷: 900 (15 ·ÖÖÓÒ»´Î)
+# Íæ¼ÒÉÙ¶øÄÚ´æ´óµÄ·şÎñÆ÷: 10000
+# Èç¹ûÓĞÎŞÏŞÄÚ´æµÄ·şÎñÆ÷£º0£¨ÓÀ²»Çå³ı£©
+time to swap : 300 
+ 
+# ¶à³¤Ê±¼äÄÚÎï¼ş½«±»ÖØÖÃ.
+time to reset : 900
+ 
+# ÔÚÒ»¸öbit fieldÖĞbitsµÄ×î´óÊıÄ¿. ËüÃÇ±»´æ·ÅÎª¿ÉÏÔÊ¾µÄ×Ö·û´®6 bits per byte.
+maximum bits in a bitfield : 1200
+ 
+# ÔÚÒ»¸öº¯ÊıÖÓµÄ±¾µØ±äÁ¿×î´óÊıÄ¿
+maximum local variables : 30
+ 
+# Õâ¸öºÜÖØÒª£¡
+maximum evaluation cost : 400000
+ 
+# ×î´óÊı×é´óĞ¡¡£
+maximum array size : 30000
+
+# ×î´óµÄ 'buffer'´óĞ¡¡£
+maximum buffer size : 400000
+ 
+# Ó³ÉäµÄ×î´óÖµ
+maximum mapping size : 30000
+ 
+# ×î´ó¼Ì³ĞÁ´´óĞ¡
+inherit chain size : 30
+ 
+#×Ö·û±äÁ¿µÄ×î´óÖµ
+maximum string length : 200000
+ 
+#  'read_file()'º¯ÊıÔÊĞíÔÄ¶ÁµÄ×î´óÎÄ¼ş´óĞ¡.
+maximum read file size : 400000
+ 
+# ÔÊĞíÊ¹ÓÃread_bytes ºÍwrite_bytes¶ÁĞ´µÄ×î´ó×Ö½ÚÊıÄ¿
+maximum byte transfer : 50000
+ 
+# Reserve an extra memory area from malloc(), to free when we run out
+# of memory; so begins Armageddon.
+# If this value is 0, no area will be reserved.
+reserved size : 0
+ 
+# Define the size of the shared string hash table.  This number should
+# a prime, probably between 1000 and 30000; if you set it to about 1/5
+# of the number of distinct strings you have, you will get a hit ratio
+# (number of comparisons to find a string) very close to 1, as found strings
+# are automatically moved to the head of a hash chain.  You will never
+# need more, and you will still get good results with a smaller table.
+hash table size : 7001
+ 
+# Object hash table size.
+# Define this like you did with the strings; probably set to about 1/4 of
+# the number of objects in a game, as the distribution of accesses to
+# objects is somewhat more uniform than that of strings.
+object table size : 1501
+ 
+# È±Ê¡µÄÖ¸Áî´íÎó·µ»ØÏûÏ¢
+default fail message : [1;34mÊ²Ã´£¿[2;37;0m
+
+# Å¼È»·¢ÉúµÄ´íÎóµÄÈ±Ê¡ÏûÏ¢£¨¿ÉÑ¡Ïî£©
+default error message : [41m[1;33mÄã·¢ÏÖÊÂÇé²»´ó¶ÔÁË£¬µ«ÊÇÓÖËµ²»ÉÏÀ´¡£[2;37;0m
+
+###############################################################################
+#          ÏÂÁĞ¸÷Ïî»¹Ã»ÓĞÆÕ±éÔËÓÃ»òÖ´ĞĞ                                         #
+###############################################################################
+
+# ×î´óÓÃ»§ÊıÁ¿
+maximum users : 300
+
+# ¶¨ÒåÓÃÓÚ¶ÑÕ»»úÆ÷µÄ×î´ó¶ÑÕ»´óĞ¡. Õâ¸ö¶ÑÕ»Ò²ÄÜ¹»°üº¬ËùÓĞ±¾µØµÄvariablesºÍarguments.(Ã»ÓĞÆÕ±éÔËÓÃ)
+evaluator stack size : 1000
+ 
+# ¶¨Òå±àÒëÆ÷¶ÑÕ»µÄ´óĞ¡¡£ Õâ¸ö¶¨ÒåÄÜ×ÛºÏ±àÒëÆ÷ÄÜ¹»·ÖÎöµÄ±í´ïÊ½.  (Ã»ÓĞÆÕ±éÔËÓÃ)
+compiler stack size : 200
+ 
+# ¶¨Òåº¯ÊıµÄ×î´óºô½ĞÉî¶È (Ã»ÓĞÆÕ±éÔËÓÃ)
+maximum call depth : 30
+
+# ÕâÊÇÒ»¸öÓÃÓÚÉúÎïµÄhash table, ÓÉfind_living()º¯ÊıÊ¹ÓÃ.
+# (Ã»ÓĞÆÕ±éÔËÓÃ)
+living hash table size : 100
+
+

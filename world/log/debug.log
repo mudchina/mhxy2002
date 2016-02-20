@@ -1,0 +1,2830 @@
+Can't find "mudos", ignoring old binaries.
+Try invoking the driver using the full pathname.
+Connected to address server on localhost port 8888
+
+Loading preloaded files ...
+Initializations complete.
+
+Accepting connections on port 6666.
+
+执行时段错误：*Bad argument 1 to call_other()
+Expected: string or array or object Got: 0.
+
+程序：d/qujing/wudidong/npc/yushu.c 第 277 行
+物件：/d/qujing/wudidong/npc/yushu#2011
+呼叫来自：d/qujing/wudidong/npc/yushu.c 的 greeting() 第 277 行，物件： d/qujing/wudidong/npc/yushu#2011 ("玉鼠精")
+调用参数：greeting(0)
+局部变量：NULL, NULL, NULL, NULL, NULL
+this_player: d/qujing/wudidong/npc/yushu#2011 ("玉鼠精")
+          <- d/qujing/wudidong/inner-tang
+previous_object(0): d/qujing/wudidong/npc/yushu#2011 ("玉鼠精")
++----------------------------------------------------------------------+
+
+
+执行时段错误：*Wrong permissions for opening file /u/wuqi/log for append.
+"No such file or directory"
+
+程序：adm/obj/master.c 第 148 行
+物件：/adm/obj/master
+呼叫来自：feature/command.c 的 command_hook() 第 83 行，物件： obj/user#1127 ("田林")
+调用参数：command_hook("u/tianlin/wuqi/daoju/taowang.c")
+局部变量："update", "/cmds/wiz/update"
+呼叫来自：cmds/wiz/update.c 的 main() 第 56 行，物件： cmds/wiz/update
+调用参数：main("/u/tianlin/wuqi/daoju/taowang.c")
+局部变量：NULL, 0, NULL, NULL
+呼叫来自：cmds/wiz/update.c 的 CATCH() 第 56 行，物件： cmds/wiz/update
+调用参数：CATCH()
+局部变量：
+呼叫来自：adm/obj/master.c 的 log_error() 第 148 行，物件： adm/obj/master
+调用参数：log_error("u/tianlin/wuqi/daoju/taowang.c", "u/tianlin/wuqi/daoju/taowang.c line 46: parse error
+")
+局部变量："wuqi", "/u/wuqi/"
+this_player: obj/user#1127 ("田林")
+          <- u/tianlin/workroom
+previous_object(0): adm/obj/master
+previous_object(1): cmds/wiz/update
+previous_object(2): obj/user#1127 ("田林")
++----------------------------------------------------------------------+
+
+u/tianlin/wuqi/daoju/taowang.c line 46: parse error
+错误讯息被拦截：
+执行时段错误：*Error in loading object '/u/tianlin/wuqi/daoju/taowang'
+
+程序：cmds/wiz/update.c 第 56 行
+物件：/cmds/wiz/update
+呼叫来自：feature/command.c 的 command_hook() 第 83 行，物件： obj/user#1127 ("田林")
+调用参数：command_hook("u/tianlin/wuqi/daoju/taowang.c")
+局部变量："update", "/cmds/wiz/update"
+呼叫来自：cmds/wiz/update.c 的 main() 第 56 行，物件： cmds/wiz/update
+调用参数：main("/u/tianlin/wuqi/daoju/taowang.c")
+局部变量：NULL, 0, NULL, NULL
+呼叫来自：cmds/wiz/update.c 的 CATCH() 第 56 行，物件： cmds/wiz/update
+调用参数：CATCH()
+局部变量：
+this_player: obj/user#1127 ("田林")
+          <- u/tianlin/workroom
+previous_object(0): cmds/wiz/update
+previous_object(1): obj/user#1127 ("田林")
++----------------------------------------------------------------------+
+
+get_user_data: read on fd 596
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 616
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 568
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 588
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 540
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 632
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 580
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 684
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 660
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 660
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 660
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 564
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 560
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 580
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 532
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 656
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 600
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 536
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 596
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 536
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 636
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 696
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 668
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 692
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 692
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 692
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 700
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 708
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 708
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 604
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 692
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 692
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 604
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 604
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 648
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 648
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 692
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 692
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 692
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 692
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 692
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 692
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 692
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 596
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 596
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 636
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 564
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 564
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 692
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 692
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 600
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 564
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 560
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 552
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 684
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 660
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 636
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+
+执行时段错误：*Bad argument 1 to call_other()
+Expected: string or array or object Got: 0.
+
+程序：d/qujing/xiaoxitian/obj/baoreal.c 第 201 行
+物件：/d/qujing/xiaoxitian/obj/baoreal#19488
+呼叫来自：d/qujing/xiaoxitian/obj/baoreal.c 的 reviving() 第 201 行，物件： d/qujing/xiaoxitian/obj/baoreal#19488 ("旧白布搭包")
+调用参数：reviving(0)
+局部变量：
+previous_object(0): d/qujing/xiaoxitian/obj/baoreal#19488 ("旧白布搭包")
++----------------------------------------------------------------------+
+
+
+执行时段错误：*Bad argument 1 to call_other()
+Expected: string or array or object Got: 0.
+
+程序：d/qujing/xiaoxitian/obj/baoreal.c 第 201 行
+物件：/d/qujing/xiaoxitian/obj/baoreal#19488
+呼叫来自：d/qujing/xiaoxitian/obj/baoreal.c 的 reviving() 第 201 行，物件： d/qujing/xiaoxitian/obj/baoreal#19488 ("旧白布搭包")
+调用参数：reviving(0)
+局部变量：
+previous_object(0): d/qujing/xiaoxitian/obj/baoreal#19488 ("旧白布搭包")
++----------------------------------------------------------------------+
+
+get_user_data: read on fd 572
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 536
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 676
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 684
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 684
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 564
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 700
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 700
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 700
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 532
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 532
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 532
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 536
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 652
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 652
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 652
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 616
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 616
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 580
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 580
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 536
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 536
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 536
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 600
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 572
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 580
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 580
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 580
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 608
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 608
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 608
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 552
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 648
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 568
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 568
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 644
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 596
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 596
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 596
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 596
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 596
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 608
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 608
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 608
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 608
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 608
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 608
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 648
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 552
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 552
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 580
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 600
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 640
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 640
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 512
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 512
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 512
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 512
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 700
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 700
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 700
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 700
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 700
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 700
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 700
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 564
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 684
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 684
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 552
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 644
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+
+执行时段错误：*Bad argument 1 to call_other()
+Expected: string or array or object Got: 0.
+
+程序：d/qujing/xiaoxitian/obj/baoreal.c 第 201 行
+物件：/d/qujing/xiaoxitian/obj/baoreal#19488
+呼叫来自：d/qujing/xiaoxitian/obj/baoreal.c 的 reviving() 第 201 行，物件： d/qujing/xiaoxitian/obj/baoreal#19488 ("旧白布搭包")
+调用参数：reviving(0)
+局部变量：
+previous_object(0): d/qujing/xiaoxitian/obj/baoreal#19488 ("旧白布搭包")
++----------------------------------------------------------------------+
+
+
+执行时段错误：*Bad argument 1 to call_other()
+Expected: string or array or object Got: 0.
+
+程序：d/qujing/xiaoxitian/obj/baoreal.c 第 201 行
+物件：/d/qujing/xiaoxitian/obj/baoreal#19488
+呼叫来自：d/qujing/xiaoxitian/obj/baoreal.c 的 reviving() 第 201 行，物件： d/qujing/xiaoxitian/obj/baoreal#19488 ("旧白布搭包")
+调用参数：reviving(0)
+局部变量：
+previous_object(0): d/qujing/xiaoxitian/obj/baoreal#19488 ("旧白布搭包")
++----------------------------------------------------------------------+
+
+get_user_data: read on fd 704
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 532
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 708
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 588
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 588
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 588
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 664
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 664
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 564
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 564
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 592
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 592
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 680
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 596
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 696
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 588
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 596
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 596
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 596
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 588
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 588
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 640
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 600
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 696
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 536
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 608
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 652
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 652
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 600
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 600
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 608
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 644
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 636
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 636
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 636
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 672
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 672
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 672
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 612
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 652
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 652
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 652
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 652
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 652
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 672
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 672
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 672
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 612
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 612
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 568
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 568
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 568
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 568
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 576
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 672
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 672
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 672
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 672
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 672
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 672
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 672
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 672
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 672
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 672
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 652
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 644
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 696
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 592
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 512
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 708
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 584
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 584
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 544
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 544
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 584
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 664
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 664
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 664
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 664
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 596
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 596
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 664
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 664
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 664
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 664
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 544
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 544
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 708
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+
+执行时段错误：*Error in loading object '/u/valen/guestroom'
+
+程序：cmds/std/go.c 第 72 行
+物件：/cmds/std/go
+呼叫来自：feature/command.c 的 command_hook() 第 83 行，物件： obj/user#23436 ("雲")
+调用参数：command_hook("east")
+局部变量："go", "/cmds/std/go"
+呼叫来自：cmds/std/go.c 的 main() 第 72 行，物件： cmds/std/go
+调用参数：main("east", NULL)
+局部变量："/u/valen/guestroom", NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, ([ ... ]), NULL, ([ ... ]), ([ ... ]), ([ ... ]), ([ ... ])
+this_player: obj/user#23436 ("雲")
+          <- u/valen/workroom
+previous_object(0): cmds/std/go
+previous_object(1): obj/user#23436 ("雲")
++----------------------------------------------------------------------+
+
+
+执行时段错误：*Error in loading object '/u/valen/guestroom'
+
+程序：cmds/std/go.c 第 72 行
+物件：/cmds/std/go
+呼叫来自：feature/command.c 的 command_hook() 第 83 行，物件： obj/user#23436 ("雲")
+调用参数：command_hook("east")
+局部变量："go", "/cmds/std/go"
+呼叫来自：cmds/std/go.c 的 main() 第 72 行，物件： cmds/std/go
+调用参数：main("east", NULL)
+局部变量："/u/valen/guestroom", NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, ([ ... ]), NULL, ([ ... ]), ([ ... ]), ([ ... ]), ([ ... ])
+this_player: obj/user#23436 ("雲")
+          <- u/valen/workroom
+previous_object(0): cmds/std/go
+previous_object(1): obj/user#23436 ("雲")
++----------------------------------------------------------------------+
+
+
+执行时段错误：*Error in loading object '/u/valen/guestroom'
+
+程序：feature/move.c 第 115 行
+物件：/obj/user#23436
+呼叫来自：feature/command.c 的 command_hook() 第 83 行，物件： obj/user#23436 ("雲")
+调用参数：command_hook("/u/valen/guestroom")
+局部变量："goto", "/cmds/eld/goto"
+呼叫来自：cmds/eld/goto.c 的 main() 第 35 行，物件： cmds/eld/goto
+调用参数：main("/u/valen/guestroom.c")
+局部变量：0, 0, NULL, NULL, NULL
+呼叫来自：feature/move.c 的 move() 第 83 行，物件： obj/user#23436 ("雲")
+调用参数：move("/u/valen/guestroom.c", NULL)
+局部变量：
+呼叫来自：feature/move.c 的 _move() 第 115 行，物件： obj/user#23436 ("雲")
+调用参数：_move("/u/valen/guestroom.c", NULL)
+局部变量：NULL, NULL, NULL, NULL, NULL, "", "", NULL, "", NULL, NULL, NULL, NULL, NULL
+this_player: obj/user#23436 ("雲")
+          <- u/tianlin/guestroom
+previous_object(0): obj/user#23436 ("雲")
+previous_object(1): cmds/eld/goto
+previous_object(2): obj/user#23436 ("雲")
++----------------------------------------------------------------------+
+
+
+执行时段错误：*Bad argument 1 to environment()
+Expected: object Got: 0.
+
+程序：d/qujing/chechi/npc/jz2.c 第 180 行
+物件：/d/qujing/chechi/npc/jz2#29472
+呼叫来自：d/qujing/chechi/npc/jz2.c 的 get_player_out() 第 180 行，物件： d/qujing/chechi/npc/jz2#29472 ("监斩官")
+调用参数：get_player_out(0)
+局部变量：
+this_player: obj/user#6782 ("慧小")
+          <- obj/void
+previous_object(0): d/qujing/chechi/npc/jz2#29472 ("监斩官")
++----------------------------------------------------------------------+
+
+get_user_data: read on fd 512
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 692
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+
+执行时段错误：*Bad argument 1 to environment()
+Expected: object Got: 0.
+
+程序：d/qujing/chechi/npc/jz2.c 第 180 行
+物件：/d/qujing/chechi/npc/jz2#29472
+呼叫来自：d/qujing/chechi/npc/jz2.c 的 get_player_out() 第 180 行，物件： d/qujing/chechi/npc/jz2#29472 ("监斩官")
+调用参数：get_player_out(0)
+局部变量：
+this_player: obj/user#6782 ("慧小")
+          <- d/qujing/chechi/jieshi1
+previous_object(0): d/qujing/chechi/npc/jz2#29472 ("监斩官")
++----------------------------------------------------------------------+
+
+Broken connection during add_message.
+get_user_data: read on fd 660
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 512
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 756
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 592
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+
+执行时段错误：*Bad argument 1 to environment()
+Expected: object Got: 0.
+
+程序：d/qujing/chechi/npc/jz2.c 第 180 行
+物件：/d/qujing/chechi/npc/jz2#29472
+呼叫来自：d/qujing/chechi/npc/jz2.c 的 get_player_out() 第 180 行，物件： d/qujing/chechi/npc/jz2#29472 ("监斩官")
+调用参数：get_player_out(0)
+局部变量：
+this_player: obj/user#6782 ("慧小")
+          <- obj/void
+previous_object(0): d/qujing/chechi/npc/jz2#29472 ("监斩官")
++----------------------------------------------------------------------+
+
+get_user_data: read on fd 532
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 636
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 536
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+错误讯息被拦截：
+执行时段错误：*Error in loading object '/u/valen/guestroom'
+
+程序：cmds/wiz/update.c 第 56 行
+物件：/cmds/wiz/update
+呼叫来自：feature/command.c 的 command_hook() 第 83 行，物件： obj/user#23436 ("雲")
+调用参数：command_hook("/u/valen/guestroom.c")
+局部变量："update", "/cmds/wiz/update"
+呼叫来自：cmds/wiz/update.c 的 main() 第 56 行，物件： cmds/wiz/update
+调用参数：main("/u/valen/guestroom.c")
+局部变量：NULL, 0, NULL, NULL
+呼叫来自：cmds/wiz/update.c 的 CATCH() 第 56 行，物件： cmds/wiz/update
+调用参数：CATCH()
+局部变量：
+this_player: obj/user#23436 ("雲")
+          <- u/tianlin/guestroom
+previous_object(0): cmds/wiz/update
+previous_object(1): obj/user#23436 ("雲")
++----------------------------------------------------------------------+
+
+错误讯息被拦截：
+执行时段错误：*Error in loading object '/u/valen/guestroom'
+
+程序：cmds/wiz/update.c 第 56 行
+物件：/cmds/wiz/update
+呼叫来自：feature/command.c 的 command_hook() 第 83 行，物件： obj/user#23436 ("雲")
+调用参数：command_hook("/u/valen/guestroom.c")
+局部变量："update", "/cmds/wiz/update"
+呼叫来自：cmds/wiz/update.c 的 main() 第 56 行，物件： cmds/wiz/update
+调用参数：main("/u/valen/guestroom.c")
+局部变量：NULL, 0, NULL, NULL
+呼叫来自：cmds/wiz/update.c 的 CATCH() 第 56 行，物件： cmds/wiz/update
+调用参数：CATCH()
+局部变量：
+this_player: obj/user#23436 ("雲")
+          <- u/tianlin/guestroom
+previous_object(0): cmds/wiz/update
+previous_object(1): obj/user#23436 ("雲")
++----------------------------------------------------------------------+
+
+get_user_data: read on fd 768
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 708
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 736
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 640
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 584
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 664
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 728
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 616
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 516
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 596
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 756
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 532
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 756
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 756
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 756
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 596
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 580
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 580
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 596
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 596
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 696
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 776
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 588
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 564
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 564
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 564
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 564
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 588
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 580
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 752
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 752
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 752
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 716
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 544
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 536
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 600
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 708
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 588
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 588
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 712
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 712
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 512
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 512
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 748
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 576
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 748
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 748
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 748
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 748
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 748
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 748
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 712
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 712
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 712
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 744
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 744
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 680
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 680
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 744
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 748
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 748
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 748
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 748
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 680
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 656
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 656
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 656
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 744
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 744
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 744
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 676
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 744
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 544
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 716
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 660
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 564
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 564
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 564
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 700
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 564
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 748
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 748
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 776
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 776
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 748
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 748
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 748
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 600
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 564
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 556
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 600
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 660
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 680
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 764
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 656
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 748
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 696
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 764
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 556
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+Broken connection during add_message.
+Broken connection during add_message.
+get_user_data: read on fd 744
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+
+执行时段错误：*Illegal to move or destruct an object defining actions from a verb function which returns zero.
+
+程序：(none) 第 0 行
+物件：(none)
+this_player: obj/user#48061 ("传说")
+          <- d/qujing/pansi/menqiang
++----------------------------------------------------------------------+
+
+
+执行时段错误：*你(Domain)不能摧毁其他的使用者。
+
+程序：feature/move.c 第 259 行
+物件：/obj/user#55271
+呼叫来自：obj/corpse.c 的 do_mai() 第 106 行，物件： obj/corpse#55349 ("武馆弟子的尸体")
+调用参数：do_mai("corpse")
+局部变量：({ ... }), 0
+呼叫来自：adm/obj/simul_efun.c 的 destruct() 第 95 行，物件： adm/obj/simul_efun
+调用参数：destruct()
+局部变量：
+呼叫来自：feature/move.c 的 remove() 第 259 行，物件： obj/user#55271 ("狂野")
+调用参数：remove("Domain")
+局部变量：NULL
+this_player: obj/user#51033 ("雪中花")
+          <- d/changan/fendui
+previous_object(0): obj/user#55271 ("狂野")
+previous_object(1): adm/obj/simul_efun
+previous_object(2): obj/corpse#55349 ("武馆弟子的尸体")
++----------------------------------------------------------------------+
+
+
+执行时段错误：*你(Domain)不能摧毁其他的使用者。
+
+程序：feature/move.c 第 259 行
+物件：/obj/user#55271
+呼叫来自：obj/corpse.c 的 do_mai() 第 106 行，物件： obj/corpse#55349 ("武馆弟子的尸体")
+调用参数：do_mai("corpse")
+局部变量：({ ... }), 0
+呼叫来自：adm/obj/simul_efun.c 的 destruct() 第 95 行，物件： adm/obj/simul_efun
+调用参数：destruct()
+局部变量：
+呼叫来自：feature/move.c 的 remove() 第 259 行，物件： obj/user#55271 ("狂野")
+调用参数：remove("Domain")
+局部变量：NULL
+this_player: obj/user#51033 ("雪中花")
+          <- d/changan/fendui
+previous_object(0): obj/user#55271 ("狂野")
+previous_object(1): adm/obj/simul_efun
+previous_object(2): obj/corpse#55349 ("武馆弟子的尸体")
++----------------------------------------------------------------------+
+
+
+执行时段错误：*你(Domain)不能摧毁其他的使用者。
+
+程序：feature/move.c 第 259 行
+物件：/obj/user#55271
+呼叫来自：obj/corpse.c 的 do_mai() 第 106 行，物件： obj/corpse#55349 ("武馆弟子的尸体")
+调用参数：do_mai("corpse")
+局部变量：({ ... }), 0
+呼叫来自：adm/obj/simul_efun.c 的 destruct() 第 95 行，物件： adm/obj/simul_efun
+调用参数：destruct()
+局部变量：
+呼叫来自：feature/move.c 的 remove() 第 259 行，物件： obj/user#55271 ("狂野")
+调用参数：remove("Domain")
+局部变量：NULL
+this_player: obj/user#51033 ("雪中花")
+          <- d/changan/fendui
+previous_object(0): obj/user#55271 ("狂野")
+previous_object(1): adm/obj/simul_efun
+previous_object(2): obj/corpse#55349 ("武馆弟子的尸体")
++----------------------------------------------------------------------+
+
+
+执行时段错误：*你(Domain)不能摧毁其他的使用者。
+
+程序：feature/move.c 第 259 行
+物件：/obj/user#55271
+呼叫来自：obj/corpse.c 的 do_mai() 第 106 行，物件： obj/corpse#55349 ("武馆弟子的尸体")
+调用参数：do_mai("corpse")
+局部变量：({ ... }), 0
+呼叫来自：adm/obj/simul_efun.c 的 destruct() 第 95 行，物件： adm/obj/simul_efun
+调用参数：destruct()
+局部变量：
+呼叫来自：feature/move.c 的 remove() 第 259 行，物件： obj/user#55271 ("狂野")
+调用参数：remove("Domain")
+局部变量：NULL
+this_player: obj/user#51033 ("雪中花")
+          <- d/changan/fendui
+previous_object(0): obj/user#55271 ("狂野")
+previous_object(1): adm/obj/simul_efun
+previous_object(2): obj/corpse#55349 ("武馆弟子的尸体")
++----------------------------------------------------------------------+
+
+
+执行时段错误：*你(Domain)不能摧毁其他的使用者。
+
+程序：feature/move.c 第 259 行
+物件：/obj/user#55271
+呼叫来自：obj/corpse.c 的 do_mai() 第 106 行，物件： obj/corpse#55349 ("武馆弟子的尸体")
+调用参数：do_mai("corpse")
+局部变量：({ ... }), 0
+呼叫来自：adm/obj/simul_efun.c 的 destruct() 第 95 行，物件： adm/obj/simul_efun
+调用参数：destruct()
+局部变量：
+呼叫来自：feature/move.c 的 remove() 第 259 行，物件： obj/user#55271 ("狂野")
+调用参数：remove("Domain")
+局部变量：NULL
+this_player: obj/user#51033 ("雪中花")
+          <- d/changan/fendui
+previous_object(0): obj/user#55271 ("狂野")
+previous_object(1): adm/obj/simul_efun
+previous_object(2): obj/corpse#55349 ("武馆弟子的尸体")
++----------------------------------------------------------------------+
+
+
+执行时段错误：*你(Domain)不能摧毁其他的使用者。
+
+程序：feature/move.c 第 259 行
+物件：/obj/user#55271
+呼叫来自：obj/corpse.c 的 do_mai() 第 106 行，物件： obj/corpse#55349 ("武馆弟子的尸体")
+调用参数：do_mai("corpse")
+局部变量：({ ... }), 0
+呼叫来自：adm/obj/simul_efun.c 的 destruct() 第 95 行，物件： adm/obj/simul_efun
+调用参数：destruct()
+局部变量：
+呼叫来自：feature/move.c 的 remove() 第 259 行，物件： obj/user#55271 ("狂野")
+调用参数：remove("Domain")
+局部变量：NULL
+this_player: obj/user#51033 ("雪中花")
+          <- d/changan/fendui
+previous_object(0): obj/user#55271 ("狂野")
+previous_object(1): adm/obj/simul_efun
+previous_object(2): obj/corpse#55349 ("武馆弟子的尸体")
++----------------------------------------------------------------------+
+
+
+执行时段错误：*你(Domain)不能摧毁其他的使用者。
+
+程序：feature/move.c 第 259 行
+物件：/obj/user#55271
+呼叫来自：obj/corpse.c 的 do_mai() 第 106 行，物件： obj/corpse#55349 ("武馆弟子的尸体")
+调用参数：do_mai("corpse")
+局部变量：({ ... }), 0
+呼叫来自：adm/obj/simul_efun.c 的 destruct() 第 95 行，物件： adm/obj/simul_efun
+调用参数：destruct()
+局部变量：
+呼叫来自：feature/move.c 的 remove() 第 259 行，物件： obj/user#55271 ("狂野")
+调用参数：remove("Domain")
+局部变量：NULL
+this_player: obj/user#51033 ("雪中花")
+          <- d/changan/fendui
+previous_object(0): obj/user#55271 ("狂野")
+previous_object(1): adm/obj/simul_efun
+previous_object(2): obj/corpse#55349 ("武馆弟子的尸体")
++----------------------------------------------------------------------+
+
+
+执行时段错误：*你(Domain)不能摧毁其他的使用者。
+
+程序：feature/move.c 第 259 行
+物件：/obj/user#55271
+呼叫来自：obj/corpse.c 的 do_mai() 第 106 行，物件： obj/corpse#55349 ("武馆弟子的尸体")
+调用参数：do_mai("corpse")
+局部变量：({ ... }), 0
+呼叫来自：adm/obj/simul_efun.c 的 destruct() 第 95 行，物件： adm/obj/simul_efun
+调用参数：destruct()
+局部变量：
+呼叫来自：feature/move.c 的 remove() 第 259 行，物件： obj/user#55271 ("狂野")
+调用参数：remove("Domain")
+局部变量：NULL
+this_player: obj/user#51033 ("雪中花")
+          <- d/changan/fendui
+previous_object(0): obj/user#55271 ("狂野")
+previous_object(1): adm/obj/simul_efun
+previous_object(2): obj/corpse#55349 ("武馆弟子的尸体")
++----------------------------------------------------------------------+
+
+
+执行时段错误：*你(Domain)不能摧毁其他的使用者。
+
+程序：feature/move.c 第 259 行
+物件：/obj/user#55271
+呼叫来自：obj/corpse.c 的 do_mai() 第 106 行，物件： obj/corpse#55349 ("武馆弟子的尸体")
+调用参数：do_mai("corpse")
+局部变量：({ ... }), 0
+呼叫来自：adm/obj/simul_efun.c 的 destruct() 第 95 行，物件： adm/obj/simul_efun
+调用参数：destruct()
+局部变量：
+呼叫来自：feature/move.c 的 remove() 第 259 行，物件： obj/user#55271 ("狂野")
+调用参数：remove("Domain")
+局部变量：NULL
+this_player: obj/user#51033 ("雪中花")
+          <- d/changan/fendui
+previous_object(0): obj/user#55271 ("狂野")
+previous_object(1): adm/obj/simul_efun
+previous_object(2): obj/corpse#55349 ("武馆弟子的尸体")
++----------------------------------------------------------------------+
+
+
+执行时段错误：*你(Domain)不能摧毁其他的使用者。
+
+程序：feature/move.c 第 259 行
+物件：/obj/user#55271
+呼叫来自：obj/corpse.c 的 do_mai() 第 106 行，物件： obj/corpse#55349 ("武馆弟子的尸体")
+调用参数：do_mai("corpse")
+局部变量：({ ... }), 0
+呼叫来自：adm/obj/simul_efun.c 的 destruct() 第 95 行，物件： adm/obj/simul_efun
+调用参数：destruct()
+局部变量：
+呼叫来自：feature/move.c 的 remove() 第 259 行，物件： obj/user#55271 ("狂野")
+调用参数：remove("Domain")
+局部变量：NULL
+this_player: obj/user#51033 ("雪中花")
+          <- d/changan/fendui
+previous_object(0): obj/user#55271 ("狂野")
+previous_object(1): adm/obj/simul_efun
+previous_object(2): obj/corpse#55349 ("武馆弟子的尸体")
++----------------------------------------------------------------------+
+
+
+执行时段错误：*你(Domain)不能摧毁其他的使用者。
+
+程序：feature/move.c 第 259 行
+物件：/obj/user#55271
+呼叫来自：obj/corpse.c 的 do_mai() 第 106 行，物件： obj/corpse#55349 ("武馆弟子的尸体")
+调用参数：do_mai("corpse")
+局部变量：({ ... }), 0
+呼叫来自：adm/obj/simul_efun.c 的 destruct() 第 95 行，物件： adm/obj/simul_efun
+调用参数：destruct()
+局部变量：
+呼叫来自：feature/move.c 的 remove() 第 259 行，物件： obj/user#55271 ("狂野")
+调用参数：remove("Domain")
+局部变量：NULL
+this_player: obj/user#51033 ("雪中花")
+          <- d/changan/fendui
+previous_object(0): obj/user#55271 ("狂野")
+previous_object(1): adm/obj/simul_efun
+previous_object(2): obj/corpse#55349 ("武馆弟子的尸体")
++----------------------------------------------------------------------+
+
+
+执行时段错误：*你(Domain)不能摧毁其他的使用者。
+
+程序：feature/move.c 第 259 行
+物件：/obj/user#55271
+呼叫来自：obj/corpse.c 的 do_mai() 第 106 行，物件： obj/corpse#55349 ("武馆弟子的尸体")
+调用参数：do_mai("corpse")
+局部变量：({ ... }), 0
+呼叫来自：adm/obj/simul_efun.c 的 destruct() 第 95 行，物件： adm/obj/simul_efun
+调用参数：destruct()
+局部变量：
+呼叫来自：feature/move.c 的 remove() 第 259 行，物件： obj/user#55271 ("狂野")
+调用参数：remove("Domain")
+局部变量：NULL
+this_player: obj/user#51033 ("雪中花")
+          <- d/changan/fendui
+previous_object(0): obj/user#55271 ("狂野")
+previous_object(1): adm/obj/simul_efun
+previous_object(2): obj/corpse#55349 ("武馆弟子的尸体")
++----------------------------------------------------------------------+
+
+
+执行时段错误：*你(Domain)不能摧毁其他的使用者。
+
+程序：feature/move.c 第 259 行
+物件：/obj/user#55271
+呼叫来自：obj/corpse.c 的 do_mai() 第 106 行，物件： obj/corpse#55349 ("武馆弟子的尸体")
+调用参数：do_mai("corpse")
+局部变量：({ ... }), 0
+呼叫来自：adm/obj/simul_efun.c 的 destruct() 第 95 行，物件： adm/obj/simul_efun
+调用参数：destruct()
+局部变量：
+呼叫来自：feature/move.c 的 remove() 第 259 行，物件： obj/user#55271 ("狂野")
+调用参数：remove("Domain")
+局部变量：NULL
+this_player: obj/user#51033 ("雪中花")
+          <- d/changan/fendui
+previous_object(0): obj/user#55271 ("狂野")
+previous_object(1): adm/obj/simul_efun
+previous_object(2): obj/corpse#55349 ("武馆弟子的尸体")
++----------------------------------------------------------------------+
+
+
+执行时段错误：*你(Domain)不能摧毁其他的使用者。
+
+程序：feature/move.c 第 259 行
+物件：/obj/user#55271
+呼叫来自：obj/corpse.c 的 do_mai() 第 106 行，物件： obj/corpse#55349 ("武馆弟子的尸体")
+调用参数：do_mai("corpse")
+局部变量：({ ... }), 0
+呼叫来自：adm/obj/simul_efun.c 的 destruct() 第 95 行，物件： adm/obj/simul_efun
+调用参数：destruct()
+局部变量：
+呼叫来自：feature/move.c 的 remove() 第 259 行，物件： obj/user#55271 ("狂野")
+调用参数：remove("Domain")
+局部变量：NULL
+this_player: obj/user#51033 ("雪中花")
+          <- d/changan/fendui
+previous_object(0): obj/user#55271 ("狂野")
+previous_object(1): adm/obj/simul_efun
+previous_object(2): obj/corpse#55349 ("武馆弟子的尸体")
++----------------------------------------------------------------------+
+
+
+执行时段错误：*你(Domain)不能摧毁其他的使用者。
+
+程序：feature/move.c 第 259 行
+物件：/obj/user#55271
+呼叫来自：obj/corpse.c 的 do_mai() 第 106 行，物件： obj/corpse#55349 ("武馆弟子的尸体")
+调用参数：do_mai("corpse")
+局部变量：({ ... }), 0
+呼叫来自：adm/obj/simul_efun.c 的 destruct() 第 95 行，物件： adm/obj/simul_efun
+调用参数：destruct()
+局部变量：
+呼叫来自：feature/move.c 的 remove() 第 259 行，物件： obj/user#55271 ("狂野")
+调用参数：remove("Domain")
+局部变量：NULL
+this_player: obj/user#51033 ("雪中花")
+          <- d/changan/fendui
+previous_object(0): obj/user#55271 ("狂野")
+previous_object(1): adm/obj/simul_efun
+previous_object(2): obj/corpse#55349 ("武馆弟子的尸体")
++----------------------------------------------------------------------+
+
+
+执行时段错误：*你(Domain)不能摧毁其他的使用者。
+
+程序：feature/move.c 第 259 行
+物件：/obj/user#55271
+呼叫来自：obj/corpse.c 的 do_mai() 第 106 行，物件： obj/corpse#55349 ("武馆弟子的尸体")
+调用参数：do_mai("corpse")
+局部变量：({ ... }), 0
+呼叫来自：adm/obj/simul_efun.c 的 destruct() 第 95 行，物件： adm/obj/simul_efun
+调用参数：destruct()
+局部变量：
+呼叫来自：feature/move.c 的 remove() 第 259 行，物件： obj/user#55271 ("狂野")
+调用参数：remove("Domain")
+局部变量：NULL
+this_player: obj/user#51033 ("雪中花")
+          <- d/changan/fendui
+previous_object(0): obj/user#55271 ("狂野")
+previous_object(1): adm/obj/simul_efun
+previous_object(2): obj/corpse#55349 ("武馆弟子的尸体")
++----------------------------------------------------------------------+
+
+
+执行时段错误：*你(Domain)不能摧毁其他的使用者。
+
+程序：feature/move.c 第 259 行
+物件：/obj/user#55271
+呼叫来自：obj/corpse.c 的 do_mai() 第 106 行，物件： obj/corpse#55349 ("武馆弟子的尸体")
+调用参数：do_mai("corpse")
+局部变量：({ ... }), 0
+呼叫来自：adm/obj/simul_efun.c 的 destruct() 第 95 行，物件： adm/obj/simul_efun
+调用参数：destruct()
+局部变量：
+呼叫来自：feature/move.c 的 remove() 第 259 行，物件： obj/user#55271 ("狂野")
+调用参数：remove("Domain")
+局部变量：NULL
+this_player: obj/user#51033 ("雪中花")
+          <- d/changan/fendui
+previous_object(0): obj/user#55271 ("狂野")
+previous_object(1): adm/obj/simul_efun
+previous_object(2): obj/corpse#55349 ("武馆弟子的尸体")
++----------------------------------------------------------------------+
+
+
+执行时段错误：*你(Domain)不能摧毁其他的使用者。
+
+程序：feature/move.c 第 259 行
+物件：/obj/user#55271
+呼叫来自：obj/corpse.c 的 do_mai() 第 106 行，物件： obj/corpse#55349 ("武馆弟子的尸体")
+调用参数：do_mai("corpse")
+局部变量：({ ... }), 0
+呼叫来自：adm/obj/simul_efun.c 的 destruct() 第 95 行，物件： adm/obj/simul_efun
+调用参数：destruct()
+局部变量：
+呼叫来自：feature/move.c 的 remove() 第 259 行，物件： obj/user#55271 ("狂野")
+调用参数：remove("Domain")
+局部变量：NULL
+this_player: obj/user#51033 ("雪中花")
+          <- d/changan/fendui
+previous_object(0): obj/user#55271 ("狂野")
+previous_object(1): adm/obj/simul_efun
+previous_object(2): obj/corpse#55349 ("武馆弟子的尸体")
++----------------------------------------------------------------------+
+
+
+执行时段错误：*你(Domain)不能摧毁其他的使用者。
+
+程序：feature/move.c 第 259 行
+物件：/obj/user#55271
+呼叫来自：obj/corpse.c 的 do_mai() 第 106 行，物件： obj/corpse#55349 ("武馆弟子的尸体")
+调用参数：do_mai("corpse")
+局部变量：({ ... }), 0
+呼叫来自：adm/obj/simul_efun.c 的 destruct() 第 95 行，物件： adm/obj/simul_efun
+调用参数：destruct()
+局部变量：
+呼叫来自：feature/move.c 的 remove() 第 259 行，物件： obj/user#55271 ("狂野")
+调用参数：remove("Domain")
+局部变量：NULL
+this_player: obj/user#51033 ("雪中花")
+          <- d/changan/fendui
+previous_object(0): obj/user#55271 ("狂野")
+previous_object(1): adm/obj/simul_efun
+previous_object(2): obj/corpse#55349 ("武馆弟子的尸体")
++----------------------------------------------------------------------+
+
+
+执行时段错误：*你(Domain)不能摧毁其他的使用者。
+
+程序：feature/move.c 第 259 行
+物件：/obj/user#55271
+呼叫来自：obj/corpse.c 的 do_mai() 第 106 行，物件： obj/corpse#55349 ("武馆弟子的尸体")
+调用参数：do_mai("corpse")
+局部变量：({ ... }), 0
+呼叫来自：adm/obj/simul_efun.c 的 destruct() 第 95 行，物件： adm/obj/simul_efun
+调用参数：destruct()
+局部变量：
+呼叫来自：feature/move.c 的 remove() 第 259 行，物件： obj/user#55271 ("狂野")
+调用参数：remove("Domain")
+局部变量：NULL
+this_player: obj/user#51033 ("雪中花")
+          <- d/changan/fendui
+previous_object(0): obj/user#55271 ("狂野")
+previous_object(1): adm/obj/simul_efun
+previous_object(2): obj/corpse#55349 ("武馆弟子的尸体")
++----------------------------------------------------------------------+
+
+
+执行时段错误：*你(Domain)不能摧毁其他的使用者。
+
+程序：feature/move.c 第 259 行
+物件：/obj/user#55271
+呼叫来自：obj/corpse.c 的 do_mai() 第 106 行，物件： obj/corpse#55349 ("武馆弟子的尸体")
+调用参数：do_mai("corpse")
+局部变量：({ ... }), 0
+呼叫来自：adm/obj/simul_efun.c 的 destruct() 第 95 行，物件： adm/obj/simul_efun
+调用参数：destruct()
+局部变量：
+呼叫来自：feature/move.c 的 remove() 第 259 行，物件： obj/user#55271 ("狂野")
+调用参数：remove("Domain")
+局部变量：NULL
+this_player: obj/user#51033 ("雪中花")
+          <- d/changan/fendui
+previous_object(0): obj/user#55271 ("狂野")
+previous_object(1): adm/obj/simul_efun
+previous_object(2): obj/corpse#55349 ("武馆弟子的尸体")
++----------------------------------------------------------------------+
+
+
+执行时段错误：*你(Domain)不能摧毁其他的使用者。
+
+程序：feature/move.c 第 259 行
+物件：/obj/user#55271
+呼叫来自：obj/corpse.c 的 do_mai() 第 106 行，物件： obj/corpse#55349 ("武馆弟子的尸体")
+调用参数：do_mai("corpse")
+局部变量：({ ... }), 0
+呼叫来自：adm/obj/simul_efun.c 的 destruct() 第 95 行，物件： adm/obj/simul_efun
+调用参数：destruct()
+局部变量：
+呼叫来自：feature/move.c 的 remove() 第 259 行，物件： obj/user#55271 ("狂野")
+调用参数：remove("Domain")
+局部变量：NULL
+this_player: obj/user#51033 ("雪中花")
+          <- d/changan/fendui
+previous_object(0): obj/user#55271 ("狂野")
+previous_object(1): adm/obj/simul_efun
+previous_object(2): obj/corpse#55349 ("武馆弟子的尸体")
++----------------------------------------------------------------------+
+
+
+执行时段错误：*你(Domain)不能摧毁其他的使用者。
+
+程序：feature/move.c 第 259 行
+物件：/obj/user#55271
+呼叫来自：obj/corpse.c 的 do_mai() 第 106 行，物件： obj/corpse#55349 ("武馆弟子的尸体")
+调用参数：do_mai("corpse")
+局部变量：({ ... }), 0
+呼叫来自：adm/obj/simul_efun.c 的 destruct() 第 95 行，物件： adm/obj/simul_efun
+调用参数：destruct()
+局部变量：
+呼叫来自：feature/move.c 的 remove() 第 259 行，物件： obj/user#55271 ("狂野")
+调用参数：remove("Domain")
+局部变量：NULL
+this_player: obj/user#51033 ("雪中花")
+          <- d/changan/fendui
+previous_object(0): obj/user#55271 ("狂野")
+previous_object(1): adm/obj/simul_efun
+previous_object(2): obj/corpse#55349 ("武馆弟子的尸体")
++----------------------------------------------------------------------+
+
+
+执行时段错误：*你(Domain)不能摧毁其他的使用者。
+
+程序：feature/move.c 第 259 行
+物件：/obj/user#55271
+呼叫来自：obj/corpse.c 的 do_mai() 第 106 行，物件： obj/corpse#55349 ("武馆弟子的尸体")
+调用参数：do_mai("corpse")
+局部变量：({ ... }), 0
+呼叫来自：adm/obj/simul_efun.c 的 destruct() 第 95 行，物件： adm/obj/simul_efun
+调用参数：destruct()
+局部变量：
+呼叫来自：feature/move.c 的 remove() 第 259 行，物件： obj/user#55271 ("狂野")
+调用参数：remove("Domain")
+局部变量：NULL
+this_player: obj/user#51033 ("雪中花")
+          <- d/changan/fendui
+previous_object(0): obj/user#55271 ("狂野")
+previous_object(1): adm/obj/simul_efun
+previous_object(2): obj/corpse#55349 ("武馆弟子的尸体")
++----------------------------------------------------------------------+
+
+
+执行时段错误：*你(Domain)不能摧毁其他的使用者。
+
+程序：feature/move.c 第 259 行
+物件：/obj/user#55271
+呼叫来自：obj/corpse.c 的 do_mai() 第 106 行，物件： obj/corpse#55349 ("武馆弟子的尸体")
+调用参数：do_mai("corpse")
+局部变量：({ ... }), 0
+呼叫来自：adm/obj/simul_efun.c 的 destruct() 第 95 行，物件： adm/obj/simul_efun
+调用参数：destruct()
+局部变量：
+呼叫来自：feature/move.c 的 remove() 第 259 行，物件： obj/user#55271 ("狂野")
+调用参数：remove("Domain")
+局部变量：NULL
+this_player: obj/user#51033 ("雪中花")
+          <- d/changan/fendui
+previous_object(0): obj/user#55271 ("狂野")
+previous_object(1): adm/obj/simul_efun
+previous_object(2): obj/corpse#55349 ("武馆弟子的尸体")
++----------------------------------------------------------------------+
+
+
+执行时段错误：*你(Domain)不能摧毁其他的使用者。
+
+程序：feature/move.c 第 259 行
+物件：/obj/user#55271
+呼叫来自：obj/corpse.c 的 do_mai() 第 106 行，物件： obj/corpse#55349 ("武馆弟子的尸体")
+调用参数：do_mai("corpse")
+局部变量：({ ... }), 0
+呼叫来自：adm/obj/simul_efun.c 的 destruct() 第 95 行，物件： adm/obj/simul_efun
+调用参数：destruct()
+局部变量：
+呼叫来自：feature/move.c 的 remove() 第 259 行，物件： obj/user#55271 ("狂野")
+调用参数：remove("Domain")
+局部变量：NULL
+this_player: obj/user#51033 ("雪中花")
+          <- d/changan/fendui
+previous_object(0): obj/user#55271 ("狂野")
+previous_object(1): adm/obj/simul_efun
+previous_object(2): obj/corpse#55349 ("武馆弟子的尸体")
++----------------------------------------------------------------------+
+
+
+执行时段错误：*你(Domain)不能摧毁其他的使用者。
+
+程序：feature/move.c 第 259 行
+物件：/obj/user#55271
+呼叫来自：obj/corpse.c 的 do_mai() 第 106 行，物件： obj/corpse#55349 ("武馆弟子的尸体")
+调用参数：do_mai("corpse")
+局部变量：({ ... }), 0
+呼叫来自：adm/obj/simul_efun.c 的 destruct() 第 95 行，物件： adm/obj/simul_efun
+调用参数：destruct()
+局部变量：
+呼叫来自：feature/move.c 的 remove() 第 259 行，物件： obj/user#55271 ("狂野")
+调用参数：remove("Domain")
+局部变量：NULL
+this_player: obj/user#51033 ("雪中花")
+          <- d/changan/fendui
+previous_object(0): obj/user#55271 ("狂野")
+previous_object(1): adm/obj/simul_efun
+previous_object(2): obj/corpse#55349 ("武馆弟子的尸体")
++----------------------------------------------------------------------+
+
+
+执行时段错误：*你(Domain)不能摧毁其他的使用者。
+
+程序：feature/move.c 第 259 行
+物件：/obj/user#55271
+呼叫来自：obj/corpse.c 的 do_mai() 第 106 行，物件： obj/corpse#55349 ("武馆弟子的尸体")
+调用参数：do_mai("corpse")
+局部变量：({ ... }), 0
+呼叫来自：adm/obj/simul_efun.c 的 destruct() 第 95 行，物件： adm/obj/simul_efun
+调用参数：destruct()
+局部变量：
+呼叫来自：feature/move.c 的 remove() 第 259 行，物件： obj/user#55271 ("狂野")
+调用参数：remove("Domain")
+局部变量：NULL
+this_player: obj/user#51033 ("雪中花")
+          <- d/changan/fendui
+previous_object(0): obj/user#55271 ("狂野")
+previous_object(1): adm/obj/simul_efun
+previous_object(2): obj/corpse#55349 ("武馆弟子的尸体")
++----------------------------------------------------------------------+
+
+
+执行时段错误：*你(Domain)不能摧毁其他的使用者。
+
+程序：feature/move.c 第 259 行
+物件：/obj/user#55271
+呼叫来自：obj/corpse.c 的 do_mai() 第 106 行，物件： obj/corpse#55349 ("武馆弟子的尸体")
+调用参数：do_mai("corpse")
+局部变量：({ ... }), 0
+呼叫来自：adm/obj/simul_efun.c 的 destruct() 第 95 行，物件： adm/obj/simul_efun
+调用参数：destruct()
+局部变量：
+呼叫来自：feature/move.c 的 remove() 第 259 行，物件： obj/user#55271 ("狂野")
+调用参数：remove("Domain")
+局部变量：NULL
+this_player: obj/user#51033 ("雪中花")
+          <- d/changan/fendui
+previous_object(0): obj/user#55271 ("狂野")
+previous_object(1): adm/obj/simul_efun
+previous_object(2): obj/corpse#55349 ("武馆弟子的尸体")
++----------------------------------------------------------------------+
+
+
+执行时段错误：*你(Domain)不能摧毁其他的使用者。
+
+程序：feature/move.c 第 259 行
+物件：/obj/user#55271
+呼叫来自：obj/corpse.c 的 do_mai() 第 106 行，物件： obj/corpse#55349 ("武馆弟子的尸体")
+调用参数：do_mai("corpse")
+局部变量：({ ... }), 0
+呼叫来自：adm/obj/simul_efun.c 的 destruct() 第 95 行，物件： adm/obj/simul_efun
+调用参数：destruct()
+局部变量：
+呼叫来自：feature/move.c 的 remove() 第 259 行，物件： obj/user#55271 ("狂野")
+调用参数：remove("Domain")
+局部变量：NULL
+this_player: obj/user#51033 ("雪中花")
+          <- d/changan/fendui
+previous_object(0): obj/user#55271 ("狂野")
+previous_object(1): adm/obj/simul_efun
+previous_object(2): obj/corpse#55349 ("武馆弟子的尸体")
++----------------------------------------------------------------------+
+
+
+执行时段错误：*你(Domain)不能摧毁其他的使用者。
+
+程序：feature/move.c 第 259 行
+物件：/obj/user#55271
+呼叫来自：obj/corpse.c 的 do_mai() 第 106 行，物件： obj/corpse#55349 ("武馆弟子的尸体")
+调用参数：do_mai("corpse")
+局部变量：({ ... }), 0
+呼叫来自：adm/obj/simul_efun.c 的 destruct() 第 95 行，物件： adm/obj/simul_efun
+调用参数：destruct()
+局部变量：
+呼叫来自：feature/move.c 的 remove() 第 259 行，物件： obj/user#55271 ("狂野")
+调用参数：remove("Domain")
+局部变量：NULL
+this_player: obj/user#51033 ("雪中花")
+          <- d/changan/fendui
+previous_object(0): obj/user#55271 ("狂野")
+previous_object(1): adm/obj/simul_efun
+previous_object(2): obj/corpse#55349 ("武馆弟子的尸体")
++----------------------------------------------------------------------+
+
+
+执行时段错误：*你(Domain)不能摧毁其他的使用者。
+
+程序：feature/move.c 第 259 行
+物件：/obj/user#55271
+呼叫来自：obj/corpse.c 的 do_mai() 第 106 行，物件： obj/corpse#55349 ("武馆弟子的尸体")
+调用参数：do_mai("corpse")
+局部变量：({ ... }), 0
+呼叫来自：adm/obj/simul_efun.c 的 destruct() 第 95 行，物件： adm/obj/simul_efun
+调用参数：destruct()
+局部变量：
+呼叫来自：feature/move.c 的 remove() 第 259 行，物件： obj/user#55271 ("狂野")
+调用参数：remove("Domain")
+局部变量：NULL
+this_player: obj/user#51033 ("雪中花")
+          <- d/changan/fendui
+previous_object(0): obj/user#55271 ("狂野")
+previous_object(1): adm/obj/simul_efun
+previous_object(2): obj/corpse#55349 ("武馆弟子的尸体")
++----------------------------------------------------------------------+
+
+
+执行时段错误：*你(Domain)不能摧毁其他的使用者。
+
+程序：feature/move.c 第 259 行
+物件：/obj/user#55271
+呼叫来自：obj/corpse.c 的 do_mai() 第 106 行，物件： obj/corpse#55349 ("武馆弟子的尸体")
+调用参数：do_mai("corpse")
+局部变量：({ ... }), 0
+呼叫来自：adm/obj/simul_efun.c 的 destruct() 第 95 行，物件： adm/obj/simul_efun
+调用参数：destruct()
+局部变量：
+呼叫来自：feature/move.c 的 remove() 第 259 行，物件： obj/user#55271 ("狂野")
+调用参数：remove("Domain")
+局部变量：NULL
+this_player: obj/user#51033 ("雪中花")
+          <- d/changan/fendui
+previous_object(0): obj/user#55271 ("狂野")
+previous_object(1): adm/obj/simul_efun
+previous_object(2): obj/corpse#55349 ("武馆弟子的尸体")
++----------------------------------------------------------------------+
+
+
+执行时段错误：*你(Domain)不能摧毁其他的使用者。
+
+程序：feature/move.c 第 259 行
+物件：/obj/user#55271
+呼叫来自：obj/corpse.c 的 do_mai() 第 106 行，物件： obj/corpse#55349 ("武馆弟子的尸体")
+调用参数：do_mai("corpse")
+局部变量：({ ... }), 0
+呼叫来自：adm/obj/simul_efun.c 的 destruct() 第 95 行，物件： adm/obj/simul_efun
+调用参数：destruct()
+局部变量：
+呼叫来自：feature/move.c 的 remove() 第 259 行，物件： obj/user#55271 ("狂野")
+调用参数：remove("Domain")
+局部变量：NULL
+this_player: obj/user#51033 ("雪中花")
+          <- d/changan/fendui
+previous_object(0): obj/user#55271 ("狂野")
+previous_object(1): adm/obj/simul_efun
+previous_object(2): obj/corpse#55349 ("武馆弟子的尸体")
++----------------------------------------------------------------------+
+
+
+执行时段错误：*你(Domain)不能摧毁其他的使用者。
+
+程序：feature/move.c 第 259 行
+物件：/obj/user#55271
+呼叫来自：obj/corpse.c 的 do_mai() 第 106 行，物件： obj/corpse#55349 ("武馆弟子的尸体")
+调用参数：do_mai("corpse")
+局部变量：({ ... }), 0
+呼叫来自：adm/obj/simul_efun.c 的 destruct() 第 95 行，物件： adm/obj/simul_efun
+调用参数：destruct()
+局部变量：
+呼叫来自：feature/move.c 的 remove() 第 259 行，物件： obj/user#55271 ("狂野")
+调用参数：remove("Domain")
+局部变量：NULL
+this_player: obj/user#51033 ("雪中花")
+          <- d/changan/fendui
+previous_object(0): obj/user#55271 ("狂野")
+previous_object(1): adm/obj/simul_efun
+previous_object(2): obj/corpse#55349 ("武馆弟子的尸体")
++----------------------------------------------------------------------+
+
+
+执行时段错误：*你(Domain)不能摧毁其他的使用者。
+
+程序：feature/move.c 第 259 行
+物件：/obj/user#55271
+呼叫来自：obj/corpse.c 的 do_mai() 第 106 行，物件： obj/corpse#55349 ("武馆弟子的尸体")
+调用参数：do_mai("corpse")
+局部变量：({ ... }), 0
+呼叫来自：adm/obj/simul_efun.c 的 destruct() 第 95 行，物件： adm/obj/simul_efun
+调用参数：destruct()
+局部变量：
+呼叫来自：feature/move.c 的 remove() 第 259 行，物件： obj/user#55271 ("狂野")
+调用参数：remove("Domain")
+局部变量：NULL
+this_player: obj/user#51033 ("雪中花")
+          <- d/changan/fendui
+previous_object(0): obj/user#55271 ("狂野")
+previous_object(1): adm/obj/simul_efun
+previous_object(2): obj/corpse#55349 ("武馆弟子的尸体")
++----------------------------------------------------------------------+
+
+
+执行时段错误：*你(Domain)不能摧毁其他的使用者。
+
+程序：feature/move.c 第 259 行
+物件：/obj/user#55271
+呼叫来自：obj/corpse.c 的 do_mai() 第 106 行，物件： obj/corpse#55349 ("武馆弟子的尸体")
+调用参数：do_mai("corpse")
+局部变量：({ ... }), 0
+呼叫来自：adm/obj/simul_efun.c 的 destruct() 第 95 行，物件： adm/obj/simul_efun
+调用参数：destruct()
+局部变量：
+呼叫来自：feature/move.c 的 remove() 第 259 行，物件： obj/user#55271 ("狂野")
+调用参数：remove("Domain")
+局部变量：NULL
+this_player: obj/user#51033 ("雪中花")
+          <- d/changan/fendui
+previous_object(0): obj/user#55271 ("狂野")
+previous_object(1): adm/obj/simul_efun
+previous_object(2): obj/corpse#55349 ("武馆弟子的尸体")
++----------------------------------------------------------------------+
+
+
+执行时段错误：*你(Domain)不能摧毁其他的使用者。
+
+程序：feature/move.c 第 259 行
+物件：/obj/user#55271
+呼叫来自：obj/corpse.c 的 do_mai() 第 106 行，物件： obj/corpse#55349 ("武馆弟子的尸体")
+调用参数：do_mai("corpse")
+局部变量：({ ... }), 0
+呼叫来自：adm/obj/simul_efun.c 的 destruct() 第 95 行，物件： adm/obj/simul_efun
+调用参数：destruct()
+局部变量：
+呼叫来自：feature/move.c 的 remove() 第 259 行，物件： obj/user#55271 ("狂野")
+调用参数：remove("Domain")
+局部变量：NULL
+this_player: obj/user#51033 ("雪中花")
+          <- d/changan/fendui
+previous_object(0): obj/user#55271 ("狂野")
+previous_object(1): adm/obj/simul_efun
+previous_object(2): obj/corpse#55349 ("武馆弟子的尸体")
++----------------------------------------------------------------------+
+
+
+执行时段错误：*你(Domain)不能摧毁其他的使用者。
+
+程序：feature/move.c 第 259 行
+物件：/obj/user#55271
+呼叫来自：obj/corpse.c 的 do_mai() 第 106 行，物件： obj/corpse#55349 ("武馆弟子的尸体")
+调用参数：do_mai("corpse")
+局部变量：({ ... }), 0
+呼叫来自：adm/obj/simul_efun.c 的 destruct() 第 95 行，物件： adm/obj/simul_efun
+调用参数：destruct()
+局部变量：
+呼叫来自：feature/move.c 的 remove() 第 259 行，物件： obj/user#55271 ("狂野")
+调用参数：remove("Domain")
+局部变量：NULL
+this_player: obj/user#51033 ("雪中花")
+          <- d/changan/fendui
+previous_object(0): obj/user#55271 ("狂野")
+previous_object(1): adm/obj/simul_efun
+previous_object(2): obj/corpse#55349 ("武馆弟子的尸体")
++----------------------------------------------------------------------+
+
+
+执行时段错误：*你(Domain)不能摧毁其他的使用者。
+
+程序：feature/move.c 第 259 行
+物件：/obj/user#55271
+呼叫来自：obj/corpse.c 的 do_mai() 第 106 行，物件： obj/corpse#55349 ("武馆弟子的尸体")
+调用参数：do_mai("corpse")
+局部变量：({ ... }), 0
+呼叫来自：adm/obj/simul_efun.c 的 destruct() 第 95 行，物件： adm/obj/simul_efun
+调用参数：destruct()
+局部变量：
+呼叫来自：feature/move.c 的 remove() 第 259 行，物件： obj/user#55271 ("狂野")
+调用参数：remove("Domain")
+局部变量：NULL
+this_player: obj/user#51033 ("雪中花")
+          <- d/changan/fendui
+previous_object(0): obj/user#55271 ("狂野")
+previous_object(1): adm/obj/simul_efun
+previous_object(2): obj/corpse#55349 ("武馆弟子的尸体")
++----------------------------------------------------------------------+
+
+
+执行时段错误：*你(Domain)不能摧毁其他的使用者。
+
+程序：feature/move.c 第 259 行
+物件：/obj/user#55271
+呼叫来自：obj/corpse.c 的 do_mai() 第 106 行，物件： obj/corpse#55349 ("武馆弟子的尸体")
+调用参数：do_mai("corpse")
+局部变量：({ ... }), 0
+呼叫来自：adm/obj/simul_efun.c 的 destruct() 第 95 行，物件： adm/obj/simul_efun
+调用参数：destruct()
+局部变量：
+呼叫来自：feature/move.c 的 remove() 第 259 行，物件： obj/user#55271 ("狂野")
+调用参数：remove("Domain")
+局部变量：NULL
+this_player: obj/user#51033 ("雪中花")
+          <- d/changan/fendui
+previous_object(0): obj/user#55271 ("狂野")
+previous_object(1): adm/obj/simul_efun
+previous_object(2): obj/corpse#55349 ("武馆弟子的尸体")
++----------------------------------------------------------------------+
+
+
+执行时段错误：*你(Domain)不能摧毁其他的使用者。
+
+程序：feature/move.c 第 259 行
+物件：/obj/user#55271
+呼叫来自：obj/corpse.c 的 do_mai() 第 106 行，物件： obj/corpse#55349 ("武馆弟子的尸体")
+调用参数：do_mai("corpse")
+局部变量：({ ... }), 0
+呼叫来自：adm/obj/simul_efun.c 的 destruct() 第 95 行，物件： adm/obj/simul_efun
+调用参数：destruct()
+局部变量：
+呼叫来自：feature/move.c 的 remove() 第 259 行，物件： obj/user#55271 ("狂野")
+调用参数：remove("Domain")
+局部变量：NULL
+this_player: obj/user#51033 ("雪中花")
+          <- d/changan/fendui
+previous_object(0): obj/user#55271 ("狂野")
+previous_object(1): adm/obj/simul_efun
+previous_object(2): obj/corpse#55349 ("武馆弟子的尸体")
++----------------------------------------------------------------------+
+
+
+执行时段错误：*你(Domain)不能摧毁其他的使用者。
+
+程序：feature/move.c 第 259 行
+物件：/obj/user#55271
+呼叫来自：obj/corpse.c 的 do_mai() 第 106 行，物件： obj/corpse#55349 ("武馆弟子的尸体")
+调用参数：do_mai("corpse")
+局部变量：({ ... }), 0
+呼叫来自：adm/obj/simul_efun.c 的 destruct() 第 95 行，物件： adm/obj/simul_efun
+调用参数：destruct()
+局部变量：
+呼叫来自：feature/move.c 的 remove() 第 259 行，物件： obj/user#55271 ("狂野")
+调用参数：remove("Domain")
+局部变量：NULL
+this_player: obj/user#51033 ("雪中花")
+          <- d/changan/fendui
+previous_object(0): obj/user#55271 ("狂野")
+previous_object(1): adm/obj/simul_efun
+previous_object(2): obj/corpse#55349 ("武馆弟子的尸体")
++----------------------------------------------------------------------+
+
+
+执行时段错误：*你(Domain)不能摧毁其他的使用者。
+
+程序：feature/move.c 第 259 行
+物件：/obj/user#55271
+呼叫来自：obj/corpse.c 的 do_mai() 第 106 行，物件： obj/corpse#55349 ("武馆弟子的尸体")
+调用参数：do_mai("corpse")
+局部变量：({ ... }), 0
+呼叫来自：adm/obj/simul_efun.c 的 destruct() 第 95 行，物件： adm/obj/simul_efun
+调用参数：destruct()
+局部变量：
+呼叫来自：feature/move.c 的 remove() 第 259 行，物件： obj/user#55271 ("狂野")
+调用参数：remove("Domain")
+局部变量：NULL
+this_player: obj/user#51033 ("雪中花")
+          <- d/changan/fendui
+previous_object(0): obj/user#55271 ("狂野")
+previous_object(1): adm/obj/simul_efun
+previous_object(2): obj/corpse#55349 ("武馆弟子的尸体")
++----------------------------------------------------------------------+
+
+
+执行时段错误：*你(Domain)不能摧毁其他的使用者。
+
+程序：feature/move.c 第 259 行
+物件：/obj/user#55271
+呼叫来自：obj/corpse.c 的 do_mai() 第 106 行，物件： obj/corpse#55349 ("武馆弟子的尸体")
+调用参数：do_mai("corpse")
+局部变量：({ ... }), 0
+呼叫来自：adm/obj/simul_efun.c 的 destruct() 第 95 行，物件： adm/obj/simul_efun
+调用参数：destruct()
+局部变量：
+呼叫来自：feature/move.c 的 remove() 第 259 行，物件： obj/user#55271 ("狂野")
+调用参数：remove("Domain")
+局部变量：NULL
+this_player: obj/user#51033 ("雪中花")
+          <- d/changan/fendui
+previous_object(0): obj/user#55271 ("狂野")
+previous_object(1): adm/obj/simul_efun
+previous_object(2): obj/corpse#55349 ("武馆弟子的尸体")
++----------------------------------------------------------------------+
+
+
+执行时段错误：*你(Domain)不能摧毁其他的使用者。
+
+程序：feature/move.c 第 259 行
+物件：/obj/user#55271
+呼叫来自：obj/corpse.c 的 do_mai() 第 106 行，物件： obj/corpse#55349 ("武馆弟子的尸体")
+调用参数：do_mai("corpse")
+局部变量：({ ... }), 0
+呼叫来自：adm/obj/simul_efun.c 的 destruct() 第 95 行，物件： adm/obj/simul_efun
+调用参数：destruct()
+局部变量：
+呼叫来自：feature/move.c 的 remove() 第 259 行，物件： obj/user#55271 ("狂野")
+调用参数：remove("Domain")
+局部变量：NULL
+this_player: obj/user#51033 ("雪中花")
+          <- d/changan/fendui
+previous_object(0): obj/user#55271 ("狂野")
+previous_object(1): adm/obj/simul_efun
+previous_object(2): obj/corpse#55349 ("武馆弟子的尸体")
++----------------------------------------------------------------------+
+
+
+执行时段错误：*你(Domain)不能摧毁其他的使用者。
+
+程序：feature/move.c 第 259 行
+物件：/obj/user#55271
+呼叫来自：obj/corpse.c 的 do_mai() 第 106 行，物件： obj/corpse#55349 ("武馆弟子的尸体")
+调用参数：do_mai("corpse")
+局部变量：({ ... }), 0
+呼叫来自：adm/obj/simul_efun.c 的 destruct() 第 95 行，物件： adm/obj/simul_efun
+调用参数：destruct()
+局部变量：
+呼叫来自：feature/move.c 的 remove() 第 259 行，物件： obj/user#55271 ("狂野")
+调用参数：remove("Domain")
+局部变量：NULL
+this_player: obj/user#51033 ("雪中花")
+          <- d/changan/fendui
+previous_object(0): obj/user#55271 ("狂野")
+previous_object(1): adm/obj/simul_efun
+previous_object(2): obj/corpse#55349 ("武馆弟子的尸体")
++----------------------------------------------------------------------+
+
+
+执行时段错误：*你(Domain)不能摧毁其他的使用者。
+
+程序：feature/move.c 第 259 行
+物件：/obj/user#55271
+呼叫来自：obj/corpse.c 的 do_mai() 第 106 行，物件： obj/corpse#55349 ("武馆弟子的尸体")
+调用参数：do_mai("corpse")
+局部变量：({ ... }), 0
+呼叫来自：adm/obj/simul_efun.c 的 destruct() 第 95 行，物件： adm/obj/simul_efun
+调用参数：destruct()
+局部变量：
+呼叫来自：feature/move.c 的 remove() 第 259 行，物件： obj/user#55271 ("狂野")
+调用参数：remove("Domain")
+局部变量：NULL
+this_player: obj/user#51033 ("雪中花")
+          <- d/changan/fendui
+previous_object(0): obj/user#55271 ("狂野")
+previous_object(1): adm/obj/simul_efun
+previous_object(2): obj/corpse#55349 ("武馆弟子的尸体")
++----------------------------------------------------------------------+
+
+
+执行时段错误：*你(Domain)不能摧毁其他的使用者。
+
+程序：feature/move.c 第 259 行
+物件：/obj/user#55271
+呼叫来自：obj/corpse.c 的 do_mai() 第 106 行，物件： obj/corpse#55349 ("武馆弟子的尸体")
+调用参数：do_mai("corpse")
+局部变量：({ ... }), 0
+呼叫来自：adm/obj/simul_efun.c 的 destruct() 第 95 行，物件： adm/obj/simul_efun
+调用参数：destruct()
+局部变量：
+呼叫来自：feature/move.c 的 remove() 第 259 行，物件： obj/user#55271 ("狂野")
+调用参数：remove("Domain")
+局部变量：NULL
+this_player: obj/user#51033 ("雪中花")
+          <- d/changan/fendui
+previous_object(0): obj/user#55271 ("狂野")
+previous_object(1): adm/obj/simul_efun
+previous_object(2): obj/corpse#55349 ("武馆弟子的尸体")
++----------------------------------------------------------------------+
+
+
+执行时段错误：*你(Domain)不能摧毁其他的使用者。
+
+程序：feature/move.c 第 259 行
+物件：/obj/user#55271
+呼叫来自：obj/corpse.c 的 do_mai() 第 106 行，物件： obj/corpse#55349 ("武馆弟子的尸体")
+调用参数：do_mai("corpse")
+局部变量：({ ... }), 0
+呼叫来自：adm/obj/simul_efun.c 的 destruct() 第 95 行，物件： adm/obj/simul_efun
+调用参数：destruct()
+局部变量：
+呼叫来自：feature/move.c 的 remove() 第 259 行，物件： obj/user#55271 ("狂野")
+调用参数：remove("Domain")
+局部变量：NULL
+this_player: obj/user#51033 ("雪中花")
+          <- d/changan/fendui
+previous_object(0): obj/user#55271 ("狂野")
+previous_object(1): adm/obj/simul_efun
+previous_object(2): obj/corpse#55349 ("武馆弟子的尸体")
++----------------------------------------------------------------------+
+
+
+执行时段错误：*你(Domain)不能摧毁其他的使用者。
+
+程序：feature/move.c 第 259 行
+物件：/obj/user#55271
+呼叫来自：obj/corpse.c 的 do_mai() 第 106 行，物件： obj/corpse#55349 ("武馆弟子的尸体")
+调用参数：do_mai("corpse")
+局部变量：({ ... }), 0
+呼叫来自：adm/obj/simul_efun.c 的 destruct() 第 95 行，物件： adm/obj/simul_efun
+调用参数：destruct()
+局部变量：
+呼叫来自：feature/move.c 的 remove() 第 259 行，物件： obj/user#55271 ("狂野")
+调用参数：remove("Domain")
+局部变量：NULL
+this_player: obj/user#51033 ("雪中花")
+          <- d/changan/fendui
+previous_object(0): obj/user#55271 ("狂野")
+previous_object(1): adm/obj/simul_efun
+previous_object(2): obj/corpse#55349 ("武馆弟子的尸体")
++----------------------------------------------------------------------+
+
+
+执行时段错误：*你(Domain)不能摧毁其他的使用者。
+
+程序：feature/move.c 第 259 行
+物件：/obj/user#55271
+呼叫来自：obj/corpse.c 的 do_mai() 第 106 行，物件： obj/corpse#55349 ("武馆弟子的尸体")
+调用参数：do_mai("corpse")
+局部变量：({ ... }), 0
+呼叫来自：adm/obj/simul_efun.c 的 destruct() 第 95 行，物件： adm/obj/simul_efun
+调用参数：destruct()
+局部变量：
+呼叫来自：feature/move.c 的 remove() 第 259 行，物件： obj/user#55271 ("狂野")
+调用参数：remove("Domain")
+局部变量：NULL
+this_player: obj/user#51033 ("雪中花")
+          <- d/changan/fendui
+previous_object(0): obj/user#55271 ("狂野")
+previous_object(1): adm/obj/simul_efun
+previous_object(2): obj/corpse#55349 ("武馆弟子的尸体")
++----------------------------------------------------------------------+
+
+
+执行时段错误：*你(Domain)不能摧毁其他的使用者。
+
+程序：feature/move.c 第 259 行
+物件：/obj/user#55271
+呼叫来自：obj/corpse.c 的 do_mai() 第 106 行，物件： obj/corpse#55349 ("武馆弟子的尸体")
+调用参数：do_mai("corpse")
+局部变量：({ ... }), 0
+呼叫来自：adm/obj/simul_efun.c 的 destruct() 第 95 行，物件： adm/obj/simul_efun
+调用参数：destruct()
+局部变量：
+呼叫来自：feature/move.c 的 remove() 第 259 行，物件： obj/user#55271 ("狂野")
+调用参数：remove("Domain")
+局部变量：NULL
+this_player: obj/user#51033 ("雪中花")
+          <- d/changan/fendui
+previous_object(0): obj/user#55271 ("狂野")
+previous_object(1): adm/obj/simul_efun
+previous_object(2): obj/corpse#55349 ("武馆弟子的尸体")
++----------------------------------------------------------------------+
+
+
+执行时段错误：*你(Domain)不能摧毁其他的使用者。
+
+程序：feature/move.c 第 259 行
+物件：/obj/user#55271
+呼叫来自：obj/corpse.c 的 do_mai() 第 106 行，物件： obj/corpse#55349 ("武馆弟子的尸体")
+调用参数：do_mai("corpse")
+局部变量：({ ... }), 0
+呼叫来自：adm/obj/simul_efun.c 的 destruct() 第 95 行，物件： adm/obj/simul_efun
+调用参数：destruct()
+局部变量：
+呼叫来自：feature/move.c 的 remove() 第 259 行，物件： obj/user#55271 ("狂野")
+调用参数：remove("Domain")
+局部变量：NULL
+this_player: obj/user#51033 ("雪中花")
+          <- d/changan/fendui
+previous_object(0): obj/user#55271 ("狂野")
+previous_object(1): adm/obj/simul_efun
+previous_object(2): obj/corpse#55349 ("武馆弟子的尸体")
++----------------------------------------------------------------------+
+
+
+执行时段错误：*你(Domain)不能摧毁其他的使用者。
+
+程序：feature/move.c 第 259 行
+物件：/obj/user#55271
+呼叫来自：obj/corpse.c 的 do_mai() 第 106 行，物件： obj/corpse#55349 ("武馆弟子的尸体")
+调用参数：do_mai("corpse")
+局部变量：({ ... }), 0
+呼叫来自：adm/obj/simul_efun.c 的 destruct() 第 95 行，物件： adm/obj/simul_efun
+调用参数：destruct()
+局部变量：
+呼叫来自：feature/move.c 的 remove() 第 259 行，物件： obj/user#55271 ("狂野")
+调用参数：remove("Domain")
+局部变量：NULL
+this_player: obj/user#51033 ("雪中花")
+          <- d/changan/fendui
+previous_object(0): obj/user#55271 ("狂野")
+previous_object(1): adm/obj/simul_efun
+previous_object(2): obj/corpse#55349 ("武馆弟子的尸体")
++----------------------------------------------------------------------+
+
+
+执行时段错误：*你(Domain)不能摧毁其他的使用者。
+
+程序：feature/move.c 第 259 行
+物件：/obj/user#55271
+呼叫来自：obj/corpse.c 的 do_mai() 第 106 行，物件： obj/corpse#55349 ("武馆弟子的尸体")
+调用参数：do_mai("corpse")
+局部变量：({ ... }), 0
+呼叫来自：adm/obj/simul_efun.c 的 destruct() 第 95 行，物件： adm/obj/simul_efun
+调用参数：destruct()
+局部变量：
+呼叫来自：feature/move.c 的 remove() 第 259 行，物件： obj/user#55271 ("狂野")
+调用参数：remove("Domain")
+局部变量：NULL
+this_player: obj/user#51033 ("雪中花")
+          <- d/changan/fendui
+previous_object(0): obj/user#55271 ("狂野")
+previous_object(1): adm/obj/simul_efun
+previous_object(2): obj/corpse#55349 ("武馆弟子的尸体")
++----------------------------------------------------------------------+
+
+
+执行时段错误：*你(Domain)不能摧毁其他的使用者。
+
+程序：feature/move.c 第 259 行
+物件：/obj/user#55271
+呼叫来自：obj/corpse.c 的 do_mai() 第 106 行，物件： obj/corpse#55349 ("武馆弟子的尸体")
+调用参数：do_mai("corpse")
+局部变量：({ ... }), 0
+呼叫来自：adm/obj/simul_efun.c 的 destruct() 第 95 行，物件： adm/obj/simul_efun
+调用参数：destruct()
+局部变量：
+呼叫来自：feature/move.c 的 remove() 第 259 行，物件： obj/user#55271 ("狂野")
+调用参数：remove("Domain")
+局部变量：NULL
+this_player: obj/user#51033 ("雪中花")
+          <- d/changan/fendui
+previous_object(0): obj/user#55271 ("狂野")
+previous_object(1): adm/obj/simul_efun
+previous_object(2): obj/corpse#55349 ("武馆弟子的尸体")
++----------------------------------------------------------------------+
+
+
+执行时段错误：*你(Domain)不能摧毁其他的使用者。
+
+程序：feature/move.c 第 259 行
+物件：/obj/user#55271
+呼叫来自：obj/corpse.c 的 do_mai() 第 106 行，物件： obj/corpse#55349 ("武馆弟子的尸体")
+调用参数：do_mai("corpse")
+局部变量：({ ... }), 0
+呼叫来自：adm/obj/simul_efun.c 的 destruct() 第 95 行，物件： adm/obj/simul_efun
+调用参数：destruct()
+局部变量：
+呼叫来自：feature/move.c 的 remove() 第 259 行，物件： obj/user#55271 ("狂野")
+调用参数：remove("Domain")
+局部变量：NULL
+this_player: obj/user#51033 ("雪中花")
+          <- d/changan/fendui
+previous_object(0): obj/user#55271 ("狂野")
+previous_object(1): adm/obj/simul_efun
+previous_object(2): obj/corpse#55349 ("武馆弟子的尸体")
++----------------------------------------------------------------------+
+
+
+执行时段错误：*你(Domain)不能摧毁其他的使用者。
+
+程序：feature/move.c 第 259 行
+物件：/obj/user#55271
+呼叫来自：obj/corpse.c 的 do_mai() 第 106 行，物件： obj/corpse#55349 ("武馆弟子的尸体")
+调用参数：do_mai("corpse")
+局部变量：({ ... }), 0
+呼叫来自：adm/obj/simul_efun.c 的 destruct() 第 95 行，物件： adm/obj/simul_efun
+调用参数：destruct()
+局部变量：
+呼叫来自：feature/move.c 的 remove() 第 259 行，物件： obj/user#55271 ("狂野")
+调用参数：remove("Domain")
+局部变量：NULL
+this_player: obj/user#51033 ("雪中花")
+          <- d/changan/fendui
+previous_object(0): obj/user#55271 ("狂野")
+previous_object(1): adm/obj/simul_efun
+previous_object(2): obj/corpse#55349 ("武馆弟子的尸体")
++----------------------------------------------------------------------+
+
+
+执行时段错误：*你(Domain)不能摧毁其他的使用者。
+
+程序：feature/move.c 第 259 行
+物件：/obj/user#55271
+呼叫来自：obj/corpse.c 的 do_mai() 第 106 行，物件： obj/corpse#55349 ("武馆弟子的尸体")
+调用参数：do_mai("corpse")
+局部变量：({ ... }), 0
+呼叫来自：adm/obj/simul_efun.c 的 destruct() 第 95 行，物件： adm/obj/simul_efun
+调用参数：destruct()
+局部变量：
+呼叫来自：feature/move.c 的 remove() 第 259 行，物件： obj/user#55271 ("狂野")
+调用参数：remove("Domain")
+局部变量：NULL
+this_player: obj/user#51033 ("雪中花")
+          <- d/changan/fendui
+previous_object(0): obj/user#55271 ("狂野")
+previous_object(1): adm/obj/simul_efun
+previous_object(2): obj/corpse#55349 ("武馆弟子的尸体")
++----------------------------------------------------------------------+
+
+
+执行时段错误：*你(Domain)不能摧毁其他的使用者。
+
+程序：feature/move.c 第 259 行
+物件：/obj/user#55271
+呼叫来自：obj/corpse.c 的 do_mai() 第 106 行，物件： obj/corpse#55349 ("武馆弟子的尸体")
+调用参数：do_mai("corpse")
+局部变量：({ ... }), 0
+呼叫来自：adm/obj/simul_efun.c 的 destruct() 第 95 行，物件： adm/obj/simul_efun
+调用参数：destruct()
+局部变量：
+呼叫来自：feature/move.c 的 remove() 第 259 行，物件： obj/user#55271 ("狂野")
+调用参数：remove("Domain")
+局部变量：NULL
+this_player: obj/user#51033 ("雪中花")
+          <- d/changan/fendui
+previous_object(0): obj/user#55271 ("狂野")
+previous_object(1): adm/obj/simul_efun
+previous_object(2): obj/corpse#55349 ("武馆弟子的尸体")
++----------------------------------------------------------------------+
+
+
+执行时段错误：*你(Domain)不能摧毁其他的使用者。
+
+程序：feature/move.c 第 259 行
+物件：/obj/user#55271
+呼叫来自：obj/corpse.c 的 do_mai() 第 106 行，物件： obj/corpse#55349 ("武馆弟子的尸体")
+调用参数：do_mai("corpse")
+局部变量：({ ... }), 0
+呼叫来自：adm/obj/simul_efun.c 的 destruct() 第 95 行，物件： adm/obj/simul_efun
+调用参数：destruct()
+局部变量：
+呼叫来自：feature/move.c 的 remove() 第 259 行，物件： obj/user#55271 ("狂野")
+调用参数：remove("Domain")
+局部变量：NULL
+this_player: obj/user#51033 ("雪中花")
+          <- d/changan/fendui
+previous_object(0): obj/user#55271 ("狂野")
+previous_object(1): adm/obj/simul_efun
+previous_object(2): obj/corpse#55349 ("武馆弟子的尸体")
++----------------------------------------------------------------------+
+
+get_user_data: read on fd 600
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+
+执行时段错误：*你(Domain)不能摧毁其他的使用者。
+
+程序：feature/move.c 第 259 行
+物件：/obj/user#55271
+呼叫来自：obj/corpse.c 的 do_mai() 第 106 行，物件： obj/corpse#55349 ("武馆弟子的尸体")
+调用参数：do_mai("corpse")
+局部变量：({ ... }), 0
+呼叫来自：adm/obj/simul_efun.c 的 destruct() 第 95 行，物件： adm/obj/simul_efun
+调用参数：destruct()
+局部变量：
+呼叫来自：feature/move.c 的 remove() 第 259 行，物件： obj/user#55271 ("狂野")
+调用参数：remove("Domain")
+局部变量：NULL
+this_player: obj/user#51033 ("雪中花")
+          <- d/changan/fendui
+previous_object(0): obj/user#55271 ("狂野")
+previous_object(1): adm/obj/simul_efun
+previous_object(2): obj/corpse#55349 ("武馆弟子的尸体")
++----------------------------------------------------------------------+
+
+
+执行时段错误：*你(Domain)不能摧毁其他的使用者。
+
+程序：feature/move.c 第 259 行
+物件：/obj/user#55271
+呼叫来自：obj/corpse.c 的 do_mai() 第 106 行，物件： obj/corpse#55349 ("武馆弟子的尸体")
+调用参数：do_mai("corpse")
+局部变量：({ ... }), 0
+呼叫来自：adm/obj/simul_efun.c 的 destruct() 第 95 行，物件： adm/obj/simul_efun
+调用参数：destruct()
+局部变量：
+呼叫来自：feature/move.c 的 remove() 第 259 行，物件： obj/user#55271 ("狂野")
+调用参数：remove("Domain")
+局部变量：NULL
+this_player: obj/user#51033 ("雪中花")
+          <- d/changan/fendui
+previous_object(0): obj/user#55271 ("狂野")
+previous_object(1): adm/obj/simul_efun
+previous_object(2): obj/corpse#55349 ("武馆弟子的尸体")
++----------------------------------------------------------------------+
+
+get_user_data: read on fd 728
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 724
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 540
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 632
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 640
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+
+执行时段错误：*Bad argument 1 to present()
+Expected: string or object Got: 0.
+
+程序：d/xueshan/npc/hufabird.c 第 139 行
+物件：/d/xueshan/npc/hufabird#64752
+呼叫来自：d/xueshan/npc/hufabird.c 的 check_leader() 第 139 行，物件： d/xueshan/npc/hufabird#64752 ("凤凰")
+调用参数：check_leader(0)
+局部变量：
+this_player: d/xueshan/npc/hufabird#64752 ("凤凰")
+          <- d/qujing/dudi/shanlu4
+previous_object(0): d/xueshan/npc/hufabird#64752 ("凤凰")
++----------------------------------------------------------------------+
+
+get_user_data: read on fd 544
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 556
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 688
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 584
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 584
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 584
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 584
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 584
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 612
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 600
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 740
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 576
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 632
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 604
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 604
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 552
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 604
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 740
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 660
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 708
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 644
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 716
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 568
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 560
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 560
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 560
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 712
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 712
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 780
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 780
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 780
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 768
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 768
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 532
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 604
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 604
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 604
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 604
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 604
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 560
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 560
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 620
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 772
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 720
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 720
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 728
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 532
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 532
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 680
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 648
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 700
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 568
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 568
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 716
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 660
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 692
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 628
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 740
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 740
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 636
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 584
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 688
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 756
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 720
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 656
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 656
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 720
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 684
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 788
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 596
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 512
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+

@@ -1,0 +1,2 @@
+#/std/bboard.c
+dbase (["notes":({(["sx":"◆","title":"我第一","msg":"哈哈～！我第一！！～～～","ip":"tongpmm.mhxy.com","author":"阿神(Tongpmm)","time":1014120555,]),(["sx":"◆","msg":"第二","title":"2","ip":"dwh.mhxy.com","time":1014209345,"author":"明你(Dwh)",]),}),"name":"留言壁","long":"一块留言壁，上面题满了来访者的留言。","capacity":100,"id":"wall","board_id":"wall_b","location":"/d/nanhai/gate","no_get":1,])

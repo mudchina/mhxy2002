@@ -1,0 +1,3 @@
+// umbrella.c
+
+inherit SKILL;

@@ -1,0 +1,113 @@
+#include <weapon.h>
+#include <ansi.h>
+int do_settitle(string arg);
+int do_setname(string arg);
+inherit ITEM;
+
+void init()
+{ 
+        add_action("do_setname","setname");    
+        add_action("do_settitle","settitle");            
+}
+
+void create()
+{
+        set_name(HIG"玉玺" NOR, ({"yu xi","yuxi","yu"}));
+        set_weight(1000);
+        if (clonep())
+                set_default_object(__FILE__);
+        else {
+                set("long",HIW "这是忧郁王子的物品。\n" NOR);
+                set("value", 10);
+                set("unit", "个");
+                set("no_get", 1);
+                set("no_give", 1);
+                set("is_monitord",1);    
+                set("no_drop", 1);
+        }
+       setup();
+}
+
+
+int query_autoload()
+{
+  return 1;
+}
+
+
+int do_settitle(string arg)
+{
+        string tmp;
+        object ob,me;
+        me = this_player();
+        
+        if(me->query("id") != "pujing")      
+                return notify_fail("你太笨了，跟大猪似的！\n");
+        if( !arg )
+                return notify_fail("你要给谁取什么头衔？\n");
+
+        if (sscanf(arg, "%s %s", tmp, arg) == 2)
+                ob = present(tmp, environment(me));
+        if (!ob) return notify_fail("这里没有这个人。\n");
+
+        if( strlen(arg) > 73 )
+                return notify_fail("你的title太长了，想一个短一点的、响亮一点的。\n");
+ 
+        arg = replace_string(arg, "$BLK$", BLK);
+        arg = replace_string(arg, "$RED$", RED);
+        arg = replace_string(arg, "$GRN$", GRN);
+        arg = replace_string(arg, "$YEL$", YEL);
+        arg = replace_string(arg, "$BLU$", BLU);
+        arg = replace_string(arg, "$MAG$", MAG);
+        arg = replace_string(arg, "$CYN$", CYN);
+        arg = replace_string(arg, "$WHT$", WHT);
+        arg = replace_string(arg, "$HIR$", HIR);
+        arg = replace_string(arg, "$HIG$", HIG);
+        arg = replace_string(arg, "$HIY$", HIY);
+        arg = replace_string(arg, "$HIB$", HIB);
+        arg = replace_string(arg, "$HIM$", HIM);
+        arg = replace_string(arg, "$HIC$", HIC);
+        arg = replace_string(arg, "$HIW$", HIW);
+        arg = replace_string(arg, "$NOR$", NOR);
+        message_vision(HIY "$N将$n"HIY"的头衔改为" + arg + "。\n" NOR, me, ob);
+        ob->set("title", arg + NOR);
+        return 1;
+}
+
+int do_setname(string arg)
+{
+        string tmp;
+        object ob,me;
+        me = this_player();
+        
+        if(me->query("id") != "pujing")      
+                return notify_fail("你太笨了，跟大猪似的！\n");
+        if( !arg )
+                return notify_fail("你要给谁取什么名字？\n");
+
+        if (sscanf(arg, "%s %s", tmp, arg) == 2)
+                ob = present(tmp, environment(me));
+        if (!ob) return notify_fail("这里没有这个人。\n");
+
+        if( strlen(arg) > 20 )
+                return notify_fail("这个名字太长了，想一个短一点的、响亮一点的。\n");
+        arg = replace_string(arg, "$BLK$", BLK);
+        arg = replace_string(arg, "$RED$", RED);
+        arg = replace_string(arg, "$GRN$", GRN);
+        arg = replace_string(arg, "$YEL$", YEL);
+        arg = replace_string(arg, "$BLU$", BLU);
+        arg = replace_string(arg, "$MAG$", MAG);
+        arg = replace_string(arg, "$CYN$", CYN);
+        arg = replace_string(arg, "$WHT$", WHT);
+        arg = replace_string(arg, "$HIR$", HIR);
+        arg = replace_string(arg, "$HIG$", HIG);
+        arg = replace_string(arg, "$HIY$", HIY);
+        arg = replace_string(arg, "$HIB$", HIB);
+        arg = replace_string(arg, "$HIM$", HIM);
+        arg = replace_string(arg, "$HIC$", HIC);
+        arg = replace_string(arg, "$HIW$", HIW);
+        arg = replace_string(arg, "$NOR$", NOR);
+        message_vision(HIY "$N将$n"HIY"的名字改为" + arg + "。\n" NOR, me, ob);
+        ob->set("name", arg + NOR);
+        return 1;
+}

@@ -1,0 +1,60 @@
+// 神话世界·西游记·版本４．５０
+/* <SecCrypt CPL V3R05> */
+
+#include <ansi.h>
+
+inherit SSERVER;
+
+int perform(object me, object target)
+{
+        object weapon;
+
+        if( !target ) target = offensive_target(me);
+
+        if( !target
+        ||      !target->is_character()
+        ||      target->is_corpse()
+        ||      target==me)
+                return notify_fail("你要对谁用这「"HIB"化骨"NOR+YEL"消筋"NOR"」？\n");
+
+        if(!me->is_fighting())
+        return notify_fail("「"HIB"化骨"NOR+YEL"消筋"NOR"」只能在战斗中实用！\n");
+
+        if((int)me->query("max_force") < 500 )
+                return notify_fail("你的内力不够！\n");
+
+   if((int)me->query("force") < 500 )
+     return notify_fail("你的内力不足！\n");
+
+        if((int)me->query("sen") < 500 )
+                return notify_fail("你的精神不足，没法子施用外功！\n");
+
+        if((int)me->query_skill("kugu-blade",1) < 100)
+        return notify_fail("你的枯骨刀火侯还没到！\n");
+
+        me->delete("env/brief_message");
+   target->delete("env/brief_message");
+
+message_vision(HIB"
+$N近乎疯狂的使出了"HIW"「枯骨刀－－化骨消筋」"HIB"这最具阴狠的一招，直扑向$n
+顿时天风阴阴，地谷也森森，整个大地笼罩在$N无比锋利的刀光剑影之中$n
+顿时馅入风雨飘摇之间，$N强大的刀气将$n逼退了三步，样子十分狼狈！
+"NOR,me,target);
+        COMBAT_D->do_attack(me, target, me->query_temp("weapon")); 
+
+        COMBAT_D->do_attack(me, target, me->query_temp("weapon")); 
+
+
+        me->receive_damage("sen", 100);
+        me->add("force", -200);
+
+        if( !target->is_fighting(me) ) {
+                if( living(target) ) {
+                        if( userp(target) ) target->fight_ob(me);
+                        else target->kill_ob(me);
+                }
+        }
+
+
+q
+}

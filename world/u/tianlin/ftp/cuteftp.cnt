@@ -1,0 +1,105 @@
+:Base CUTEFTP.HLP
+:Title CuteFTP
+1 介绍
+2 介绍=Introduction
+1 CuteFTP 授权协议
+2 关于横幅广告=About_Banner_Ads
+2 30 天试用期结束后=End_of_30_Day_Trial
+2 CuteFTP 授权协议=CuteFTP_License_Agreement
+2 注册及商标=Registrations_and_Trademarks
+1 安装
+2 安装=Installation
+1 CuteFTP 注册
+2 CuteFTP 注册=CuteFTP_Registration
+2 注册信息=Registration_Messages
+2 手动注册=Manual_Registration
+1 启动 CuteFTP
+2 连接到现有站点上=Connecting_to_an_Existing_Site
+2 CuteFTP 的主屏幕=CuteFTP_s_Main_Screen
+2 拨号网络=Dial_Up_Networking
+2 建立您的因特网连接=Establishing_your_Internet_Connection
+2 调用 CuteFTP=Launching_CuteFTP
+2 CuteFTP 导航=Navigating_CuteFTP
+1 查看选项
+2 长列表和短列表=Long_Listing_and_Short_Listing
+2 打印文件夹列表=Printing_a_Directory_Listing
+2 刷新文件夹列表=Refreshing_the_Directory_Listing
+2 显示文件详细资料=Showing_File_Details
+2 文件列表排序=Sorting_the_File_Listing
+2 切换远端/导航/本地/队列窗格=Toggling_Remote_Navigation_Local_Queue_Panes
+1 显示选项
+2 改变默认的启动窗口=Changing_the_Default_Start_Up_Window
+2 改变工具栏布局和显示=Changing_the_Toolbar_Layout_and_Display
+2 设置默认字体=Setting_the_Default_Fonts
+1 事件选项
+2 改变默认的双击操作=Changing_the_Default_Double_Click_Action
+2 确认提示=Confirmation_Prompts
+2 自定义传送事件声音=Customizing_the_Transfer_Event_Sounds
+1 设置
+2 设置 - 常规选项=Settings_General_Options
+2 设置 - 高级选项=Settings_Advanced_Options
+1 CuteFTP 连接向导
+2 选择您的 FTP 站点=Choose_your_FTP_Site
+2 输入标签=Enter_a_Label
+2 输入主机地址=Enter_the_Host_Address
+2 输入名称和密码=Enter_Name_and_Password
+2 指定文件夹=Specific_Directory
+2 结束=Finished
+1 连接选项
+2 避免空闲超时=Avoiding_Idle_Time_outs
+2 连接信息=Connection_Messages
+2 连接问题=Connection_Problems
+2 自定义命令=Custom_Commands
+2 自定义通话记录=Customizing_the_Session_Log
+2 断开、重连及停止连接=Disconnecting__Reconnecting_and_Stopping_Connections
+2 防火墙及代理服务器的配置=Firewall_and_Proxy_Server_Configuration
+2 拨号网络=Dial_Up_Networking
+2 保存远端/本地下载路径=Saving_Remote_Local_Download_Paths
+2 多个通话=Spawning_Sessions
+2 使用书签=Using_Bookmarks
+2 使用粘贴 URL 及剪贴板监视器=Using_Paste_URL_and_Clipboard_Monitoring
+2 使用快速连接=Using_Quick_Connect
+1 在站点管理器中编辑 FTP 站点属性
+2 添加站点=Adding_a_Site
+2 常规站点管理器设置=General_Site_Manager_Settings
+2 高级站点管理器设置=Advanced_Site_Manager_Settings
+2 将通话添加到站点管理器中=Add_Session_to_Site_Manager
+2 编辑站点=Editing_a_Site
+2 移去站点=Removing_a_Site
+1 使用 CuteFTP 传送文件
+2 手动获取文件=Manually_Getting_a_File
+2 持续传送=Persistent_Transfers
+2 继续传送=Resuming_Transfers
+2 停止传送=Stopping_Transfers
+2 传送文件=Transferring_Files
+2 站点对站点传送(FXP)=Site_to_Site_Transfers__FXP_
+1 传送选项
+2 确认提示=Confirmation_Prompts
+2 定义文本(ASCII)文件扩展名=Defining_Text__ASCII__File_Extensions
+2 按文件获取链接=Get_Link_as_File
+2 解析链接切换=Resolving_Links_Toggle
+2 设置传送类型(ASCII/二进制)=Setting_the_Transfer_Type__ASCII_Binary_
+1 文件和文件夹管理
+2 浏览本地文件=Browsing_for_Files_on_your_System
+2 改变文件和文件夹的属性=Changing_Attributes_of_Files_and_Folders
+2 比较本地和远端文件夹=Comparing_Local_and_Remote_Directories
+2 创建、重命名和删除文件夹=Creating__Renaming_and_Deleting_Folders
+2 删除、重命名和移动文件=Deleting__Renaming_and_Moving_Files
+2 文件夹信息和统计=Directory_Information_and_Statistics
+2 过滤文件和文件夹=Filtering_Files_and_Folders
+2 搜索文件=Searching_for_Files
+2 查看、编辑和运行文件=Viewing__Editing__and_Executing_Files
+2 通配符=Wildcard_Masks
+1 CuteMP3 /文件查找器
+2 CuteMP3 和文件查找器=CuteMP3_and_File_Finder
+1 自动功能
+2 宏和脚本=Macros_and_Scripting
+2 自动重命名已传送的文件=Automatically_Renaming_Transferred_Files
+2 使用队列传送文件=Using_the_Queue_to_Transfer_Files
+2 队列文件结构=Queue_File_Structure
+2 按计划传送文件=Scheduling_File_Transfers
+1 提示和技巧
+2 提示和技巧=Tips_and_Tricks
+1 技术支持和服务/疑难指导
+2 技术支持和服务=Technical_Support_and_Services
+2 疑难指导=Troubleshooting

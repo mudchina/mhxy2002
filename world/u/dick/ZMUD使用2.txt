@@ -1,0 +1,135 @@
+ZMUD使用（二） 
+
+如何用好 TRIGGERS 
+　　玩MUD不用ZMUD基本上就是在浪费时间，而TRIGGERS是其提供的最简单的功能。如何运用 TRIGGERS，用好 TRIGGERS，对于节省时间，形成ROBOT自动练功有相当大的作用。可以在最短时间内练得武功。
+　　但是，请各位切记：TRIGGERS 虽然有用，但是存在一定的危险性。做ROBOT固然可以自动练功，但是如果被巫师抓住，后果是比较痛苦的。另外，PKER 也可以利用你的TRIGGERS来PK。所以做TRIGGERS必须相当小心。
+　　我将在这里写一些关于TRIGGERS 的文章，以求和大家共同探讨。 
+　　一、认识TRIGGERS
+　　什么是 TRIGGERS ，TRIGGERS 类似于一般编程结构中的IF...THEN结构。其中有三个主要的参数：Pattern、Command、Enable/Disable。说的通俗一点，当接收到 Pattern 的时候，自动输入 Command。而En/Disable可以另其活动或不活动。
+　　另外Class可以为TRIGGERS定义一个类名，方便操作。
+举个简单的例子：Pattern为“官兵死了”，
+　　　　　　　　Command为“get all from corpse"，
+　　　　　　　　Command为“get all from corpse"，
+则当ZMUD接收到“官兵死了”，自动发出“get all from corpse”
+在更高级的技巧中，把TRIGGERS、ALIAS、VARIABLE、Function、ZMUD内部命令联用，可以取得相当好的效果。
+　　例如：做一个ALIAS，#alias dk drink @drinkwhat
+　　　TRIGGERS1:
+　　　　　Pattern=“你买下一个牛皮酒袋”
+　　　　　Command=“drinkwhat=jiudai”
+　　　TRIGGERS2:
+　　　　　Pattern=“你捡起一个清水葫芦”
+　　　　　Command=“drinkwhat=hulu”
+　　那么当你喝水的时候，只需要打dk，而喝什么TRIGGERS自动更改（不论你喝buy jiudai或是get hulu）。
+　　这当然只是个简单的例子，要想做更复杂的请先读通Help。
+　　另外在TRIGGERS有一些wild-card可以运用，详细参见ZMUD　Help。
+　　二、和TRIGGERS相关的主要命令
+　　最重要的命令就是“#t+”、“#t-”。这两个命令可以激发和取消某个特定类别TRIGGERS的活动状态。另外 #IG可以忽略或重新不忽略全部TRIGGERS。
+　　三、运用TRIGGERS应注意的问题
+　　在MUD中做TRIGGERS，自动练功能节省大量的时间、精力，当然也省去了输入大量命令的麻烦。但是请注意，在MUD中大量运用TRIGGERS做ROBOT是存在一定危险性的。
+　　首先，MUD中明文规定禁止用ROBOT练功，如果被巫师抓到，只能自认倒霉。
+　　其次，PKER可以利用TRIGGERS杀人。例如：你有一个TRIGGERS是这样的，当“你一觉醒来...”然后“xxxxx”（多个命令），那么他可以想办法让你接收到多个“你一觉醒来...”，之后嘿嘿嘿...
+　　再次，TRIGGERS 做的不好，输入命令过多，那么闪电是不会放过你的。你当时就晕了，别人可以kill、get all、再绝一点可以下毒、背你到杀人NPC处...，你等于把自己放在菜板上，任人宰割。即使没人害你，你也浪费了大量时间。
+　　还有许多应该注意的问题，这只是必须切记的三点。下篇我将结合自己的心得，讲一下做TRIGGERS应注意的问题。
+　　四、如何避免TRIGGERS带来的弊病
+　　1、在上面我说了，TRIGGERS 由PATTERN激活，那么在用的时候应该尽量避免错误的接收到PATTERN。例如：关闭不使用的交谈频道（chat,rumor,tell），在TRIGGERS 中将PATTERN尽量做长，同时尽量限定其活动条件（例如用^可以使PATTERN仅在输出行头相同时作用）。练功的时候找一个不容易给人发现的地方，同时要经常更换练功地点。
+　　2、做TRIGGERS应该避免一些经常出现或容易被人猜到的PATTERN，如果必须这样，那么在此TRIGGERS不应激活的时候，用#t-将其至为Disable。最好在PATTERN中加入对变量，对当时情况加以判定。另外需要经常激活的TRIGGERS中，必须将命令数目缩短，防止错误活动。
+　　3、对于某些高频率出现的PATTERN，可以利用一个变量来判定是否输入命令
+　　例
+　　在打NPC的时候，会做以下TRIGGERS：
+　　　　A 当你输的时候的Pattern。
+　　　　B 当NPC输的时候的Pattern。
+　　那么在打10个以上NPC的时候，如果用普通方法做，那么在NPC接连跳开的时候，很容易在短时间内超过40条命令，当即晕倒。　　所以，应该在这时候用一个变量来判断是否已经输入了大量命令，当前是否应该输入命令（可以用变量结合#if命令来做）。
+　　4、在TRIGGERS中输入的命令要合理的加入 #wa 。请看下面的例子。你有一个TRIGGERS，将输入80个命令，而MUD限制一定时间内不能输入40个，所以你必须加入#wa。
+　方法一：#80 #wa 500;x
+　方法二：#40 x;#wa 6000;#40 x
+　哪个好? 当然是方法二。等待的时间少，而且避免了缓冲区满的问题，避免了主机一次接收多个命令。
+　注：　ZMUD处理#wa是这样的，其等待一段时间向MODEM缓冲区，注意不是主机 !!! 输入命令。那么在缓冲区满的时候，实际上命令还是一次送出，主机仍然一次接收多条命令。根本没有起到#wa的作用。这点在输入多个命令时，尤为明显。切记!切记!
+　　5、尽量多用主机命令alias，将常用的命令用短命令代替。这有助于减低网络通信量，解决由于缓冲区造成的问题。或者干脆关闭MODEM缓冲（这似乎不太可能）。
+　　6、在用TRIGGERS来du shu,lian parry等的时候可以用一个变量随机的做一些动作，不让别人知道你是 ROBOT。除了丐帮，其他帮派弟子要知道多个可以 sleep 的安全地点，避免巫师瓮中捉鳖（嘿嘿，巫师看了不要生气哟）。另外在命令串中#wa的时候，要#t-掉一些不应该激活的TRIGGERS。
+　　7、在输入大量命令的时候，将命令分解为多个小命令，然后顺序执行效果比一条长命令（中间有#wa效果好）。例如你一觉醒来就xxxxxxx，不如你一觉醒来x1、之后x2、x3...这在一定程度上可以解决缓冲区问题。
+　　8、在TRIGGERS中加入变量，ZMUD命令等，使其带有一定的判断性。
+　　9、记住,目前在MUD中SLEEP大概是10秒。那么WAIT超过10秒似乎就....
+　　10、各位试试在被闪电击中醒来后再输入大量命令，看看有什么结果?hehe...
+　　下一篇将着重介绍TRIGGERS中经常使用的WILDCARDS。
+RIGGERS常用技巧
+　　1、WILDCARDS
+　　　*　　　　通配任何数字、字符或空白
+　　　?　　　　通配任何单个字符
+　　　%d　　　 通配任何数字（0-9）
+　　　%w　　　 通配任何字母（a-z）
+　　　%a　　　 通配任何数字和字母（等于%d+%w）
+　　　%s　　　 通配任何空白（spaces, tabs）
+　　　%x　　　 通配任何非空白
+　　　[range]　通配任何在range范围内的字符
+　　　^　　　　强制PATTERN在行头时显示，TRIGGERS才有作用
+　　　$　　　　强制PATTERN在行尾时显示，TRIGGERS才有作用
+　　　(pattern)将参数带给TRIGGERS（%1-%9）
+　　　~　　　　提示系统将~后字符当作字符而不是wildcards
+　　　{val1|val2|val3|...} 在PATTERN中核对多个显示数据
+　　　{^string}　　　　在PATTRN中不核对该字符串
+　　同时你可以在PATTERN中运用变量，变量在PATTERN起作用之前，会被替代。
+　　　重点：如何利用WILDCARD抓状态：
+　　　　　　抓气: ^%s气%s(%d)*/%s(%d)%s~(
+　　　　　　　　　　　　^^^^%1　^^^^%2
+　　　这个PATTERN返回两个参数%1、%2（分别表示当前气、气上限），那么在COMMAND中就可以针对以上两个参数利用ZMUD函数和命令进行自动判断，制作有智能的TRIGGERS。
+　　例 1：COMMAND为 '#math dazuohow %1-20;#if %1>50 {dazuo@dazuohow}'
+　　则：当当前气>50的时候，打坐剩下20点的气。
+　　例 2：COMMAND为 '#if %1<150 {yun recover}'
+　　则：当当前气<150的时候，利用内力补充气。
+　　同样道理，你可以制作更复杂的TRIGGERS，针对当前ID情况做不同的行为。例如受伤了就YUNHEAL，饿了就EAT等等...。还可以利用CASE增强TRIGGERS。
+　　例 2：有些人的TRIGGERS中“看起来想杀死你”马上QUIT。可能是想杀他的人太多了，不愿意一个一个做，也可能是太懒不愿意去判断。结果，hehe。某次，有人把毒蛇放在四个城门口和客店。我亲眼目睹至少10个ID碰上毒蛇就就QUIT，包括一些高手。 HAHA....当时钱少，于是拣东西拣的不亦乐乎。hahaha...。其实把人物名字抓下来判断一下不是很麻烦的。
+　　2、TRIGGERS状态与选项
+　　主要选项：1、When load　En/Disable
+　　　　　　　　　确定当mud文件被load的时候，TRIGGERS是否活动。
+　　　　　　　2、Triggers on New line/Prompt
+　　　　　　　　　确定PATTERN是否接收完一行才核对（是否接收到CR字符）
+　　　　　　　3、TRIGGERS ON TRIGGERS
+　　　　　　　　　是否在TRIGGERS中启用TRIGGERS
+　　　主要状态：En/Disable　确定TRIGGERS当前是否活动
+　　　主要命令：#t+ {classname} 将classname指明的TRIGGERS DISABLE
+　　　　　　　　#t- {classname} 将classname指明的TRIGGERS ENABLE
+　　　　　　　　#ig　　　　　　忽略所有TRIGGERS
+　　3、在TRIGGERS中经常用到的运算符
+　　　　+　　　加
+　　　　-　　　减、负号
+　　　　*　　　乘
+　　　　/　　　除
+　　　　\　　　取模
+　　　　&、and　AND运算
+　　　　|、or　OR运算
+　　　　xor　　XOR运算
+　　　　!　　　NOT运算
+　　　　=　　　等于
+　　　　>　　　大于
+　　　　<　　　小于
+　　　　>=　　　大于等于
+　　　　<=　　　小于等于
+　　　　<>、!=　不等于
+　　　　=~、~=　包含
+　　例 1：利用'|'来多重判断。'|'代表“或”的意思。
+　　如'{江百胜|武将}向后'=TRIGGERS1'武将向后'+TRIGGERS2'江百胜向后'这点在需要判断多个主体做同一动作时十分有用。
+　　4、综合例子：
+　　下面举一个简单的综合例子，可以从客店为基点自动把扬州4门的兵抓到中央广场，然后回到客店。
+1）变量：NPC　　（默认值：BING）
+　　　　 TIME　 （默认值：1）
+2）ALIAS：get1　　　　　time=1;w;s;#3 e;hit @npc
+　　　　　get2　　　　　#3 w;#3 n;hit @npc
+　　　　　get3　　　　　#3 s;#3 w;hit @npc
+　　　　　get4　　　　　#3 e;#3 s;hit @npc
+　　　　　gobackdrop　　#case (@time) {#3 w;drop @npc;#3 e}
+　　　　　　　　　　　　　　　　　　　{#3 s;drop @npc;#3 n}
+　　　　　　　　　　　　　　　　　　　{#3 e;drop @npc;#3 w}
+　　　　　　　　　　　　　　　　　　　{#3 n;drop @npc;#3 s}
+　　　　　　　(gobackdrop打在一行里)
+3)TRIGGERS:
+　　1、所有你赢的时候
+　　　hit @npc
+　　2、官兵脚下一个不稳...
+　　　halt;get bing;gobackdrop;hit @npc
+　　3、你要攻击谁？
+　　　#if @time<4 {#add time 1;get@time} {#4 n;e}
+
+　　这是个非常简单的例子，其中有很多可以改善的地方。我以前用来抓NPC用的TRIGGERS就和上面的差不多（现在当然复杂多了，hehe...）。上面只是个基形，大家可以参考例子不断创新完善。要知道，我现在一上网就抓NPC，抓10个用不了5分钟。
+　　另外大家还可以利用每次进来地点固定的方法。例如在客店SAVE，然后一联线就抓NPC，利用丐帮秘道搬回去，之后QUIT再联，又在客店了，呵呵...再抓!(reconnect 变量不清零)。这点对于来回路途长的门派特别有用（例如少林、星宿）。
+　　关于TRIGGERS，我写到这里算是做一个简单的介绍。当然ZMUD功能远不止我上述这么简单，我的文章目的在于抛砖引玉，希望大家在看了我的文章后，对ZMUD有更深层次的了解。同时也希望各位高手们不吝指教，指出文中错误，三四不甚感激。
+

@@ -1,0 +1,42 @@
+梦幻西游更新如下：
+
+1:加入两个门派如wusheng和xuyi,详情请help menpai
+
+2:加入八部天龙详情请help tianlong
+
+3:加入门牌职位系统详情请help zhiwei
+
+4:加入取经关卡heishui,详情请help heishui,取经关已全部做好。
+
+5:每个门牌都有一个最终极的boss,skills均为300级.具体怎么拜还请玩家自行参考。
+
+6:火云洞moyun-shou更新完毕，多加入两个pfm,一个是perform huoqiu/perform juesha
+
+7:每个门牌都加入大量pfm,以及cast,详情请help menpai
+
+8:武学状态更新完毕，技能状态更新完毕,详情请help canshu
+
+9:加入score2,score3,score4,不习惯的人可以用别的score
+
+10:加入wudang任务,详情请help wudang.
+
+11:金箍棒设为有两个加入一个如意金箍棒。在孙悟空身上路径是(fly lingtai;sd;sd;sw;sw;nw;nw;su;wu)
+
+12:拍卖大师加入完毕。详情请help paimaishi
+
+13:留言版系统更新完毕。详情请help board.
+
+14:longgong的perform fengbo有所变动，请大家注意啦!
+
+15:look系统设为底下带___为不能fly的Room,不带的就是可以fly的Room
+
+16:增加help 大闹天宫,help 西天取经,help 无底洞经验谈
+
+17:新加入{fly changan,e,s,enter}这个道具店
+
+18:新加入门派(神剑山庄)详情请help shenjian路径(fly changan,e,e,e,e,n)
+
+19:花果山更新加入孙悟空遗留的金箍棒,路径fly stone,拿金箍棒方法如下:
+装备刀，飞到花果山，#loo 5 push stone right;#loo 3 push stone left;down;expand 石缝;get all;up
+
+20:加入skills2指令,加入挖矿,铸甲等技术,wakuang路径fly changan;#9 e;nu;铸甲fly baoxiang;#4 s;sw;s; 

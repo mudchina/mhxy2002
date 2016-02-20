@@ -1,0 +1,3 @@
+// yumao.c
+
+inherit SKILL;

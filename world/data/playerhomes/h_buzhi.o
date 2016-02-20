@@ -1,0 +1,3 @@
+#/obj/home.c
+dbase (["long":"这里便是长安城的中心，四条大街交汇于此。一座巍峨高大的钟楼耸立于前，很是有些气势。每到清晨，响亮的钟声便会伴着淡淡雾气传向长安城的大街小巷。路口车水马龙，来往人潮不断。路边不知什么时候种了一颗大榕树(tree)，盘根错节，已经很有一段历史了。    仲夏的 凌晨，东方的天空飘着灰蒙蒙的云层。  这里明显的出口是 west、up、down、east、north 和 south。 天下第一富商 拍卖师(Paimai shi) ※梦幻西游纪念碑※(Jinian bei) 礼物台(Table)","no_fight":1,"id":"h_buzhi","no_magic":1,"bed_short":"大蓉树","exits":(["out":"/d/changan/ph",]),"env":(["invisibility":1,]),"home_host":({"buzhi","coffee",}),"bed_long":"站在这大树的顶端，山风阵阵，空气清新．向山顶仰望，隐约看到一片房屋在一股淡淡的紫气笼罩之下．    仲夏的 清晨，太阳从东方升起来了。 这里唯一的出口是 makelove 。","short":"『十字街头』 -","name":"『十字街头』 -","no_get":1,"file_name":"h_buzhi",])
+out "/d/changan/ph"

@@ -1,0 +1,2 @@
+#/std/bboard.c
+dbase (["name":"讲经板","master":"pcx","no_get":1,"long":"一块供五庄观弟子讲经论法的留言版。","board_id":"jiangjing_b","location":"/d/qujing/wuzhuang/jiangjing","capacity":100,"id":"board",])

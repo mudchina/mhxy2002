@@ -1,0 +1,4 @@
+#/d/wiz/npc/guest.c
+dbase (["attitude":"friendly","max_kee":330,"max_sen":253,"combat_exp":500000,"limbs":({"头部","颈部","胸口","后心","左肩","右肩","左臂","右臂","左手","右手","腰间","小腹","左腿","右腿","左脚","右脚",}),"eff_kee":330,"race":"人类","eff_sen":253,"age":15,"max_gin":117,"long":"","eff_gin":117,"actions":0,"default_actions":0,"unit":"位","startroom":"/d/wiz/guest","dex":30,"kar":26,"str":30,"name":"仙童","cps":25,"gender":"男性","int":30,"sen":253,"cor":25,"con":30,"id":"xian tong","spi":17,"per":20,"can_speak":1,"gin":117,"kee":330,])
+SAVE_NAME "guest_room"
+list ([])

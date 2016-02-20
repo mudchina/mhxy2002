@@ -1,0 +1,130 @@
+inherit NPC;
+ 
+void do_drink();
+ 
+void create()
+{
+        seteuid(getuid());
+        set_name("Àî²»È±", ({"libu que", "que"}));
+        set("long", "ÓĞÁËÀî²»È±,Ê²Ã´¶¼²»³î¡£\n");
+        set("gender","ÄĞĞÔ");
+	set("title", "±øÆ÷··×Ó");
+	set("class", "scholar");
+        set("age",37);
+        set("con",30);
+        set("per",30);
+        set("str",25);
+        set("int",35);
+        set("combat_exp",600000);
+        set("attitude","heroism");
+        set("chat_chance",20);
+        set("chat_msg", ({
+        "Àî²»È±µÍÉùËµµÀ£ºÎÒµÄÒĞÌì½£ÍşÁ¦ÎŞ±È¡£\n",
+        "Àî²»È±µÍÒ÷µÀ£ºÎÒËäÈ»Ç®²»¶à,µ«ÊÇ¸üĞÂÒ»´ÎÎÒ¾ÍÓĞÒ»°ÙÁ½»Æ½ğÒ²²»´í¡£\n",
+        "Àî²»È±¸ßĞËµÄ³ªÆğ¸èÀ´£ºÒ» ¶ş Èı ËÄ Îå ÉÏÉ½´òÀÏ»¢¡£\n",
+        "Àî²»È±³¤Ò÷µÀ£ºÇîÑ½,Ã»Ç®Ñ½,Ë­ÄÜ¸øÎÒµãÇ®!\n",
+	(: random_move :)
+        }));
+
+        set("chat_chance", 90);
+
+        set_skill("dodge", 90);
+        set_skill("force", 90);
+        set_skill("parry", 90);
+        set_skill("unarmed", 90);
+        set_skill("sword", 90);
+        set_skill("literate", 120);
+	set("max_force", 2000);
+	set("force", 2000);
+	set("force_factor", 1000);
+        set("max_kee", 2000);
+        set("max_gin", 4000);
+        set("max_sen", 2000);
+
+        setup();
+        carry_object("/d/obj/armor/jinsijia")->wear();
+        carry_object("/d/obj/weapon/sword/yitian")->wield();
+	carry_object("d/obj/cloth/monkcloth")->wear();
+	carry_object("d/obj/cloth/shoupipifeng")->wear();
+	carry_object("d/lingtai/obj/shoe")->wear();
+	carry_object("d/qujing/tianzhu/obj/tiekui")->wear();
+        add_money("gold", 100);
+}
+ 
+void do_drink()
+{
+    object *list, ob;
+    int i, can_drink;
+    if ((int)this_object()->query("water") >= 380) return;
+    list = all_inventory(this_object());
+    i = sizeof(list);
+    can_drink = 0;
+    while (i--) {
+        if ((string)list[i]->query("liquid/type") == "alcohol") {
+            ob = list[i];
+            can_drink = 1;
+        }
+    }
+    if (can_drink) {
+        command("drink "+(string)ob->query("id"));
+        if ((int)ob->query("liquid/remaining") == 0)
+            command("drop "+(string)ob->query("id"));
+    }
+    else {
+        command("sigh");
+        command("say ÇîÑ½...ÇîÑ½! ");
+    }
+    return;
+}
+
+int accept_object(object who, object ob)
+{	object m;
+	m=new("/d/obj/book/jianpu.c");
+    if ((string)ob->query("liquid/type")=="alcohol")
+    {
+        if ((int)ob->query("liquid/remaining") == 0)
+        {
+            command("shake");
+            command("say ¿ÕµÄÎÒ²»Òª£®£®£®");
+            return notify_fail("ºÃÏóÀî²»È±²»ÊÇÊÕÆÆÀÃµÄ£¬²»Òª¿ÕÆ¿×Ó¡£\n");
+        }
+        else
+                if ( (string)ob->name()=="Å£Æ¤¾Æ´ü" )
+                {
+                        command ("frown");
+                        command ("say Õâ¾Æ»¹ÊÇÄúÁô×Å×Ô¼ººÈ°É¡£");
+                        return
+notify_fail("ºÃÏóÀî²»È±¿´²»ÆğÄã¸øËûµÄ¾Æ¡£\n");
+                }
+                else
+                {
+                        command("smile");
+                        command("say ¶àĞ»!");
+			if ((int)who->query_temp("mark/Àî²»È±") < 1){
+			who->set_temp("mark/Àî²»È±", 1 ); 
+			}
+                        if(present("jian pu", this_object())) {
+			return 0;
+			}
+                        who->add_temp("mark/Àî²»È±", 1 );
+                        call_out("destroy", 1, ob);
+                if ((int)who->query_temp("mark/Àî²»È±") >= 5+random(5))
+                        {
+command ( "whisper " + who->query("id") + 
+" ÎÒ¿´ÄúÒ²ÊÇÎ»Á·¹¦Ï°ÎäµÄÈË£¬Ò²ËãÔÛÃÇÓĞÔµ£¬Õâ±¾½£Æ×¾ÍËÍ¸øÄãÄÃÈ¥ÑĞ¶Á°É¡£\n");
+				m->move(who);
+                                who->set_temp("mark/Àî²»È±", 0 );
+				return 1;
+                        }
+                        return 1;
+                }
+        }
+    }
+
+void destroy(object ob)
+{
+        destruct(ob);
+        return;
+}
+
+ÿ

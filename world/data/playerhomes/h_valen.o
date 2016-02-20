@@ -1,0 +1,3 @@
+#/obj/home.c
+dbase (["id":"h_valen","exits":(["out":"/d/changan/ph",]),"home_host":({"valen","linger",}),"no_get":1,"no_magic":1,"file_name":"h_valen","env":(["invisibility":1,]),"name":"恋云","no_fight":1,"short":"恋云","long":"一切都设置好了，只等一些室内装修。 ",])
+out "/d/changan/ph"

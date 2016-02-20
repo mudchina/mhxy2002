@@ -1,0 +1,252 @@
+  [1;33m<©¤©¤[2;37;0m [1;36m[4;53mÃÎ»ÃÎ÷ÓÎ[2;37;0m [5m[1;31m¡ï[2;37;0m [1;37m[4;53mÖ¸ÁîÈ«¼¯[2;37;0m [1;33m©¤©¤>[2;37;0m
+
+[1;33malias[m        ¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª   ÓÐÊ±ÏµÍ³ËùÌá¹©Ö®Ö¸ÁîÐèÒªÊäÈëºÜ³¤µÄ×Ö´®, 
+                                ÔÚÊ¹ÓÃÊ±(ÓÈÆäÊÇ¾­³£ÓÃµ½µÄ)»òÐí»á¸Ð¾õ²»
+                                ·½±ã, ´ËÊ±Äã(Äã)¼´¿ÉÓÃ´ËÒ»Ö¸ÁîÉè¶¨²¢Ìæ
+                                ´úÔ­ÓÐÖ®Ö¸Áî¡£
+[1;33m
+save [m        ¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª   °Ñ×Ô¼ºµÄµµ°¸´¢´æÆðÀ´¡£
+[1;33m
+bjtime[m       ¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª   ¸æËßÄãÏÖÊµÉú»îÖÐµÄÊ±¼ä¡£
+[1;33m
+color[m        ¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª   ¸æËßÄãÔÚ±¾ÓÎÏ·ÖÐ¿ÉÒÔÊ¹ÓÃµÄÑÕÉ«´úÂë¡£
+[1;33m
+close[m        ¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª   Õâ¸öÖ¸ÁîÓÃÀ´¹ØÉÏÃÅ¡£
+[1;33m
+cls[m          ¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª   Õâ¸öÖ¸Áî¿ÉÒÔÇå³ýµ±Ç°ÆÁÄ»ÄÚÈÝ¡£
+[1;33m
+baohu[m        ¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª   ÕâÊÇÒÑ»é·ò¸¾ÓÃÀ´±£»¤¶Ô·½£¨ÆÞ×Ó£¯ÕÉ·ò£©
+                                µÄÖ¸Áîµ±Äã³ÉÎª±£»¤ÕßÊ±£¬Äã¿ÉÒÔÓÃ×Ô¼º¸ß
+                                ³¬µÄ²ðÕÐµÄ¼¼ÄÜÀ´±£»¤×Ô¼ºµÄÍ¬°é£¬Ìæ¶Ô·½
+                                ²ð¼ÜµÐÈËµÄ¹¥»÷¡£
+[1;33m
+finger[m       ¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª   ÏÔÊ¾Íæ¼Ò×ÊÁÏ¡£
+[1;33m
+help[m         ¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª   Õâ¸öÖ¸ÁîÌá¹©ÄãÕë¶ÔÄ³Ò»Ö÷ÌâµÄÏêÏ¸ËµÃ÷ÎÄ
+                                ¼þ£¬ÈôÊÇ²»Ö¸¶¨Ö÷Ìâ£¬ÔòÌá¹©ÄãÓÐ¹ØÖ÷ÌâµÄÎÄ¼þ¡£
+[1;33m
+id[m           ¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª   Õâ¸öÖ¸Áî¿ÉÒÔÈÃÄãÖªµÀÎïÆ·µÄÓ¢ÎÄÃû³Æ¼°Ãû
+                                ×Ö. Ö»´ò id »áÏÔÊ¾ÄãÉíÉÏËùÐ¯´øÎïÆ·µÄÃû³Æ. 
+                                'id here' ÔòÏÔÊ¾ËùÓÐ¸úÄãÔÚÍ¬Ò»¸ö»·¾³ÀïµÄÎï
+                                ¼þÃû³Æ.
+[1;33m
+i(inventory)[m ¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª   ¿ÉÁÐ³öÄãÄ¿Ç°ÉíÉÏËùÐ¯´øµÄËùÓÐÎïÆ·¡£
+[1;33m
+describe[m     ¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª   Õâ¸öÖ¸ÁîÈÃÄãÉè¶¨µ±±ðÈËÓÃ look Ö¸Áî¿´Äã
+                                Ê±£¬¶ÔÄãµÄÃèÊö£¬Í¨³£µ±ÄãµÄÃèÊö³¬¹ýÒ»ÐÐÊ±
+                                ¿ÉÒÔÓÃ to describe µÄ·½Ê½À´ÊäÈë¡£
+[1;33m
+mudage[m       ¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª   ¸æËßÄãÔÚ±¾ÓÎÏ·¹²¶È¹ýÁË¶à³¤Ê±¼ä¡£
+[1;33m   
+mudlist[m      ¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª   ÁÐ³öÓë±¾ÓÎÏ·Á¬ÏßµÄÆäËûÓÎÏ·¡£
+[1;33m
+nick[m         ¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª   Îª×Ô¼ºÈ¡Ò»¸ö´ÂºÅ¡£
+[1;33m
+obstacles[m    ¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª   ¸æËßÄãÎ÷ÌìÈ¡¾­¹ýÁË¶àÉÙ¹Ø¡£
+[1;33m
+passwd[m       ¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª   ÐÞ¸Ä×Ô¼ºµÄÃÜÂë¡£
+[1;33m
+quest[m        ¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª   ¸æËß×Ô¼ºµ±Ç°µÄÈÎÎñ£¬ÒÑ¾­ÓÃÀ´½ÓÈÎÎñ¡£
+[1;33m
+quit[m         ¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª   ÍË³ö±¾ÓÎÏ·¡£
+[1;33m
+semote[m       ¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª   Õâ¸öÖ¸Áî²»¼Ó²ÎÊýµÄÊ±ºò¿ÉÒÔÁÐ³öÄ¿Ç°ËùÄÜ
+                                Ê¹ÓÃµÄemote¡£¼ÓÉÏ²ÎÊýºó£¬¿ÉÒÔËÑË÷ÒÔ²ÎÊý
+                                Îª¿ªÍ·µÄemote£¬»òÕß°üº¬ÓÐ²ÎÊýµÄemote¡£
+[1;33m
+set[m          ¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª   Õâ¸öÖ¸ÁîÈÃÄãÉè¶¨Ò»Ð©»·¾³±äÊý£¬²»¼Ó²ÎÊý
+                                Ê±»áÏÔÊ¾ÄãÄ¿Ç°Éè¶¨µÄ»·¾³±äÊý£¬²»Ö¸¶¨±ä
+                                ÊýÖµ£¬ÔòÄÚ¶¨ÖµÎª "YES"¡£
+[1;33m
+skills[m       ¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª   ²é¿´×Ô¼ºµÄ¼¼ÄÜ£¬ÄãÒ²¿ÉÒÔÖ¸¶¨Ò»¸öºÍÄãÓÐ
+                                Ê¦Í½¹ØÏµµÄ¶ÔÏó£¬ÓÃ skills ¿ÉÒÔ²éÖª¶Ô·½
+                                µÄ¼¼ÄÜ×´¿ö¡£
+[1;33m
+suicide[m      ¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª   ×¢Ïú×Ô¼ºµÄÕÊºÅ¡£
+[1;33m
+time[m         ¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª   ¸æËßÄãÏÖÔÚµÄÊ±³½¡£
+[1;33m
+title[m        ¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª   ÏÔÊ¾×Ô¼ºµÄÍ·ÏÎ¡£
+[1;33m
+topten[m       ¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª   ¸æËßÄãÒ»Ð©¹ØÓÚÅÅÐÐ°ñµÄ×ÉÑ¶¡£
+[1;33m
+tune[m         ¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª   Õâ¸öÖ¸ÁîÈÃÄãÑ¡ÔñÊÇ·ñÒªÊÕÌýÄ³Ò»ÆµµÀµÄÑ¶
+                                Ï¢£¬Èç¹ûÃ»ÓÐÖ¸¶¨ÆµµÀÃû³Æ£¬¾Í»áÁÐ³öÄãÄ¿
+                                Ç°ÊÕÌýÖÐµÄÆµµÀ£¬Èç¹ûÖ¸¶¨ÁËÆµµÀ£¬Ô­À´ÊÕ
+                                ÌýÖÐµÄ¾Í»á¹Øµô£¬·´Ö®´ò¿ª¡£
+[1;33m
+unset[m        ¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª   Õâ¸öÖ¸ÁîÈÃÄãÉ¾³ý»·¾³±äÊýµÄÉè¶¨¡£
+[1;33m
+uptime[m       ¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª   ¸æËßÄã±¾ÓÎÏ·ÔËÐÐÁË¶à³¤Ê±¼ä¡£
+[1;33m
+vote[m         ¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª   Í¶Æ±¹Ø±Õ»ò´ò¿ªÒ»¸öÈËµÄ½»Ì¸ÆµµÀ¡£ÇëÎðÀÄ
+                                ÓÃÄãµÄÈ¨Àû£¬¹ÊÒâµ·ÂÒµÄÈË»á±»´òÈëÊ®°Ë²ã
+                                µØÓü¡£¹Ø±ÕÒÔ¼°´ò¿ª¶¼ÐèÒª²»ÉÙÓÚ°ËÆ±»òÕß
+                                Èý·ÖÖ®Ò»ÒÔÉÏµÄÆ±Êý¡£
+[1;33m
+who[m          ¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª   Õâ¸öÖ¸Áî¿ÉÒÔÁÐ³öËùÓÐÔÚÏßÉÏµÄÍæ¼Ò¼°ÆäµÈ¼¶¡£
+[1;33m
+winpy[m        ¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª   Õâ¸öÖ¸ÁîÈÃÄãÉè¶¨µ±¡¸Æø¡¹Ê£ÏÂ°Ù·ÖÖ®¶àÉÙ
+                                Ê±£¬Òª¿ªÊ¼¡¸×ª½ø¡¹¡£
+[1;33m
+wizlist[m      ¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª   ÁÐ³ö±¾ÓÎÏ·µÄ¹ÜÀíÈËÔ±¡£
+[1;36m
+¡­¡­¡­¡­¡­¡­¡­¡­¡­¡­¡­¡­¡­¡­¡­[1;37m  Õ½¶·Àà [36m  ¡­¡­¡­¡­¡­¡­¡­¡­¡­¡­¡­¡­¡­¡­¡­¡­¡­¡­[m
+[1;33m
+abadnon[m      ¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª   ·ÅÆú×Ô¼ºµÄÄ³Ïî¼¼ÄÜ¡£
+[1;33m
+accept[m       ¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª   Õâ¸öÖ¸Áî¸æËß±ðÈËÄã½ÓÊÜËû/ËýµÄ¹«¿ªÑûÇë¡£
+[1;33m
+accuse[m       ¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª   Õâ¸öÖ¸ÁîÓÃÀ´¼ì¾Ù±ðÈËÊÇ·ñÎª»úÆ÷ÈË¡£
+[1;33m
+apprentice[m   ¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª   °ÝÄ³ÈËÎªÊ¦¡£
+[1;33m
+ask[m          ¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª   ÎÊ±ðÈËÄ³Ð©ÊÂÇé£¬Í¨³£¸ñÊ½Îªask sb about sth¡£
+[1;33m
+bang[m         ¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª   ×Ô¼º¿ª°ïÁ¢ÅÉ¡£
+[1;33m
+bian[m         ¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª   ±äÉíÊõ£¬Õâ¸öÖ¸ÁîÈÃÄã±ä»¯³ÉÆäËûÈËÎïµÄÄ£
+                                Ñù¡£ÊÇ·ñÄÜ±ä£¬»¹ÒªÈ¡¾öÓÚÄãµÄ·¨ÊõºÍ·¨Á¦
+                                ´óÐ¡¡£
+[1;33m
+buy[m          ¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª   ÕâÒ»Ö¸ÁîÈÃÄã¿ÉÒÔ´ÓÄ³Ð©ÈËÉíÉÏÂòµ½ÎïÆ·¡£
+[1;33m
+cast[m         ¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª   Ê©Õ¹·¨Êõ¡£
+[1;33m
+chanting[m     ¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª   ËÐ¾­ÐÞÁ¶ÒÔÌá¸ßµÀÐÐ¡£
+[1;33m
+check[m        ¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª   ´òÌý±ðÈËÏÖÔÚµÄµÀÐÐ,·¨Á¦¼°Îä¹¦¼¶±ð¡£
+[1;33m
+dismount[m     ¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª   Õâ¸öÖ¸Áî¿ÉÒÔÈÃÄã´Ó×øÆïÉÏÏÂÀ´¡£
+[1;33m
+drop[m         ¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª   Õâ¸öÖ¸Áî¿ÉÒÔÈÃÄã¶ªÏÂÄãËùÐ¯´øµÄÎïÆ·.
+[1;33m
+emote[m        ¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª   Õâ¸öÖ¸Áî¿ÉÒÔÈÃÄã±í´ïÒ»¸öÏµÍ³Ã»ÓÐÔ¤ÉèµÄ
+                                ¶¯×÷´Ê¡£
+[1;33m
+enable[m       ¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª   ¼¤·¢ÌØÊâÎä¹¦¡£¼ûhelp enable¡£
+[1;33m
+enchant[m      ¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª   Õâ¸öÖ¸ÁîÈÃÄãÉè¶¨Ê¹ÓÃÄ§·¨ÎäÆ÷Ê±ÒªÓÃÀ´µ¼
+                                ÒýÎäÆ÷Ä§Á¦ËùÓÃµÄ·¨Á¦Ç¿¶È¡£·¨Á¦µãÊýÔ½¸ß
+                                £¬Ä§·¨ÎäÆ÷µÄÉ±ÉËÁ¦Ò²Ô½Ç¿¡£
+[1;33m
+enforce[m      ¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª   Õâ¸öÖ¸ÁîÈÃÄãÖ¸¶¨Ã¿´Î»÷ÖÐµÐÈËÊ±£¬Òª·¢³ö
+                                ¼¸µãÄÚÁ¦ÉËµÐ¡£
+[1;33m
+exercise[m     ¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª   ÔËÆøÁ·¹¦£¬¿ØÖÆÌåÄÚµÄÆøÔÚ¸÷¾­Âö¼äÁ÷¶¯£¬
+                                ½åÒÔÑµÁ·ÈËÌå¼¡Èâ¹Ç÷ÀµÄÄÍÁ¦¡¢±¬·¢Á¦£¬²¢ÇÒ
+                                ÓÃÄÚÁ¦µÄÐÎÊ½½«ÄÜÁ¿´¢±¸ÏÂÀ´¡£
+[1;33m
+exert[m        ¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª   ÓÃÄÚÁ¦½øÐÐÒ»Ð©ÌØÊâ¹¦ÄÜ£¬ÈçÁÆÉËµÈ¡£
+[1;33m
+expell[m       ¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª   Õâ¸öÖ¸Áî¿ÉÒÔÈÃÄã¿ª³ý²»³É²ÅµÄµÜ×Ó£¬±»¿ª
+                                ³ýµÄµÜ×ÓËäÀë¿ªÄãµÄÃÅÏÂ£¬µ«ÈÔÊôÓÚÕâ¸öÃÅÅÉ£¬
+                                ¿ÉÒÔËæ±ã´«Í¶±¾ÅÉÆäËûÊ¦¸¸¡£
+[1;33m
+fight[m        ¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª   Õâ¸öÖ¸ÁîÈÃÄãÏòÒ»¸öÈËÎï¡¸ÌÖ½Ì¡¹»òÕßÊÇ¡¸
+                                ÇÐ´èÎäÒÕ¡¹¡£
+[1;33m
+find[m         ¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª   ÓÃÀ´·¢ÏÖ±ðÈËËùÔÚµØ¡£
+[1;33m
+fly[m          ¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª   ÌÚÔÆ¼ÝÎíµ½Ä³µØ£¬help fly¡£
+[1;33m
+follow[m       ¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª   Õâ¸öÖ¸ÁîÈÃÄãÄÜ¸úËæÄ³ÈË»òÉúÎï£¬Èç¹ûÊäÈë 
+                                follow none ÔòÍ£Ö¹¸úËæ¡£
+[1;33m
+get[m          ¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª   Õâ¸öÖ¸Áî¿ÉÒÔÈÃÄã¼ñÆðµØÉÏ»òÈÝÆ÷ÄÚµÄÄ³Ñù
+                                ÎïÆ·¡£
+[1;33m
+give[m         ¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª   Õâ¸öÖ¸Áî¿ÉÒÔÈÃÄã½«Ä³ÑùÎïÆ·¸ø±ðÈË¡£
+[1;33m
+invite[m       ¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª   ÑûÇë±ðÈËµ½Äã¼ÒÀï×÷¿Í¡£
+[1;33m
+ji[m           ¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª   Õâ¸öÖ¸Áî¿ÉÒÔÈÃÄã¼ÀÒ»Ïî·¨±¦¡£
+[1;33m
+jiebai[m       ¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª   Õâ¸öÖ¸ÁîÓÃÀ´ºÍ±ðÈËµÄ½á°Ý£¬µ±È»¶Ô·½±ØÐë
+                                Ò²Í¬Òâ¡£
+[1;33m
+kill[m         ¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª   ÊÔÍ¼É±ËÀÄ³ÈË¡£
+[1;33m
+learn[m        ¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª   Õâ¸öÖ¸Áî¿ÉÒÔÈÃÄãÏò±ðÈËÇë½ÌÓÐ¹ØÄ³Ò»ÖÖ¼¼
+                                ÄÜµÄÒÉÄÑÎÊÌâ¡£
+[1;33m
+look[m         ¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª   Õâ¸öÖ¸ÁîÈÃÄã²é¿´ÄãËùÔÚµÄ»·¾³¡¢Ä³¼þÎïÆ·
+                                ¡¢ÉúÎï¡¢»òÊÇ·½Ïò¡£
+[1;33m
+makelove[m     ¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª   ÌåÏÖÈËÀà±¾ÄÜµÄÖ¸Áî¡£
+[1;33m
+marry   [m     ¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª   Õâ¸öÖ¸ÁîÓÃÀ´´ðÓ¦±ðÈËµÄÇó»é£¬µ±È»Äã±ØÐë
+                                ÊÇÅ®ÐÔ£¬Ä¿±ê±ØÐëÊÇÕýÔÚÏòÄãÇó»éµÄÈË¡£
+[1;33m
+propose [m     ¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª   Õâ¸öÖ¸ÁîÓÃÀ´ÏòÈËÇó»é£¬Çó»éÕß±ØÐëÎªÄÐÐÔ£¬
+                                µÈÅ®·½´ðÓ¦ºó£¬Ë«·½µ½ÔÂÀÏÍ¤µÇ¼Ç£¬ÔÙÍê³ÉÒ»
+                                ¶¨µÄÒÇÊ½£¬¾ÍËãÕýÊ½³É»éÁË¡£
+[1;33m
+meditate[m     ¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª   ¾²×øÚ¤Ë¼£¬½«ÓÎÀëµÄ¾«ÉñÁ¦ÓÐÐ§µØ¼¯ÖÐÄý¾Û
+                                ³ÉÄÜ¹»ÓÃÀ´Ê©Õ¹·¨ÊõµÄÄÜÁ¿£¬½åÒÔÔö¼Ó×Ô¼º
+                                µÄ·¨Á¦¡£
+[1;33m
+mount[m        ¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª   Õâ¸öÖ¸Áî¿ÉÒÔÈÃÄãÆïµ½×øÆïÉíÉÏ¡£
+[1;33m
+observe[m      ¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª   Õâ¸öÖ¸ÁîÈÃÄãÔËÓÃ·¨ÊõÀ´¹Û²ì±ðµÄÈËÎï£¬Èç
+                                ¹ûÄãµÄ·¨Êõ¸ßÇ¿£¬Ôò¿ÉÄÜÊ¶ÆÆ±ðÈËµÄ±äÉíÊõ¡£
+[1;33m
+open[m         ¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª   Õâ¸öÖ¸Áî¿ÉÒÔÈÃÄã´ò¿ªÃÅ¡£
+[1;33m
+perform[m      ¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª   Ê¹ÓÃ¼¼ÄÜÖÐµÄÌØÊâÕÐÊ½¡£
+[1;33m
+practice[m     ¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª   Õâ¸öÖ¸ÁîÈÃÄãÁ·Ï°Ä³¸öÖÖÀàµÄ¼¼ÄÜ¡£
+[1;33m
+prepare[m      ¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª   Õâ¸öÖ¸ÁîÈÃÄãÖ¸¶¨ËùÒªÓÃµÄÈ­Êõ¼¼ÄÜ¡£
+[1;33m
+propose[m      ¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª   Õâ¸öÖ¸ÁîÓÃÀ´ÏòÈËÇó»é¡£
+[1;33m
+qiangjian[m    ¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª   Ò»ÖÖ·¸×ïÐÐÎª¡£
+[1;33m
+recruit[m      ¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª   Õâ¸öÖ¸ÁîÄÜÈÃÄãÊÕÄ³ÈËÎªµÜ×Ó¡£
+[1;33m
+remove[m       ¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª   Õâ¸öÖ¸ÁîÈÃÄãÍÑµôÉíÉÏÄ³¼þ·À¾ß¡£
+[1;33m
+reply[m        ¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª   Äã¿ÉÒÔÓÃÕâ¸öÖ¸ÁîºÍ¸Õ²ÅÓÃ tell ºÍÄãËµ»°
+                                µÄÊ¹ÓÃÕßËµ»°¡£
+[1;33m
+research[m     ¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª   ÕâÒ»Ö¸ÁîÈÃÄãÓÃÖÁ¶à50µãÇ±ÄÜ¶ÔÄ³Ïî¼¼ÄÜ×÷
+                                ÉîÈëµÄÑÐ¾¿¡£
+[1;33m
+say[m          ¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª   Ëµ»°£¬ËùÓÐ¸úÄãÔÚÍ¬Ò»¸ö·¿¼äµÄÈË¶¼»áÌýµ½
+                                ÄãËµµÄ»°¡£
+[1;33m
+score[m        ¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª   Õâ¸öÖ¸Áî¿ÉÒÔÏÔÊ¾Äã»òÖ¸¶¨¶ÔÏó(º¬¹ÖÎï)µÄ
+                                »ù±¾×ÊÁÏ¡£
+[1;33m
+sleep[m        ¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª   ÓÃÀ´Ë¯¾õµÄÖ¸Áî¡£
+[1;33m
+steal[m        ¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª   Õâ¸öÖ¸ÁîÈÃÄãÓÐ»ú»áÍµµ½ËûÈËÉíÉÏµÄ¶«Î÷¡£
+[1;33m
+study[m        ¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª   Õâ¸öÖ¸ÁîÊ¹Äã¿ÉÒÔ´ÓÃØóÅ»òÆäËûÎïÆ·×ÔÑ§Ä³
+                                Ð©¼¼ÇÉ¡£
+[1;33m
+surrender[m    ¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª   Õâ¸öÖ¸Áî¿ÉÒÔÈÃÄãÏòµÐÈËÍ¶½µ¶øÖÕÖ¹Õ½¶·¡£
+[1;33m
+team[m         ¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª   ÓÃÀ´×é¶ÓµÄÖ¸Áî¡£
+[1;33m
+teamkill[m     ¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª   Õâ¸öÖ¸ÁîÈÃÄãµÄ¶ÓÎéÖ÷¶¯¹¥»÷Ò»¸öÈËÎï£®
+[1;33m
+tell[m         ¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª   Äã¿ÉÒÔÓÃÕâ¸öÖ¸ÁîºÍÆäËûµØ·½µÄÊ¹ÓÃÕßËµ»°¡£
+[1;33m
+unwield[m      ¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª   Õâ¸öÖ¸ÁîÈÃÄã·ÅÏÂÊÖÖÐµÄÎäÆ÷¡£
+[1;33m
+wear[m         ¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª   Õâ¸öÖ¸ÁîÈÃÄã×°±¸Ä³¼þ·À¾ß¡£
+[1;33m
+whisper[m      ¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª   Õâ¸öÖ¸Áî¿ÉÒÔÓÃÀ´ºÍÍ¬Ò»·¿¼äÖÐµÄÈË¶úÓï£¬
+                                °üÀ¨ NPC ÔÚÄÚ¡£
+[1;33m
+wield[m        ¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª   Õâ¸öÖ¸ÁîÈÃÄã×°±¸Ä³¼þÎïÆ·×÷ÎäÆ÷, Äã±Ø
+                                ÐèÒªÓµÓÐÕâÑùÎïÆ·.
+[1;33m
+xiudao[m       ¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª   ¾²×øÐÞÁ¶ÒÔÌá¸ßµÀÐÐ¡£
+[1;33m
+zhuan[m        ¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª   Õâ¸öÖ¸Áî¿ÉÒÔÈÃÄã½«Ç±ÄÜ×ªÎªÎäÑ§¾­Ñé¡£
+
+[4;53m[1;31mBy tianlin@mhxy for 2001.8.10[2;37;0m
+

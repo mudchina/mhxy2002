@@ -1,0 +1,119 @@
+// modify by ken 2001.3.9
+//By tianlin@mhxy for 2002.1.24.加入mieyao系统
+#include <ansi.h>
+inherit NPC;
+inherit F_MASTER;
+string ask_mieshen();
+string ask_cancel();
+
+void create()
+{
+   set_name("炎云", ({ "yan yun", "xiao", "yun","zhongyun", }));
+   set("title", "魔教法王");
+   set("long", @LONG
+这位法王虽说是年青了点，但却是天魔老人的孙子，也是魔教的启蒙师傅
+因为家学渊源，武功在年青一辈中也是一流的好手。
+LONG);
+   set("gender", "男性");
+   set("age", 17);
+   set("attitude", "friendly");
+   set("class", "evil");
+   set("str",100);
+   set("per",100);
+   set("max_kee", 1000);
+   set("max_gin", 1000);
+   set("max_sen", 1000);
+   set("force", 1000);
+   set("max_force", 1000);
+   set("force_factor", 10);
+   set("max_mana", 1000);
+   set("mana", 1000);
+   set("mana_factor", 10);
+   set("combat_exp", 90000);
+   set_skill("literate", 70);
+   set_skill("spells", 70);
+   set_skill("tianmo", 70);
+   set_skill("unarmed", 70);
+   set_skill("tigerfight", 70);
+   set_skill("dodge", 70);
+   set_skill("dimo-steps", 70);
+   set_skill("blade", 70);
+   set_skill("parry", 70);
+   set_skill("force", 70);
+   set_skill("evil-force", 70);
+   set_skill("sword", 70);
+   set_skill("nature",70);
+   set_skill("tianmo-blade", 70);
+   set_skill("tianxian-sword", 70);
+   map_skill("spells", "tianmo");
+   map_skill("unarmed", "tigerfight");
+   map_skill("dodge", "dimo-steps");
+   map_skill("force", "evil-force");
+   map_skill("parry", "tianmo-blade");
+   map_skill("blade", "tianmo-blade");
+   map_skill("sword", "tianxian-sword");
+   set("chat_chance_combat", 20);
+   set("chat_msg_combat", ({
+    (: perform_action, "blade", "tiandirenmo" :),
+  }) );
+
+
+   create_family("魔教", 2, "第子");
+    set("inquiry", ([
+     "灭神" : (:ask_mieshen:),
+   "cancel": (:ask_cancel:),
+   "放弃": (:ask_cancel:),
+    ]));
+
+   setup();
+   carry_object("/d/obj/cloth/choupao")->wear();
+   carry_object("/d/mojiao/obj/fireblade")->wield();
+// carry_object("/u/ken/obj/long-blade");
+}
+
+void attempt_apprentice(object ob)
+{
+
+   command("look " + ob->query("id") );
+   command("recruit " + ob->query("id") );
+   return;   
+}
+int recruit_apprentice(object ob)
+{
+        if( ::recruit_apprentice(ob) ) {
+                ob->set("class", "evil");
+        }
+}
+string ask_cancel()
+{
+    object me=this_player();
+if((int)me->query_temp("m_mieyao"))
+{
+      me->add("daoxing",-2000);
+      me->delete_temp("m_mieyao");
+      me->delete("secmieyao");
+      me->delete("secmieyao/type");
+      me->delete("secmieyao/location");
+      me->delete("secmieyao/place");
+      me->delete("secmieyao/name");
+      me->delete("secmieyao/id");
+     return ("没用的东西！");
+}
+else
+{
+     return ("你有任务吗？！");
+}
+}
+string ask_mieshen()
+{
+   object me=this_player();
+   
+   if(me->query("family/family_name")!="魔教")
+      return ("你不是本门中人!");
+
+   command("pat "+me->query("id"));
+   command("say 好好好,快去快回！");
+   return "/d/obj/mieyao"->query_yao(me);
+}
+
+

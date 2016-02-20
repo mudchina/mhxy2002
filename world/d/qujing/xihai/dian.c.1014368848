@@ -1,0 +1,24 @@
+inherit ROOM;
+
+void create()
+{
+        set("short", "水晶宫正殿");
+        set("long", @LONG
+这里是西海龙宫的正殿。西海龙宫虽不如东海龙宫富丽堂皇，
+却也端庄宏伟。四壁依天下龙宫惯例，全以水晶所砌，饰以
+海底奇珍，挂满珊瑚玉树，各色珍珠，流光异彩，美不胜收。
+LONG );
+        set("no_clean_up", 0);
+        set("exits", ([
+                "out" : __DIR__"yanwu", 
+                "west" : __DIR__"zoulang1",
+                "east" : __DIR__"zoulang2",
+        ]));
+        set("objects", ([
+      "/d/qujing/xihai/npc/aoshun":1,
+        ]));
+
+
+        setup();
+}
+

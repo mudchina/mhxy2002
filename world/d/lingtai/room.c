@@ -1,0 +1,35 @@
+// Éñ»°ÊÀ½ç¡¤Î÷ÓÎ¼Ç¡¤°æ±¾£´£®£µ£°
+/* <SecCrypt CPL V3R05> */
+ 
+// Room: some place in Î÷Å£ºØÖÞ
+// inside2.c
+
+inherit ROOM;
+
+void create()
+{
+  set ("short", "[0;31mÑþÌ¨[m");
+  set ("long", @LONG
+
+Ò»×ùÑþÌ¨¸ß¸ßÔÚÉÏ£¬¼ûÄÇÆÐÌá×æÊ¦¶Ë×øÔÚÌ¨ÉÏ£¬Á½±ßÓÐÈýÊ®¸öÐ¡
+ÏÉÊÌÁ¢Ì¨ÏÂ¡£ÖÜÎ§°ÚÉèÈ«ÊÇÏÉ¼ÒÆ÷¾ß£¬ÓÐÒ»ÖÖËµ²»³öµÄÏéºÍ£¬ÓÖ
+Í¸×Å×¯ÑÏ¡£
+LONG);
+set("exits", ([ /* sizeof() == 4 */
+"out": __DIR__"houlang5",
+"north":__DIR__"taiji",
+]));
+set("objects", ([
+                __DIR__"npc/puti": 1 ]) );
+        set("no_clean_up", 0);
+        setup();
+}
+
+int valid_leave(object me,string dir)
+{
+  if(dir=="north")
+     if(me->query("class")!="taoist")return notify_fail("Äã±»Ò»µÀ½ð¹â±ÆÁË»ØÀ´¡£\n");
+     else if(me->query("faith")<8000)
+            return notify_fail("Äã±»Ò»µÀ½ð¹â±ÆÁË»ØÀ´¡£\n");
+        return ::valid_leave(me,dir);    
+}

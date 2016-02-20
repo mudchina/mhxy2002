@@ -1,0 +1,31 @@
+#include <ansi.h>
+#include <command.h>
+inherit NPC;
+
+//modify by fly 
+//2000-12-2
+
+void create()
+{
+        set_name("帐房",({ "dzhangfang","zhang fang" }));
+        set("gender", "男性" );
+        set("per", 10);
+        set("age", 23);
+    set("title", HIW"知府管家"NOR);
+        set("long",
+HIC"既是开封府管家,又是开封府帐房
+凡是有能赚钱的事情,他都肯做的,嘿嘿。\n"NOR);
+        set("combat_exp", 2000000);
+        set("attitude", "friendly");
+        set("inquiry", ([
+            "改嫁": (:f-change:),
+            "再婚": (:m-change:),
+            "婚姻":  "只要有钱,什么不成,爱情...你相信吗?",
+            "老婆":  "老婆没了就找,只要有钱,什么不成,爱情...你相信吗?",
+            "妻子":  "妻子没了就找,只要有钱,什么不成,爱情...你相信吗?",
+            "丈夫":  "丈夫没了就找,只要有钱,什么不成,爱情...你相信吗?",
+        ]) );
+        setup();
+}
+string f-change(object me)
+{

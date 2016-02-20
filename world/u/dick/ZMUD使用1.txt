@@ -1,0 +1,129 @@
+ZMUD使用（一）
+
+如何使用ZMUD 
+
+俗话说：“欲善其事，必先利其器。”ZMUD功能强大，可以说是在Windows下玩MUD的最好的软件。下面对它的主要功能简单的说明一下：
+
+一、连上MUD:
+上网，开启ZMUD，音乐过后便会出现一个欢迎画面，上面有三个选项：
+Connect Wizard；Most Recent；Char Database
+1、Connetion Wizard：ZMUD内建的MUD IP ，不过中文的几乎没有。而且有的 IP 好像不大对，只好自己在Char Database加入新的资料了。
+2、Most Recent：连到你上次所玩的角色。
+3、Char Database:开启角色资料库。你可以在里面添加你想玩的MUD站点。
+例如：想连梦幻西游2000：61.156.31.9 6666选右侧的Char Database
+出现角色资料库
+先按一下左下角的 [New] 
+然后到右边有个 ID 栏位，填入你所扮演的角色名字，
+Title 栏位填入你所玩的MUD的名字， 
+Host 栏位填入61.156.31.9
+Port 栏位填入6666
+Addr 栏位填入 61.156.31.9 
+要想储存，就按[SAVE] 
+都填好以后就按下方的[Connect]
+OK ！可以连上侠客行了！后面的根据游戏的提示相信你一定会的。第一次玩的时候，ZMUD会将你签入的Id和Password自动记录在Triggers中，以后会自动签入。
+
+二、主要功能说明
+1、 主要图示按钮说明：
+Aliases(别称)：可以用较短的单词来替代一些指令，可用变量。
+Aliases name：命令名称
+Commands：指令都放在这儿 
+例1：你想做一个求婚的一系列表情命令：
+Aliases Name：loveme 
+Commands：chat* love %1;chat* lovelook %1 
+执行：loveme sweet [Enter]
+屏幕显示：chat* marry sweet 
+chat* iloveu sweet 
+【闲聊】“呜呜噢噢耶耶，”小宝害羞地瞟了一眼甜儿唱道：“我爱你在心口难开。” 
+【闲聊】小宝拉着甜儿的手，温柔地默默对视。目光中孕含着千种柔情，万般 蜜意。
+其中甜儿的英文名sweet便是一个变量。
+例2：如果你受伤需要包扎：
+Aliases Name：bz
+Commands：tear cloth；bandage
+执行：bz [Enter]
+屏幕显示： tear cloth 
+bandage
+你从布衣撕下一条布条。
+你并没有受到任何外伤。（这是你没有受伤时出现的话）
+paths(路径记录)：自动走路机，一些走路的工具，可以记下你所走过的地方。
+Path name：这条路线的名字
+Current Path behind：路线走法
+Fast Walk，Slow Walk：快走或慢走 
+Start Recording：记录你走的路线按下后，ZMUD会记录你所输入的命令(e,s,w,n,u,d等)，并不管你是否真的在MUD中走。想停止记录的话 ,再按一次(会变成“stop recording”) 。
+Triggers(签入记录)：自动反应，当收到特定讯息，会自动发出预定命令，就是所谓的机器人。
+Class： 类别(随便写)
+Enable Class：允许使用此Triggers
+Disable Class：禁用此Triggers 
+Pattern：接收的讯息 
+Command：当接收到与Pattern相同的讯息所发出的相应的命令
+[Enable]：有绿圆代表这个Trigger有作用 
+无绿圆则是暂停使用
+例1：Class：Fight (随便怎么写)
+Pattern : disarms you! 
+Commands : get sword;wie sword 
+则当你的武器被 disarm 掉时
+会自动捡起并戴上.... 
+例2：Class : Help
+Pattern : (%w) 说 'kill me!'
+Commands : kill %1 
+则当你看到别人说 kill me!时你就会，嘿嘿 ...kill him...
+还有中间的空格要注意...
+Key(巨集按键)： 通常是定义 F1 ~ F12 的功能键，按后可以执行一系列指令，不接受变量。
+Key：键盘上的某个键。
+Commands：相对的命令。 
+先按左下方的[new]，再到右边的key栏位里填入按键名，也可用旁边那个小按钮(有个“A”在上面)自动侦测， 然后在commands栏位里填入命令即可。不限一个命令,需以分号隔开。只简单介绍以上四个图示按钮，它们会使你在玩MUD时节省一些不必要去浪费的时间，方便操作。例如你想去某地，需根据上面的地形提示才能到达，即便那条路线你走的很熟，也有记不起来要看一下提示的时候，既麻烦又费时。有了paths(路径记录)功能，你只需走一次，便会自动记录两地间的路线，下一次再要去那儿只要先站在记录 时的起点处，点两下路线名称，转眼就到达终点了。
+   其他如：Virables；General；Colors；Fonts；Sounds 可以保持默认设置。不过可以把Colors的亮度设置高一点，Fonts 推荐字体使用Courier New 粗体 size 11，字型尺寸大一点较不伤眼。
+2、功能选单说明
+[File]： 
+Connection Wizard：连线到mudlist.txt中的MUD位址
+Another char：login 另一个角色，可同时上多个MUD站 
+Reconnect：将“目前窗口”断线后重新连线
+Disconnect(Close Window)：将“目前窗口”断线 
+New log：载入一个新"记录档"
+Append log：载入一个旧记录档并继续记录
+Log：记录窗口中的一切内容，打勾即为记录中 ,反之则为暂停记录
+Print Setup：关于打印的设置
+Print：打印
+Exit：退出ZMUD 
+[Edit]： 
+Cut：删除命令列中你所标记的内容
+Copy：拷贝你标记的内容 
+Paste：将你已经拷贝或已标记的东西贴到命令列中
+Select All：标记命令列中的全部内容 
+Clear：清除命令列全部内容([ESC]也可以)
+Find：在窗口中搜寻你的目标 
+[View]： 查看已设置好的图示按钮中的功能。
+[Settings]：New：开启一个新设定档(***.mud)
+Load：载入旧的设定档 
+Save：储存目前的设定 
+Save as：将目前的设定另存新档 
+Import：settings，是把其他的设定档中的设定复制到目前用的设定档中。
+[Actions]： 绝大部分是图示按钮的功能。
+Tick Timer：可以设定多少时间后做什么，以真实世界的时间为准。
+例1：你想每隔5分钟中吃一口鸡腿
+Timer interval：300 
+Timeout Margin：2
+Timeout Command：eat leg 
+设定5分钟到的时候,前两秒钟送出命令“eat leg”
+然后按[start]，接著按[close]，它就会在背景执行，每5分钟吃一次鸡腿。
+[Window]：
+Tie：把multi-login的窗口并列
+Cascade：把multi-login的窗口重叠
+Arrange：重新排列最小化之後的窗口 
+Freeze：暂停窗口的卷动
+Clear：清除这一面视窗内容 
+Empty：清除这视窗所有内容 
+History：查看输出过的命令(类似“doskey”)
+Command Buffer：做 "ANSI"彩色字元的编辑 
+Status：显示状态栏,内容用Action--Define Status Bar编写
+Auto Mapper：自动编辑地图
+三、其他
+1、：在命令列中，用冒号可以同时对全部窗口下命令
+例：:sleep 
+则全部的角色都会发出sleep命令，若冒号前加了数字n，就代表对第n个视窗下令。
+2、[ctrl]+[tab]切换窗口
+3、[PageUp]或[PageDown]上下翻动窗口
+4、[ctrl]+Z当上下翻动窗口时，屏幕回分割成两部分（低版本则只会出现翻动的那个窗口的内容），按此组合键会 恢复原窗口状态。
+5、若Trigger的commands是#color white，则当zmud收到Pattern时，窗口上有Pattern讯息那行就变成白 色。color也可以是blue、red 等。
+6、若觉得开启 ZMUD 时的音乐很烦人且浪费时间的话，可以到[View]-Preferences-sounds把那些WAV声音档改成“0”， enable sounds 也要去掉勾号。
+   由于ZMUD的版本在不断的更新，目前最新的是ZMUD 5.55，功能也在不断的加强。所以介绍不能面面俱到，但以上是各版本ZMUD所共有的功能。只有在实际运用中才能体会到它的妙处。
+

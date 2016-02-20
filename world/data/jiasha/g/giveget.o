@@ -1,0 +1,2 @@
+#/obj/jiasha.c
+dbase (["unit":"¼ş","value":1,"no_drop":1,"long":"[1;33mÒ»¼şÈçÀ´Ç×´ÍµÄôÂôÄ£¬ÖÜÉíÉÁÉÁ·¢¹â¡£[1;37mµÈ¼¶£º5[2;37;0m","no_sell":1,"no_get":1,"no_give":"·ğ½çÖÁ±¦ÔõÄÜËæÒâ¸øÈË£¿","no_put":1,"level":5,"armor_prop":(["armor_vs_force":70,"armor":40,"dodge":13,"spells":13,]),"name":"[32mĞëÃÖ¹â·ğ[2;37;0m[1;33môÂôÄ[2;37;0m","weight":0,"jiasha":"giveget","id":"jia sha","owner_id":"giveget",])

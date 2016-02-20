@@ -1,0 +1,86 @@
+ZMUD使用（三） 
+
+ZMUD的一些常用命令 
+
+1. #AB
+退出正在执行的命令行
+example
+e;#ABORT;n
+只执行e,忽略n
+
+2. #AC
+这是用于做triggers的基本命令(当然也可以通过菜单做)
+example
+#AC {^现在轮到澄澄出牌} {#loop 0,12 cu %i}
+这是一个拱猪的triggers
+看老轮到某人出牌，就连出13张
+
+3. #AD
+在某变量上加
+example
+#AC {^你的内力进步了} {#AD force 1}
+其中force定义为内力的级别
+
+4. #AL
+用于简化命令
+example
+#AL kk {follow %1;kill %1}
+当你敲入 kk xun
+相当于 follow xun;kill xun
+
+5. #ALA
+定时触发命令
+
+6. #ALL
+向每一个活动窗口发命令
+example
+#ALL quit
+
+7. #BA
+在当前已记录的路径上删除最后一个方向
+
+8. #BEEP
+使计算机发出声音
+example
+#BEEP
+or #BEEP 16
+后面加不同数值，对应不同事件，有不同声音
+
+9. #BU
+触发button
+example
+#BU 2
+相当于按下了button 2
+
+10. #C-
+停止从mud上截取文本(与#C+配合使用)
+
+11. #C+
+开始从mud上截取文本(与#C-配合使用)
+
+12. #CA
+从一串命令中选择一条出来运行
+example
+#CASE 2 {first command} {second command} {third command}
+运行第二条命令
+#CASE @n {first command} {second command}
+如过n为奇数(1,3,5,7...)运行第一个命令
+如过n为偶数(2,4,6,8...)运行第二个命令
+#CASE %random {say} {say .} {say ..} {say ...}
+随机运行其中一条命令
+
+13. #CAP
+截取最后几行文本到另一个窗口
+example
+#CAP 3 talk
+把最后三行截取到talk窗口
+
+14. #CH
+返回当前mud的character名字
+
+15. #CL
+关闭某个文件，它必须是已经用FILE命令打开的
+
+16. #CLR
+清屏,但不清缓冲区。清缓冲区要用Empty菜单命令
+

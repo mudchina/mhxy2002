@@ -1,0 +1,69 @@
+// Éñ»°ÊÀ½ç¡¤Î÷ÓÎ¼Ç¡¤°æ±¾£´£®£µ£°
+/* <SecCrypt CPL V3R05> */
+ 
+// Room: some place in Î÷Å£ºØÖÞ
+// inside2.c
+
+inherit ROOM;
+
+void create ()
+{
+  set ("short", "[0;33mÁÖÖÐÄ¾ÎÝ[m");
+  set ("long", @LONG
+
+³¤ÀÈµÄ¾¡Í·ÏÖ³öÒ»¸öÐ¡Ä¾ÎÝ£¬Ä¾ÎÝ´ÓÍâ±ß¿´ÆðÀ´²»´ó£¬ÖÜÎ§Ò²ºÜ
+°²¾²£¬Ìý²»µ½Ò»Ë¿ÉùÏì¡£Ææ¹ÖµØÊÇ´ÓÄ¾°åµÄ·ìÏ¶ÖÐÍ¸³ö¼¸Ðíºì¹â¡£
+ÕýÃæÒ»ÉÈÄ¾ÃÅ½ô±Õ¡£
+LONG);
+
+  set("exits", ([ /* sizeof() == 2 */
+  "southwest" : __DIR__"houlang4",
+  "enter": __DIR__"room",
+]));
+
+  setup();
+}
+/*
+void init()
+{
+        add_action("do_knock", "knock");
+}
+
+int do_knock(string arg)
+{       
+        object me;
+        me=this_player();
+
+        if ( !arg || ((arg != "door") ))
+                return notify_fail("ÄãÒªÇÃÊ²Ã´£¿\n");
+
+   message_vision("$NÇáÇáµÄÀ­ÆðÃÅÉÏµÄÍ­»·£¬£¢Å¾£¬Å¾£¢µØ¿ÛÁËÁ½ÏÂ¡£\n",me); 
+   message_vision("ÃÅ±»ÇáÇáÀ­¿ª£¬×ß³öÎ»ÖÐÄêµÀÈË£¬ÉÏÏÂ´òÁ¿ÁË$NÒ»·¬¡£\n",me);
+   if((string)me->query("family/family_name")=="·½´çÉ½ÈýÐÇ¶´") {
+        if(((int)me->query("combat_exp") < 100000)) {
+        message_vision("ÖÐÄêµÀÈË¶Ô$NÐ¦µÀ£ºµÀÐÖÒ²À´°Ý¼û×æÊ¦Âð£¿\n",me);
+        message_vision("$NËæ×ÅÖÐÄêµÀÈË×ßÁË½øÈ¥¡£\n",me);
+                   tell_room( environment(me), "ÃÅÓÖÇáÇáµÄ¹ØÉÏÁË¡£\n",({me}));
+                   me->move("/d/lingtai/room");
+                   tell_room( environment(me), me->name() + "×ßÁË½øÀ´¡£\n",({me}));
+        return 1;
+        }
+     message_vision("$NËæ×ÅÖÐÄêµÀÈË×ßÁË½øÈ¥¡£\n",me);
+     tell_room( environment(me), "ÃÅÓÖÇáÇáµÄ¹ØÉÏÁË¡£\n",({me}));
+                me->move("/d/lingtai/room");
+     tell_room( environment(me), me->name() + "×ßÁË½øÀ´¡£\n",({me}));
+                return 1;
+     }
+        message_vision("ÖÐÄêµÀÈËÖåÁËÖåÃ¼Í·£ºÇÐÄª¾ÃÁô£¬ÈÅÎÒ×æÊ¦ÇåÐÞ£¡\n", me);
+   message_vision("$NËæ×ÅÖÐÄêµÀÈË×ßÁË½øÈ¥¡£\n",me);
+        tell_room( environment(me), "ÃÅÓÖÇáÇáµÄ¹ØÉÏÁË¡£\n",({me}));
+        me->move("/d/lingtai/room");
+        tell_room( environment(me), me->name() + "×ßÁË½øÀ´¡£\n",({me}));
+
+
+   return 1;
+
+}
+
+
+*/
